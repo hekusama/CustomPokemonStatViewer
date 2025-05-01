@@ -9,38 +9,100 @@
     <div class="sidebar">
 
     </div>
-    <div class="main">
-        <div class="title">
 
-        </div>
+    <div class="main">
 
         <div class="basic-info">
-            <div class="types">
-
+            <div class="dex-number">
+                # <input type="text" name="dex-number" id="dex-number">
+            </div>
+            <div id="types">
+                
             </div>
             <div class="name-field">
-
+                <input type="text" name="name" id="name-field" placeholder="MissingNo">
             </div>
         </div>
 
         <div class="image">
-
+            
         </div>
 
         <div class="stat-section">
             <div class="stat-labels">
-
+                <div class="stat-label">HP</div>
+                <div class="stat-label">Attack</div>
+                <div class="stat-label">Defense</div>
+                <div class="stat-label">Special Attack</div>
+                <div class="stat-label">Special Defense</div>
+                <div class="stat-label">Speed</div>
             </div>
+
             <div class="stat-fields">
-
+                <input type="text" name="hp-field" id="hp-field">
+                <input type="text" name="att-field" id="att-field">
+                <input type="text" name="def-field" id="def-field">
+                <input type="text" name="spa-field" id="spa-field">
+                <input type="text" name="spd-field" id="spd-field">
+                <input type="text" name="spe-field" id="spe-field">
             </div>
-            <div class="stat-bars">
 
+            <div class="stat-bars">
+                <div id="hp-bar"></div>
+                <div id="att-bar"></div>
+                <div id="def-bar"></div>
+                <div id="spa-bar"></div>
+                <div id="spd-bar"></div>
+                <div id="spe-bar"></div>
+            </div>
+
+            <div class="stats-50">
+                <div id="hp-stat-50"></div>
+                <div id="att-stat-50"></div>
+                <div id="def-stat-50"></div>
+                <div id="spa-stat-50"></div>
+                <div id="spd-stat-50"></div>
+                <div id="spe-stat-50"></div>
+            </div>
+            
+            <div class="stats-100">
+                <div id="hp-stat-100"></div>
+                <div id="att-stat-100"></div>
+                <div id="def-stat-100"></div>
+                <div id="spa-stat-100"></div>
+                <div id="spd-stat-100"></div>
+                <div id="spe-stat-100"></div>
             </div>
         </div>
-        
-        <div class="movepool-section">
 
+        <hr>
+
+        <div class="stat-total">
+            <div id="total-label">Total</div>
+            <div id="total-number"></div>
+        </div>
+
+        <div class="abilities">
+            <select name="ability-1" id="ability-1">
+
+            </select>
+
+            <select name="ability-2" id="ability-2">
+
+            </select>
+
+            <select name="ability-h" id="ability-h">
+
+            </select>
+        </div>
+
+        <div class="movepool-section">
+            <div class="movepool-toolbar">
+
+            </div>
+            <div class="movepool-box">
+
+            </div>
         </div>
     </div>
 </body>
