@@ -18,13 +18,19 @@
 
         <div class="basic-info">
             <div class="dex-number">
-                # <input type="text" name="dex-number" id="dex-number" class="num-input">
+                # <input type="text" name="dex-number" id="dex-number" placeholder="???" maxlength="4" class="num-input">
             </div>
             <div id="types">
-                
+                <select name="type-primary" id="type-primary">
+
+                </select>
+    
+                <select name="type-secondary" id="type-secondary">
+    
+                </select>
             </div>
             <div class="name-field">
-                <input type="text" name="name" id="name-field" placeholder="MissingNo">
+                <input type="text" name="name" id="name-field" placeholder="MissingNo" maxlength="20">
             </div>
         </div>
 
@@ -32,70 +38,73 @@
             
         </div>
 
-        <div class="stat-section">
+        <div class="stat-section margin-top">
             <div class="stat-labels">
-                <div class="stat-label">HP</div>
-                <div class="stat-label">Attack</div>
-                <div class="stat-label">Defense</div>
-                <div class="stat-label">Special Attack</div>
-                <div class="stat-label">Special Defense</div>
-                <div class="stat-label">Speed</div>
+                <div class="stat-label cell">HP</div>
+                <div class="stat-label cell">Attack</div>
+                <div class="stat-label cell">Defense</div>
+                <div class="stat-label cell">Sp. Atk</div>
+                <div class="stat-label cell">Sp. Def</div>
+                <div class="stat-label cell">Speed</div>
             </div>
 
             <div class="stat-fields">
-                <input type="text" name="hp-field" id="hp-field" placeholder="0" class="num-input">
-                <input type="text" name="att-field" id="att-field" placeholder="0" class="num-input">
-                <input type="text" name="def-field" id="def-field" placeholder="0" class="num-input">
-                <input type="text" name="spa-field" id="spa-field" placeholder="0" class="num-input">
-                <input type="text" name="spd-field" id="spd-field" placeholder="0" class="num-input">
-                <input type="text" name="spe-field" id="spe-field" placeholder="0" class="num-input">
+                <div class="cell"><input type="text" name="hp-field" id="hp-field" placeholder="0" maxlength="3" class="num-input"></div>
+                <div class="cell"><input type="text" name="att-field" id="att-field" placeholder="0" maxlength="3" class="num-input"></div>
+                <div class="cell"><input type="text" name="def-field" id="def-field" placeholder="0" maxlength="3" class="num-input"></div>
+                <div class="cell"><input type="text" name="spa-field" id="spa-field" placeholder="0" maxlength="3" class="num-input"></div>
+                <div class="cell"><input type="text" name="spd-field" id="spd-field" placeholder="0" maxlength="3" class="num-input"></div>
+                <div class="cell"><input type="text" name="spe-field" id="spe-field" placeholder="0" maxlength="3" class="num-input"></div>
             </div>
 
             <div class="stat-bars">
-                <div id="hp-bar"></div>
-                <div id="att-bar"></div>
-                <div id="def-bar"></div>
-                <div id="spa-bar"></div>
-                <div id="spd-bar"></div>
-                <div id="spe-bar"></div>
+                <div class="cell"><div id="hp-bar" class="bar"></div></div>
+                <div class="cell"><div id="att-bar" class="bar"></div></div>
+                <div class="cell"><div id="def-bar" class="bar"></div></div>
+                <div class="cell"><div id="spa-bar" class="bar"></div></div>
+                <div class="cell"><div id="spd-bar" class="bar"></div></div>
+                <div class="cell"><div id="spe-bar" class="bar"></div></div>
             </div>
 
             <div class="stats-50">
-                <div id="hp-stat-50"></div>
-                <div id="att-stat-50"></div>
-                <div id="def-stat-50"></div>
-                <div id="spa-stat-50"></div>
-                <div id="spd-stat-50"></div>
-                <div id="spe-stat-50"></div>
+                <div id="hp-stat-50" class="cell">50</div>
+                <div id="att-stat-50" class="cell">50</div>
+                <div id="def-stat-50" class="cell">50</div>
+                <div id="spa-stat-50" class="cell">50</div>
+                <div id="spd-stat-50" class="cell">50</div>
+                <div id="spe-stat-50" class="cell">50</div>
             </div>
             
             <div class="stats-100">
-                <div id="hp-stat-100"></div>
-                <div id="att-stat-100"></div>
-                <div id="def-stat-100"></div>
-                <div id="spa-stat-100"></div>
-                <div id="spd-stat-100"></div>
-                <div id="spe-stat-100"></div>
+                <div id="hp-stat-100" class="cell">100</div>
+                <div id="att-stat-100" class="cell">100</div>
+                <div id="def-stat-100" class="cell">100</div>
+                <div id="spa-stat-100" class="cell">100</div>
+                <div id="spd-stat-100" class="cell">100</div>
+                <div id="spe-stat-100" class="cell">100</div>
             </div>
         </div>
 
         <hr>
 
-        <div class="stat-total">
+        <div class="stat-section stat-total">
             <div id="total-label">Total</div>
             <div id="total-number"></div>
+            <div></div>
+            <div id="range-50">Lv 50</div>
+            <div id="range-100">Lv 100</div>
         </div>
 
         <div class="abilities">
-            <select name="ability-1" id="ability-1">
+            <select name="ability-primary" id="ability-primary">
 
             </select>
 
-            <select name="ability-2" id="ability-2">
+            <select name="ability-secondary" id="ability-secondary">
 
             </select>
 
-            <select name="ability-h" id="ability-h">
+            <select name="ability-hidden" id="ability-hidden">
 
             </select>
         </div>
@@ -109,5 +118,7 @@
             </div>
         </div>
     </div>
+
+    <script src="/js/app.js" type="module"></script>
 </body>
 </html>
