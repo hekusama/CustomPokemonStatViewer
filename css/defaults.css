@@ -1,0 +1,20 @@
+
+body {
+    margin: 0;
+    background-color: var(--page-light);
+    color: var(--text);
+}
+
+input {
+    background: none;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+hr {
+    width: 80%;
+    background-color: var(--page-medium);
+}

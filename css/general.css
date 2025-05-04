@@ -3,19 +3,17 @@
     --dark-page-medium: #444455;
     --dark-page-dark: #333344;
     --dark-page-darker: #222233;
+    --dark-text: white;
 
     --light-page-light: #FFFFFF;
     --light-page-medium: #DDDDE0;
     --light-page-dark: #888899;
     --light-page-darker: #555566;
+    --light-text: #222233;
 
     --page-light: #555566;
     --page-medium: #444455;
     --page-dark: #333344;
     --page-darker: #222233;
-}
-
-body {
-    margin: 0;
-    background-color: var(--page-light);
+    --text: white;
 }
