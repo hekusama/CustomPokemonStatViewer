@@ -1,0 +1,21 @@
+:root {
+    --dark-page-light: #555566;
+    --dark-page-medium: #444455;
+    --dark-page-dark: #333344;
+    --dark-page-darker: #222233;
+
+    --light-page-light: #FFFFFF;
+    --light-page-medium: #DDDDE0;
+    --light-page-dark: #888899;
+    --light-page-darker: #555566;
+
+    --page-light: #555566;
+    --page-medium: #444455;
+    --page-dark: #333344;
+    --page-darker: #222233;
+}
+
+body {
+    margin: 0;
+    background-color: var(--page-light);
+}
