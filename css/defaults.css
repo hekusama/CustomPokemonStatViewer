@@ -1,13 +1,19 @@
+@import url(general.css);
 
 body {
     margin: 0;
     background-color: var(--page-light);
     color: var(--text);
+    font-family: var(--font-a);
 }
 
 input {
     background: none;
     border: none;
+}
+
+input::placeholder {
+    color: var(--placeholder);
 }
 
 input:focus {

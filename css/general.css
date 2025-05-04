@@ -1,19 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@100..900&display=swap');
+
 :root {
+    --font-a: "M PLUS 2", sans-serif;
+
     --dark-page-light: #555566;
     --dark-page-medium: #444455;
     --dark-page-dark: #333344;
     --dark-page-darker: #222233;
     --dark-text: white;
+    --dark-placeholder: #FFFFFF55;
 
     --light-page-light: #FFFFFF;
     --light-page-medium: #DDDDE0;
     --light-page-dark: #888899;
     --light-page-darker: #555566;
     --light-text: #222233;
+    --light-placeholder: #00000055;
 
     --page-light: #555566;
     --page-medium: #444455;
     --page-dark: #333344;
     --page-darker: #222233;
     --text: white;
+    --placeholder: #FFFFFF55;
 }
