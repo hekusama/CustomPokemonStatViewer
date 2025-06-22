@@ -22,6 +22,11 @@
     text-align: center;
 }
 
+.image {
+    height: 300px;
+    width: 300px;
+}
+
 .basic-info {
     display: flex;
     justify-content: center;
@@ -38,8 +43,8 @@
 
 .stat-section {
     width: 65vw;
-    margin-left: 15vw;
-    margin-right: 15vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
 
     display: grid;
     grid-template-columns: 2fr 1fr 8fr 2fr 2fr;

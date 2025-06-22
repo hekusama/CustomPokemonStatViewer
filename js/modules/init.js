@@ -1,7 +1,10 @@
+import { hpStatFormula, statFormula } from "./util.js";
+
 export function initialize() {
     
     initNumInput();
     initCalc();
+    calcStats();
 }
 
 function initNumInput() {
@@ -13,7 +16,7 @@ function initNumInput() {
             if (
             e.key === "Backspace" || e.key === "Delete" || 
             e.key === "ArrowLeft" || e.key === "ArrowRight" ||
-            e.key === "Tab"
+            e.key === "Tab" || e.ctrlKey || e.metaKey
             ) {
                 return;
             }
@@ -50,8 +53,8 @@ function calcStats() {
             base = 0;
         }
 
-        if (base > 200) {
-            values["stat-bars"][index].style.width = "400px";
+        if (base > 255) {
+            values["stat-bars"][index].style.width = "510px";
         }
         else {
             values["stat-bars"][index].style.width = `${base * 2}px`;
@@ -63,16 +66,16 @@ function calcStats() {
                 values["stats-lv50"][index].textContent = `${base} - ${base}`;
                 values["stats-lv100"][index].textContent = `${base} - ${base}`;
             }
-            // HP calculation => see https://bulbapedia.bulbagarden.net/wiki/Stat
+            // HP calculation
             else {
-                values["stats-lv50"][index].textContent = `${parseInt((2 * base) * 50 / 100 + 50 + 10)} - ${parseInt((2 * base + 31 + 252 / 4) * 50 / 100 + 50 + 10)}`;
-                values["stats-lv100"][index].textContent = `${parseInt((2 * base) * 100 / 100 + 100 + 10)} - ${parseInt((2 * base + 31 + 252 / 4) * 100 / 100 + 100 + 10)}`;
+                values["stats-lv50"][index].textContent = `${hpStatFormula(base, 0, 0, 50)} - ${hpStatFormula(base, 252, 31, 50)}`;
+                values["stats-lv100"][index].textContent = `${hpStatFormula(base, 0, 0, 100)} - ${hpStatFormula(base, 252, 31, 100)}`;
             }
         }
         else {
             // Other stat calculation
-            values["stats-lv50"][index].textContent = `${parseInt((((2 * base) * 50 / 100) + 5) * 0.9)} - ${parseInt((((2 * base + 31 + 252 / 4) * 50 / 100) + 5) * 1.1)}`;
-            values["stats-lv100"][index].textContent = `${parseInt((((2 * base) * 100 / 100) + 5) * 0.9)} - ${parseInt((((2 * base + 31 + 252 / 4) * 100 / 100) + 5) * 1.1)}`;
+            values["stats-lv50"][index].textContent = `${statFormula(base, 0.9, 0, 0, 50)} - ${statFormula(base, 1.1, 252, 31, 50)}`;
+            values["stats-lv100"][index].textContent = `${statFormula(base, 0.9, 0, 0, 100)} - ${statFormula(base, 1.1, 252, 31, 100)}`;
         }
 
         total += base;
