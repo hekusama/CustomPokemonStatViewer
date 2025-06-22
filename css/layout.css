@@ -68,9 +68,11 @@
 .bar {
     border-radius: 10px;
     height: 20px;
-    border: 3px solid #FFFFFF;
+    border: 2px solid hsl(0, 33%, 50%);
+    background-color: hsl(0, 100%, 66%);
     width: 0px;
-    transform: translateY(5px);
+    transform: translateY(8px);
+    transition: 0.3s ease-in-out;
 }
 
 #total-label {

@@ -60,9 +60,13 @@ function calcStats() {
             values["stat-bars"][index].style.width = `${base * 2}px`;
         }
 
+        let hue = (base > 255) ? 255 : base / 255 * 180;
+        values["stat-bars"][index].style.backgroundColor = `hsl(${hue}, 100%, 66%)`;
+        values["stat-bars"][index].style.borderColor = `hsl(${hue}, 33%, 50%)`
+
         if (index == 0) {
             // Shedinja HP
-            if (base == 0 || base == 1) {
+            if (base == 1) {
                 values["stats-lv50"][index].textContent = `${base} - ${base}`;
                 values["stats-lv100"][index].textContent = `${base} - ${base}`;
             }
