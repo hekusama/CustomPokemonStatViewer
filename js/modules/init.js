@@ -1,4 +1,4 @@
-import { hpStatFormula, statFormula, fetchData, appendNewElement, toTitleCase, toDexNumber, getTypeId } from "./util.js";
+import { hpStatFormula, statFormula, fetchData, appendNewElement, toTitleCase, toDexNumber, getId } from "./util.js";
 
 export async function initialize() {
     
@@ -7,6 +7,10 @@ export async function initialize() {
     calcStats();
     await loadTypes();
     await loadAbilities();
+
+    initColors();
+    initPokemenu();
+    loadPokemenu();
 
     fetchPokemon(25);
 }
@@ -30,6 +34,114 @@ function initNumInput() {
             }
         });
     });
+}
+
+function initColors() {
+    const triggers = [document.getElementById('type-primary'), 
+            document.getElementById('type-secondary'), 
+            document.getElementById('ability-primary'), 
+            document.getElementById('ability-secondary'), 
+            document.getElementById('ability-hidden')];
+
+    triggers.forEach(trigger => {
+        trigger.addEventListener('change', updateColors)
+    })
+}
+
+function updateColors() {
+    const types = [document.getElementById('type-primary'), 
+    document.getElementById('type-secondary')];
+
+    const abilities = [document.getElementById('ability-primary'), 
+            document.getElementById('ability-secondary'), 
+            document.getElementById('ability-hidden')];
+    const abilityTitles = [document.getElementById('ability-title-primary'), 
+            document.getElementById('ability-title-secondary'), 
+            document.getElementById('ability-title-hidden')];
+
+    types.forEach(type => {
+        type.style.borderColor = 'inherit';
+
+        switch (type.options[type.selectedIndex].textContent.toLowerCase()) {
+            case 'bug':
+                type.style.backgroundColor = '#ADBD21';
+                break;
+            case 'dark':
+                type.style.backgroundColor = '#735A4A';
+                break;
+            case 'dragon':
+                type.style.backgroundColor = '#7B63E7';
+                break;
+            case 'electric':
+                type.style.backgroundColor = '#FFC631';
+                break;
+            case 'fairy':
+                type.style.backgroundColor = '#FF65D5';
+                break;
+            case 'fighting':
+                type.style.backgroundColor = '#A55239';
+                break;
+            case 'fire':
+                type.style.backgroundColor = '#F75231';
+                break;
+            case 'flying':
+                type.style.backgroundColor = '##9CADF7';
+                break;
+            case 'ghost':
+                type.style.backgroundColor = '#6363B5';
+                break;
+            case 'grass':
+                type.style.backgroundColor = '#7BCE52';
+                break;
+            case 'ground':
+                type.style.backgroundColor = '#D6B55A';
+                break;
+            case 'ice':
+                type.style.backgroundColor = '#5ACEE7';
+                break;
+            case 'normal':
+                type.style.backgroundColor = '#ADA594';
+                break;
+            case 'poison':
+                type.style.backgroundColor = '#B55AA5';
+                break;
+            case 'psychic':
+                type.style.backgroundColor = '#FF73A5';
+                break;
+            case 'rock':
+                type.style.backgroundColor = '#BDA55A';
+                break;
+            case 'steel':
+                type.style.backgroundColor = '#ADADC6';
+                break;
+            case 'stellar':
+                type.style.background = 'linear-gradient(red, orange, yellow, green, blue, purple)';
+                break;
+            case 'water':
+                type.style.backgroundColor = '#399CFF';
+                break;
+            default:
+                break;
+        }
+
+        if (type.value == 0) {
+            type.style.backgroundColor = '#00000055';
+            type.style.borderColor = '#00000000';
+        }
+    })
+
+    abilities.forEach((ability, index) => {
+        ability.style.background = 'inherit';
+        ability.style.borderColor = 'inherit';
+        abilityTitles[index].style.color = 'inherit';
+
+        if (ability.value == 0) {
+            ability.style.backgroundColor = '#00000055';
+            ability.style.borderColor = '#00000000';
+
+            abilityTitles[index].style.color = '#00000055';
+        }
+    })
 }
 
 function initCalc() {
@@ -201,7 +313,7 @@ function loadPokemon(pokemon) {
     pokemon.types.forEach((type, index) => {
         try {
             const typeUrl = type.type.url;
-            fields.types[index].value = getTypeId(typeUrl);
+            fields.types[index].value = getId(typeUrl);
         }
         catch {
             type.value = 0;
@@ -214,10 +326,10 @@ function loadPokemon(pokemon) {
         try {
             const abilityUrl = ability.ability.url;
             if (ability["is_hidden"]) {
-                fields.abilities[2].value = getTypeId(abilityUrl);
+                fields.abilities[2].value = getId(abilityUrl);
             }
             else
-                fields.abilities[index].value = getTypeId(abilityUrl);
+                fields.abilities[index].value = getId(abilityUrl);
         }
         catch {
             ability.value = 0;
@@ -226,5 +338,80 @@ function loadPokemon(pokemon) {
     pokemon.stats.forEach((stat, index) => {
         fields.stats[index].value = stat["base_stat"];
     })
+
     calcStats();
+    updateColors();
+}
+
+function initPokemenu() {
+    const pokemenu = document.querySelector('.pokemenu');
+    const handle = document.querySelector('.handle');
+
+    handle.addEventListener('click', openPokemenu);
+}
+
+function openPokemenu() {
+    const pokemenu = document.querySelector('.pokemenu');
+    const cover = document.getElementById('cover');
+    const handle = document.querySelector('.handle');
+
+    pokemenu.style.right = '40vw';
+
+    cover.style.display = 'block';
+    cover.style.opacity = 1;
+
+    cover.addEventListener('click', closePokemenu);
+    handle.removeEventListener('click', openPokemenu);
+    handle.addEventListener('click', closePokemenu);
+}
+
+function closePokemenu() {
+    const pokemenu = document.querySelector('.pokemenu');
+    const cover = document.getElementById('cover');
+    const handle = document.querySelector('.handle');
+
+    pokemenu.style.right = 0;
+
+    cover.style.opacity = 0;
+    cover.style.display = 'none';
+
+    cover.removeEventListener('click', closePokemenu);
+    handle.addEventListener('click', openPokemenu);
+}
+
+async function loadPokemenu() {
+    const menu = document.querySelector('.pokemenu-main');
+    const boxes = document.querySelectorAll('.pokemon-box');
+
+    boxes.forEach(box => {
+        box.innerHTML = '';
+    })
+
+    let boxNumber = 0;
+    let id = 1;
+
+    while (true) {
+        try {
+            const pokemon = await fetchData(`https://pokeapi.co/api/v2/pokemon/${id}`)
+            const species = await fetchData(`https://pokeapi.co/api/v2/pokemon-species/${id}`)
+
+            if (getId(species.generation.url) > boxNumber + 1)
+                boxNumber++;
+
+            const card = appendNewElement('div', '', boxes[boxNumber]);
+            card.classList.add('pokemon-card');
+
+            const image = appendNewElement('img', '', card);
+            image.classList.add('card-image');
+            image.src = pokemon.sprites["front_default"];
+
+            const name = appendNewElement('h5', toTitleCase(pokemon.name), card);
+            name.classList.add('card-name');
+            
+            id++;
+        }
+        catch {
+            break;
+        }
+    }
 }

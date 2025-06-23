@@ -48,6 +48,6 @@ export function toDexNumber(number) {
     return String(number).padStart(4, '0');
 }
 
-export function getTypeId(url) {
+export function getId(url) {
     return url.split('/').slice(-2, -1)[0];
 }
