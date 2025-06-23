@@ -15,6 +15,7 @@ input {
     background: none;
     border: none;
     color: var(--text);
+    font-family: var(--font-a);
 }
 
 input::placeholder {
@@ -23,6 +24,19 @@ input::placeholder {
 
 input:focus {
     outline: none;
+}
+
+select {
+    color: var(--text);
+    font-family: var(--font-a);
+}
+
+option {
+    background-color: #00000055;
+}
+
+option:hover {
+    background-color: #00000099;
 }
 
 hr {
