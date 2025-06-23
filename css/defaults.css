@@ -1,5 +1,9 @@
 @import url(general.css);
 
+.small-text {
+    font-size: 0.75em;
+}
+
 body {
     margin: 0;
     background-color: var(--page-light);

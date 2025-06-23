@@ -60,7 +60,7 @@ function calcStats() {
             values["stat-bars"][index].style.width = `${base * 2}px`;
         }
 
-        let hue = (base > 255) ? 255 : base / 255 * 180;
+        let hue = (base > 255) ? 180 : base / 255 * 180;
         values["stat-bars"][index].style.backgroundColor = `hsl(${hue}, 100%, 66%)`;
         values["stat-bars"][index].style.borderColor = `hsl(${hue}, 33%, 50%)`
 

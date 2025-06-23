@@ -21,11 +21,11 @@
                 # <input type="text" name="dex-number" id="dex-number" placeholder="???" maxlength="4" class="num-input">
             </div>
             <div id="types">
-                <select name="type-primary" id="type-primary">
+                <select name="type-primary" id="type-primary" class="type">
 
                 </select>
     
-                <select name="type-secondary" id="type-secondary">
+                <select name="type-secondary" id="type-secondary" class="type">
     
                 </select>
             </div>
@@ -34,9 +34,26 @@
             </div>
         </div>
 
-        <div class="image">
-            <img src="">
+        <div class="info">
+            <div class="image">
+                <img src="">
+            </div>
+
+            <div class="abilities">
+                <select name="ability-primary" id="ability-primary" class="ability">
+
+                </select>
+
+                <select name="ability-secondary" id="ability-secondary" class="ability">
+
+                </select>
+
+                <select name="ability-hidden" id="ability-hidden" class="ability">
+
+                </select>
+            </div>
         </div>
+        
 
         <div class="stat-section margin-top">
             <div class="stat-labels">
@@ -66,22 +83,22 @@
                 <div class="cell"><div id="spe-bar" class="bar"></div></div>
             </div>
 
-            <div class="stats-50">
-                <div id="hp-stat-50" class="cell stat-50">50</div>
-                <div id="att-stat-50" class="cell stat-50">50</div>
-                <div id="def-stat-50" class="cell stat-50">50</div>
-                <div id="spa-stat-50" class="cell stat-50">50</div>
-                <div id="spd-stat-50" class="cell stat-50">50</div>
-                <div id="spe-stat-50" class="cell stat-50">50</div>
+            <div class="stats-50 small-text">
+                <div id="hp-stat-50" class="cell stat-50"></div>
+                <div id="att-stat-50" class="cell stat-50"></div>
+                <div id="def-stat-50" class="cell stat-50"></div>
+                <div id="spa-stat-50" class="cell stat-50"></div>
+                <div id="spd-stat-50" class="cell stat-50"></div>
+                <div id="spe-stat-50" class="cell stat-50"></div>
             </div>
             
-            <div class="stats-100">
-                <div id="hp-stat-100" class="cell stat-100">100</div>
-                <div id="att-stat-100" class="cell stat-100">100</div>
-                <div id="def-stat-100" class="cell stat-100">100</div>
-                <div id="spa-stat-100" class="cell stat-100">100</div>
-                <div id="spd-stat-100" class="cell stat-100">100</div>
-                <div id="spe-stat-100" class="cell stat-100">100</div>
+            <div class="stats-100 small-text">
+                <div id="hp-stat-100" class="cell stat-100"></div>
+                <div id="att-stat-100" class="cell stat-100"></div>
+                <div id="def-stat-100" class="cell stat-100"></div>
+                <div id="spa-stat-100" class="cell stat-100"></div>
+                <div id="spd-stat-100" class="cell stat-100"></div>
+                <div id="spe-stat-100" class="cell stat-100"></div>
             </div>
         </div>
 
@@ -93,20 +110,6 @@
             <div></div>
             <div id="range-50">Lv 50</div>
             <div id="range-100">Lv 100</div>
-        </div>
-
-        <div class="abilities">
-            <select name="ability-primary" id="ability-primary">
-
-            </select>
-
-            <select name="ability-secondary" id="ability-secondary">
-
-            </select>
-
-            <select name="ability-hidden" id="ability-hidden">
-
-            </select>
         </div>
 
         <div class="movepool-section">
