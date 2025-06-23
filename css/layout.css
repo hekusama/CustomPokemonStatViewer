@@ -220,7 +220,7 @@
 
 .pokemon-box {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -236,5 +236,6 @@
 }
 
 .card-name {
-    margin-top: 0;
+    margin-bottom: 1vh;
+    font-size: 0.8em;
 }

@@ -400,12 +400,18 @@ async function loadPokemenu() {
 
             const card = appendNewElement('div', '', boxes[boxNumber]);
             card.classList.add('pokemon-card');
+            card.dataset.id = id;
+            card.addEventListener('click', (event) => { 
+                fetchPokemon(event.currentTarget.dataset.id);
+                
+                closePokemenu();
+            });
 
             const image = appendNewElement('img', '', card);
             image.classList.add('card-image');
             image.src = pokemon.sprites["front_default"];
 
-            const name = appendNewElement('h5', toTitleCase(pokemon.name), card);
+            const name = appendNewElement('div', toTitleCase(pokemon.name), card);
             name.classList.add('card-name');
             
             id++;
