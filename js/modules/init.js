@@ -441,9 +441,22 @@ function initFilters() {
             const name = card.querySelector('.card-name');
             if (name.textContent.toLowerCase().includes(search.value.toLowerCase())) {
                 card.style.display = 'block';
+                card.classList.remove('hidden');
             }
             else {
                 card.style.display = 'none';
+                card.classList.add('hidden');
+            }
+        })
+
+        boxes.forEach((box, index) => {
+            const visibleCards = box.querySelectorAll('.pokemon-card:not(.hidden)');
+            
+            if (visibleCards.length == 0) {
+                titles[index].style.display = 'none';
+            }
+            else {
+                titles[index].style.display = 'block';
             }
         })
     })
