@@ -1,6 +1,7 @@
 import { hpStatFormula, statFormula, fetchData, appendNewElement, toTitleCase, toDexNumber, getId } from "./util.js";
 
 export async function initialize() {
+    const loadingScreen = document.querySelector('.loading-screen');
     
     initNumInput();
     initCalc();
@@ -10,10 +11,13 @@ export async function initialize() {
 
     initColors();
     initPokemenu();
-    loadPokemenu();
+    await loadPokemenu();
     initFilters();
 
     fetchPokemon(25);
+
+    loadingScreen.style.opacity = 0;
+    loadingScreen.style.pointerEvents = 'none';
 }
 
 function initNumInput() {
