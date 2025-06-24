@@ -11,6 +11,7 @@ export async function initialize() {
     initColors();
     initPokemenu();
     loadPokemenu();
+    initFilters();
 
     fetchPokemon(25);
 }
@@ -206,7 +207,9 @@ function calcStats() {
 
 async function loadTypes() {
     const types = [document.getElementById('type-primary'), 
-    document.getElementById('type-secondary')];
+    document.getElementById('type-secondary'),
+    document.getElementById('type-primary-filter'), 
+    document.getElementById('type-secondary-filter')];
 
     types.forEach(element => {
         const emptyOption = new Option('', 0);
@@ -237,12 +240,16 @@ async function loadTypes() {
             element.add(option);
         });
     });
+
+    const monoOption = new Option('Mono', -1);
+    types[3].add(monoOption, types[3].options[1]);
 }
 
 async function loadAbilities() {
     const abilities = [document.getElementById('ability-primary'), 
             document.getElementById('ability-secondary'), 
-            document.getElementById('ability-hidden')];
+            document.getElementById('ability-hidden'),
+            document.getElementById('ability-filter')];
 
     abilities.forEach(element => {
         const emptyOption = new Option('', 0);
@@ -420,4 +427,25 @@ async function loadPokemenu() {
             break;
         }
     }
+}
+
+function initFilters() {
+    const search = document.getElementById('search-filter');
+
+    search.addEventListener('input', () => {
+        const cards = document.querySelectorAll('.pokemon-card');
+        const boxes = document.querySelectorAll('.pokemon-box');
+        const titles = document.querySelectorAll('.generation-title');
+
+        cards.forEach(card => {
+            const name = card.querySelector('.card-name');
+            if (name.textContent.toLowerCase().includes(search.value.toLowerCase())) {
+                card.style.display = 'block';
+            }
+            else {
+                card.style.display = 'none';
+            }
+        })
+    })
+    
 }

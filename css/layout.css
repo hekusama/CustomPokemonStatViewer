@@ -55,6 +55,10 @@
     width: 6vw;
 }
 
+#types {
+    user-select: none;
+}
+
 .type {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -63,11 +67,12 @@
     border: 3px solid #FFFFFF;
     border-radius: 20px;
     width: 8vw;
-    padding: 5px;
+    padding: 7px;
     margin: 10px;
     background-color: #CCCCCC;
 
     text-align: center;
+    user-select: none;
 }
 
 .type:focus {
@@ -216,6 +221,48 @@
     background-color: var(--page-dark);
 
     border-left: 5px solid var(--page-darker);
+}
+
+.filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 3vh;
+}
+
+.filter-bar > div {
+    margin-left: 10px;
+}
+
+.filter {
+    margin: 10px 0;
+}
+
+#search-filter {
+    border-radius: 20px;
+    background-color: var(--page-darker);
+    padding: 5px 10px;
+}
+
+#generation-filter,
+#ability-filter {
+    border-radius: 20px;
+    background-color: var(--page-darker);
+    padding: 5px;
+}
+
+#type-primary-filter {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: var(--page-darker);
+    padding: 5px;
+}
+
+#type-secondary-filter {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: var(--page-darker);
+    padding: 5px;
 }
 
 .pokemon-box {
