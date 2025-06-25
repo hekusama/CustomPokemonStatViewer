@@ -40,11 +40,21 @@
 /* SIDEBAR */
 
 .sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
     height: 100vh;
     width: 5vw;
     position: fixed;
 
     background-color: var(--page-dark);
+}
+
+#theme-toggle {
+    width: 3vw;
+    height: 3vw;
 }
 
 
