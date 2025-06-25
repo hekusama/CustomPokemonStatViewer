@@ -101,7 +101,7 @@ function updateColors() {
                 type.style.backgroundColor = '#F75231';
                 break;
             case 'flying':
-                type.style.backgroundColor = '##9CADF7';
+                type.style.backgroundColor = '#9CADF7';
                 break;
             case 'ghost':
                 type.style.backgroundColor = '#6363B5';
@@ -295,10 +295,6 @@ async function fetchPokemon(number) {
 
     const pokemons = await fetchData('../../data/pokemon.json');
     const pokemon = pokemons.find(pokemon => pokemon.id == number);
-
-
-
-    console.log(pokemon);
     
     loadPokemon(pokemon);
 }
@@ -337,7 +333,6 @@ async function loadPokemon(pokemon) {
     pokemon.types.forEach((type, index) => {
         fields.types[index].value = type.id;  
     })
-    console.log(pokemon.name);
     
     fields.name.value = toTitleCase(pokemon.name);
     fields.image.src = pokemon.sprite;
