@@ -1,8 +1,15 @@
 import { fetchData, toTitleCase } from "./util.js";
 import { calcStats, updateColors, fetchPokemon, loadPokemon, loadPokemenu, openPokemenu, closePokemenu, filter } from "./mainLogic.js";
+import { initToggle } from "./sidebar.js";
 
 export async function initialize() {
     const loadingScreen = document.querySelector('.loading-screen');
+
+    // Sidebar
+
+    initToggle();
+
+    // App
     
     initNumInput();
 

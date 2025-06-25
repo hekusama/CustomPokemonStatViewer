@@ -50,11 +50,14 @@
     position: fixed;
 
     background-color: var(--page-dark);
+    transition: background-color 0.3s;
 }
 
-#theme-toggle {
+.theme-toggle {
     width: 3vw;
     height: 3vw;
+    font-size: 3vw;
+    color: var(--text);
 }
 
 
@@ -90,12 +93,12 @@
     -moz-appearance: none;
     appearance: none;
 
-    border: 3px solid #FFFFFF;
+    border: 3px solid white;
     border-radius: 20px;
     width: 8vw;
     padding: 7px;
     margin: 10px;
-    background-color: #CCCCCC;
+    color: white;
 
     text-align: center;
     user-select: none;
