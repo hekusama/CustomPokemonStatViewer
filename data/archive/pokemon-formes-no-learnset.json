@@ -1,0 +1,8427 @@
+[
+  {
+    "id": 386,
+    "abilities": [
+      {
+        "id": "46",
+        "isHidden": false
+      }
+    ],
+    "name": "deoxys",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10001.png",
+    "stats": [
+      50,
+      180,
+      20,
+      180,
+      20,
+      150
+    ],
+    "types": [
+      {
+        "id": "14"
+      }
+    ],
+    "forme": "attack"
+  },
+  {
+    "id": 386,
+    "abilities": [
+      {
+        "id": "46",
+        "isHidden": false
+      }
+    ],
+    "name": "deoxys",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10002.png",
+    "stats": [
+      50,
+      70,
+      160,
+      70,
+      160,
+      90
+    ],
+    "types": [
+      {
+        "id": "14"
+      }
+    ],
+    "forme": "defense"
+  },
+  {
+    "id": 386,
+    "abilities": [
+      {
+        "id": "46",
+        "isHidden": false
+      }
+    ],
+    "name": "deoxys",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10003.png",
+    "stats": [
+      50,
+      95,
+      90,
+      95,
+      90,
+      180
+    ],
+    "types": [
+      {
+        "id": "14"
+      }
+    ],
+    "forme": "speed"
+  },
+  {
+    "id": 413,
+    "abilities": [
+      {
+        "id": "107",
+        "isHidden": false
+      },
+      {
+        "id": "142",
+        "isHidden": true
+      }
+    ],
+    "name": "wormadam",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10004.png",
+    "stats": [
+      60,
+      79,
+      105,
+      59,
+      85,
+      36
+    ],
+    "types": [
+      {
+        "id": "7"
+      },
+      {
+        "id": "5"
+      }
+    ],
+    "forme": "sandy"
+  },
+  {
+    "id": 413,
+    "abilities": [
+      {
+        "id": "107",
+        "isHidden": false
+      },
+      {
+        "id": "142",
+        "isHidden": true
+      }
+    ],
+    "name": "wormadam",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10005.png",
+    "stats": [
+      60,
+      69,
+      95,
+      69,
+      95,
+      36
+    ],
+    "types": [
+      {
+        "id": "7"
+      },
+      {
+        "id": "9"
+      }
+    ],
+    "forme": "trash"
+  },
+  {
+    "id": 492,
+    "abilities": [
+      {
+        "id": "32",
+        "isHidden": false
+      }
+    ],
+    "name": "shaymin",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10006.png",
+    "stats": [
+      100,
+      103,
+      75,
+      120,
+      75,
+      127
+    ],
+    "types": [
+      {
+        "id": "12"
+      },
+      {
+        "id": "3"
+      }
+    ],
+    "forme": "sky"
+  },
+  {
+    "id": 487,
+    "abilities": [
+      {
+        "id": "26",
+        "isHidden": false
+      }
+    ],
+    "name": "giratina",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10007.png",
+    "stats": [
+      150,
+      120,
+      100,
+      120,
+      100,
+      90
+    ],
+    "types": [
+      {
+        "id": "8"
+      },
+      {
+        "id": "16"
+      }
+    ],
+    "forme": "origin"
+  },
+  {
+    "id": 479,
+    "abilities": [
+      {
+        "id": "26",
+        "isHidden": false
+      }
+    ],
+    "name": "rotom",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10008.png",
+    "stats": [
+      50,
+      65,
+      107,
+      105,
+      107,
+      86
+    ],
+    "types": [
+      {
+        "id": "13"
+      },
+      {
+        "id": "10"
+      }
+    ],
+    "forme": "heat"
+  },
+  {
+    "id": 479,
+    "abilities": [
+      {
+        "id": "26",
+        "isHidden": false
+      }
+    ],
+    "name": "rotom",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10009.png",
+    "stats": [
+      50,
+      65,
+      107,
+      105,
+      107,
+      86
+    ],
+    "types": [
+      {
+        "id": "13"
+      },
+      {
+        "id": "11"
+      }
+    ],
+    "forme": "wash"
+  },
+  {
+    "id": 479,
+    "abilities": [
+      {
+        "id": "26",
+        "isHidden": false
+      }
+    ],
+    "name": "rotom",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10010.png",
+    "stats": [
+      50,
+      65,
+      107,
+      105,
+      107,
+      86
+    ],
+    "types": [
+      {
+        "id": "13"
+      },
+      {
+        "id": "15"
+      }
+    ],
+    "forme": "frost"
+  },
+  {
+    "id": 479,
+    "abilities": [
+      {
+        "id": "26",
+        "isHidden": false
+      }
+    ],
+    "name": "rotom",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10011.png",
+    "stats": [
+      50,
+      65,
+      107,
+      105,
+      107,
+      86
+    ],
+    "types": [
+      {
+        "id": "13"
+      },
+      {
+        "id": "3"
+      }
+    ],
+    "forme": "fan"
+  },
+  {
+    "id": 479,
+    "abilities": [
+      {
+        "id": "26",
+        "isHidden": false
+      }
+    ],
+    "name": "479",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10012.png",
+    "stats": [
+      50,
+      65,
+      107,
+      105,
+      107,
+      86
+    ],
+    "types": [
+      {
+        "id": "13"
+      },
+      {
+        "id": "12"
+      }
+    ],
+    "forme": "mow"
+  },
+  {
+    "id": 351,
+    "abilities": [
+      {
+        "id": "59",
+        "isHidden": false
+      }
+    ],
+    "name": "castform",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10013.png",
+    "stats": [
+      70,
+      70,
+      70,
+      70,
+      70,
+      70
+    ],
+    "types": [
+      {
+        "id": "10"
+      }
+    ],
+    "forme": "sunny"
+  },
+  {
+    "id": 351,
+    "abilities": [
+      {
+        "id": "59",
+        "isHidden": false
+      }
+    ],
+    "name": "castform",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10014.png",
+    "stats": [
+      70,
+      70,
+      70,
+      70,
+      70,
+      70
+    ],
+    "types": [
+      {
+        "id": "11"
+      }
+    ],
+    "forme": "rainy"
+  },
+  {
+    "id": 351,
+    "abilities": [
+      {
+        "id": "59",
+        "isHidden": false
+      }
+    ],
+    "name": "castform",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10015.png",
+    "stats": [
+      70,
+      70,
+      70,
+      70,
+      70,
+      70
+    ],
+    "types": [
+      {
+        "id": "15"
+      }
+    ],
+    "forme": "snowy"
+  },
+  {
+    "id": 550,
+    "abilities": [
+      {
+        "id": "69",
+        "isHidden": false
+      },
+      {
+        "id": "91",
+        "isHidden": false
+      },
+      {
+        "id": "104",
+        "isHidden": true
+      }
+    ],
+    "name": "basculin",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10016.png",
+    "stats": [
+      70,
+      92,
+      65,
+      80,
+      55,
+      98
+    ],
+    "types": [
+      {
+        "id": "11"
+      }
+    ],
+    "forme": "blue-striped"
+  },
+  {
+    "id": 555,
+    "abilities": [
+      {
+        "id": "125",
+        "isHidden": false
+      },
+      {
+        "id": "161",
+        "isHidden": true
+      }
+    ],
+    "name": "darmanitan",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10017.png",
+    "stats": [
+      105,
+      30,
+      105,
+      140,
+      105,
+      55
+    ],
+    "types": [
+      {
+        "id": "10"
+      },
+      {
+        "id": "14"
+      }
+    ],
+    "forme": "zen"
+  },
+  {
+    "id": 648,
+    "abilities": [
+      {
+        "id": "32",
+        "isHidden": false
+      }
+    ],
+    "name": "meloetta",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10018.png",
+    "stats": [
+      100,
+      128,
+      90,
+      77,
+      77,
+      128
+    ],
+    "types": [
+      {
+        "id": "1"
+      },
+      {
+        "id": "2"
+      }
+    ],
+    "forme": "pirouette"
+  },
+  {
+    "id": 641,
+    "abilities": [
+      {
+        "id": "144",
+        "isHidden": false
+      }
+    ],
+    "name": "tornadus",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10019.png",
+    "stats": [
+      79,
+      100,
+      80,
+      110,
+      90,
+      121
+    ],
+    "types": [
+      {
+        "id": "3"
+      }
+    ],
+    "forme": "therian"
+  },
+  {
+    "id": 642,
+    "abilities": [
+      {
+        "id": "10",
+        "isHidden": false
+      }
+    ],
+    "name": "thundurus",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10020.png",
+    "stats": [
+      79,
+      105,
+      70,
+      145,
+      80,
+      101
+    ],
+    "types": [
+      {
+        "id": "13"
+      },
+      {
+        "id": "3"
+      }
+    ],
+    "forme": "therian"
+  },
+  {
+    "id": 643,
+    "abilities": [
+      {
+        "id": "22",
+        "isHidden": false
+      }
+    ],
+    "name": "landorus",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10021.png",
+    "stats": [
+      89,
+      145,
+      90,
+      105,
+      80,
+      91
+    ],
+    "types": [
+      {
+        "id": "5"
+      },
+      {
+        "id": "3"
+      }
+    ],
+    "forme": "therian"
+  },
+  {
+    "id": 646,
+    "abilities": [
+      {
+        "id": "164",
+        "isHidden": false
+      }
+    ],
+    "name": "kyurem",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10022.png",
+    "stats": [
+      125,
+      170,
+      100,
+      120,
+      90,
+      95
+    ],
+    "types": [
+      {
+        "id": "16"
+      },
+      {
+        "id": "15"
+      }
+    ],
+    "forme": "black"
+  },
+  {
+    "id": 646,
+    "abilities": [
+      {
+        "id": "163",
+        "isHidden": false
+      }
+    ],
+    "name": "kyurem",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10023.png",
+    "stats": [
+      125,
+      120,
+      90,
+      170,
+      100,
+      95
+    ],
+    "types": [
+      {
+        "id": "16"
+      },
+      {
+        "id": "15"
+      }
+    ],
+    "forme": "white"
+  },
+  {
+    "id": 647,
+    "abilities": [
+      {
+        "id": "154",
+        "isHidden": false
+      }
+    ],
+    "name": "keldeo",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10024.png",
+    "stats": [
+      91,
+      72,
+      90,
+      129,
+      90,
+      108
+    ],
+    "types": [
+      {
+        "id": "11"
+      },
+      {
+        "id": "2"
+      }
+    ],
+    "forme": "resolute"
+  },
+  {
+    "id": 678,
+    "abilities": [
+      {
+        "id": "51",
+        "isHidden": false
+      },
+      {
+        "id": "151",
+        "isHidden": false
+      },
+      {
+        "id": "172",
+        "isHidden": true
+      }
+    ],
+    "name": "meowstic",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10025.png",
+    "stats": [
+      74,
+      48,
+      76,
+      83,
+      81,
+      104
+    ],
+    "types": [
+      {
+        "id": "14"
+      }
+    ],
+    "forme": "female"
+  },
+  {
+    "id": 681,
+    "abilities": [
+      {
+        "id": "176",
+        "isHidden": false
+      }
+    ],
+    "name": "aegislash",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10026.png",
+    "stats": [
+      60,
+      140,
+      50,
+      140,
+      50,
+      60
+    ],
+    "types": [
+      {
+        "id": "9"
+      },
+      {
+        "id": "8"
+      }
+    ],
+    "forme": "blade"
+  },
+  {
+    "id": 710,
+    "abilities": [
+      {
+        "id": "53",
+        "isHidden": false
+      },
+      {
+        "id": "119",
+        "isHidden": false
+      },
+      {
+        "id": "15",
+        "isHidden": true
+      }
+    ],
+    "name": "pumpkaboo",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10027.png",
+    "stats": [
+      44,
+      66,
+      70,
+      44,
+      55,
+      56
+    ],
+    "types": [
+      {
+        "id": "8"
+      },
+      {
+        "id": "12"
+      }
+    ],
+    "forme": "small"
+  },
+  {
+    "id": 710,
+    "abilities": [
+      {
+        "id": "53",
+        "isHidden": false
+      },
+      {
+        "id": "119",
+        "isHidden": false
+      },
+      {
+        "id": "15",
+        "isHidden": true
+      }
+    ],
+    "name": "pumpkaboo",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10028.png",
+    "stats": [
+      54,
+      66,
+      70,
+      44,
+      55,
+      46
+    ],
+    "types": [
+      {
+        "id": "8"
+      },
+      {
+        "id": "12"
+      }
+    ],
+    "forme": "large"
+  },
+  {
+    "id": 710,
+    "abilities": [
+      {
+        "id": "53",
+        "isHidden": false
+      },
+      {
+        "id": "119",
+        "isHidden": false
+      },
+      {
+        "id": "15",
+        "isHidden": true
+      }
+    ],
+    "name": "pumpkaboo",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10029.png",
+    "stats": [
+      59,
+      66,
+      70,
+      44,
+      55,
+      41
+    ],
+    "types": [
+      {
+        "id": "8"
+      },
+      {
+        "id": "12"
+      }
+    ],
+    "forme": "super"
+  },
+  {
+    "id": 711,
+    "abilities": [
+      {
+        "id": "53",
+        "isHidden": false
+      },
+      {
+        "id": "119",
+        "isHidden": false
+      },
+      {
+        "id": "15",
+        "isHidden": true
+      }
+    ],
+    "name": "gourgeist",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10030.png",
+    "stats": [
+      55,
+      85,
+      122,
+      58,
+      75,
+      99
+    ],
+    "types": [
+      {
+        "id": "8"
+      },
+      {
+        "id": "12"
+      }
+    ],
+    "forme": "small"
+  },
+  {
+    "id": 711,
+    "abilities": [
+      {
+        "id": "53",
+        "isHidden": false
+      },
+      {
+        "id": "119",
+        "isHidden": false
+      },
+      {
+        "id": "15",
+        "isHidden": true
+      }
+    ],
+    "name": "gourgeist",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10031.png",
+    "stats": [
+      75,
+      95,
+      122,
+      58,
+      75,
+      69
+    ],
+    "types": [
+      {
+        "id": "8"
+      },
+      {
+        "id": "12"
+      }
+    ],
+    "forme": "large"
+  },
+  {
+    "id": 711,
+    "abilities": [
+      {
+        "id": "53",
+        "isHidden": false
+      },
+      {
+        "id": "119",
+        "isHidden": false
+      },
+      {
+        "id": "15",
+        "isHidden": true
+      }
+    ],
+    "name": "gourgeist",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10032.png",
+    "stats": [
+      85,
+      100,
+      122,
+      58,
+      75,
+      54
+    ],
+    "types": [
+      {
+        "id": "8"
+      },
+      {
+        "id": "12"
+      }
+    ],
+    "forme": "super"
+  },
+  {
+    "id": 3,
+    "abilities": [
+      {
+        "id": "47",
+        "isHidden": false
+      }
+    ],
+    "name": "venusaur",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10033.png",
+    "stats": [
+      80,
+      100,
+      123,
+      122,
+      120,
+      80
+    ],
+    "types": [
+      {
+        "id": "12"
+      },
+      {
+        "id": "4"
+      }
+    ],
+    "forme": "mega"
+  },
+  {
+    "id": 6,
+    "abilities": [
+      {
+        "id": "181",
+        "isHidden": false
+      }
+    ],
+    "name": "charizard",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10034.png",
+    "stats": [
+      78,
+      130,
+      111,
+      130,
+      85,
+      100
+    ],
+    "types": [
+      {
+        "id": "10"
+      },
+      {
+        "id": "16"
+      }
+    ],
+    "forme": "mega-x"
+  },
+  {
+    "id": 6,
+    "abilities": [
+      {
+        "id": "70",
+        "isHidden": false
+      }
+    ],
+    "name": "charizard",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10035.png",
+    "stats": [
+      78,
+      104,
+      78,
+      159,
+      115,
+      100
+    ],
+    "types": [
+      {
+        "id": "10"
+      },
+      {
+        "id": "3"
+      }
+    ],
+    "forme": "mega-y"
+  },
+  {
+    "id": 9,
+    "abilities": [
+      {
+        "id": "178",
+        "isHidden": false
+      }
+    ],
+    "name": "blastoise",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10036.png",
+    "stats": [
+      79,
+      103,
+      120,
+      135,
+      115,
+      78
+    ],
+    "types": [
+      {
+        "id": "11"
+      }
+    ],
+    "forme": "mega"
+  },
+  {
+    "id": 65,
+    "abilities": [
+      {
+        "id": "36",
+        "isHidden": false
+      }
+    ],
+    "name": "alakazam",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10037.png",
+    "stats": [
+      55,
+      50,
+      65,
+      175,
+      105,
+      150
+    ],
+    "types": [
+      {
+        "id": "14"
+      }
+    ],
+    "forme": "mega"
+  },
+  {
+    "id": 94,
+    "abilities": [
+      {
+        "id": "23",
+        "isHidden": false
+      }
+    ],
+    "name": "gengar",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10038.png",
+    "stats": [
+      60,
+      65,
+      80,
+      170,
+      95,
+      130
+    ],
+    "types": [
+      {
+        "id": "8"
+      },
+      {
+        "id": "4"
+      }
+    ],
+    "forme": "mega"
+  },
+  {
+    "id": 115,
+    "abilities": [
+      {
+        "id": "185",
+        "isHidden": false
+      }
+    ],
+    "name": "kangaskhan",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10039.png",
+    "stats": [
+      105,
+      125,
+      100,
+      60,
+      100,
+      100
+    ],
+    "types": [
+      {
+        "id": "1"
+      }
+    ],
+    "forme": "mega"
+  },
+  {
+    "id": 127,
+    "abilities": [
+      {
+        "id": "184",
+        "isHidden": false
+      }
+    ],
+    "name": "pinsir",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10040.png",
+    "stats": [
+      65,
+      155,
+      120,
+      65,
+      90,
+      105
+    ],
+    "types": [
+      {
+        "id": "7"
+      },
+      {
+        "id": "3"
+      }
+    ],
+    "forme": "mega"
+  },
+  {
+    "id": 130,
+    "abilities": [
+      {
+        "id": "104",
+        "isHidden": false
+      }
+    ],
+    "name": "gyarados",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10041.png",
+    "stats": [
+      95,
+      155,
+      109,
+      70,
+      130,
+      81
+    ],
+    "types": [
+      {
+        "id": "11"
+      },
+      {
+        "id": "17"
+      }
+    ],
+    "forme": "mega"
+  },
+  {
+    "id": 142,
+    "abilities": [
+      {
+        "id": "181",
+        "isHidden": false
+      }
+    ],
+    "name": "aerodactyl",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10042.png",
+    "stats": [
+      80,
+      135,
+      85,
+      70,
+      95,
+      150
+    ],
+    "types": [
+      {
+        "id": "6"
+      },
+      {
+        "id": "3"
+      }
+    ],
+    "forme": "mega"
+  },
+  {
+    "id": 150,
+    "abilities": [
+      {
+        "id": "80",
+        "isHidden": false
+      }
+    ],
+    "name": "mewtwo",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10043.png",
+    "stats": [
+      106,
+      190,
+      100,
+      154,
+      100,
+      130
+    ],
+    "types": [
+      {
+        "id": "14"
+      },
+      {
+        "id": "2"
+      }
+    ],
+    "forme": "mega-x"
+  },
+  {
+    "id": 150,
+    "abilities": [
+      {
+        "id": "15",
+        "isHidden": false
+      }
+    ],
+    "name": "mewtwo",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10044.png",
+    "stats": [
+      106,
+      150,
+      70,
+      194,
+      120,
+      140
+    ],
+    "types": [
+      {
+        "id": "14"
+      }
+    ],
+    "forme": "mega-y"
+  },
+  {
+    "id": 181,
+    "abilities": [
+      {
+        "id": "104",
+        "isHidden": false
+      }
+    ],
+    "name": "ampharos",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10045.png",
+    "stats": [
+      90,
+      95,
+      105,
+      165,
+      110,
+      45
+    ],
+    "types": [
+      {
+        "id": "13"
+      },
+      {
+        "id": "16"
+      }
+    ],
+    "forme": "mega"
+  },
+  {
+    "id": 212,
+    "abilities": [
+      {
+        "id": "101",
+        "isHidden": false
+      }
+    ],
+    "name": "scizor",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10046.png",
+    "stats": [
+      70,
+      150,
+      140,
+      65,
+      100,
+      75
+    ],
+    "types": [
+      {
+        "id": "7"
+      },
+      {
+        "id": "9"
+      }
+    ],
+    "forme": "mega"
+  },
+  {
+    "id": 214,
+    "abilities": [
+      {
+        "id": "92",
+        "isHidden": false
+      }
+    ],
+    "name": "heracross",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10047.png",
+    "stats": [
+      80,
+      185,
+      115,
+      40,
+      105,
+      75
+    ],
+    "types": [
+      {
+        "id": "7"
+      },
+      {
+        "id": "2"
+      }
+    ],
+    "forme": "mega"
+  },
+  {
+    "id": 229,
+    "abilities": [
+      {
+        "id": "94",
+        "isHidden": false
+      }
+    ],
+    "name": "houndoom",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10048.png",
+    "stats": [
+      75,
+      90,
+      90,
+      140,
+      90,
+      115
+    ],
+    "types": [
+      {
+        "id": "17"
+      },
+      {
+        "id": "10"
+      }
+    ],
+    "forme": "mega"
+  },
+  {
+    "id": 248,
+    "abilities": [
+      {
+        "id": "45",
+        "isHidden": false
+      }
+    ],
+    "name": "tyranitar",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10049.png",
+    "stats": [
+      100,
+      164,
+      150,
+      95,
+      120,
+      71
+    ],
+    "types": [
+      {
+        "id": "6"
+      },
+      {
+        "id": "17"
+      }
+    ],
+    "forme": "mega"
+  },
+  {
+    "id": 257,
+    "abilities": [
+      {
+        "id": "3",
+        "isHidden": false
+      }
+    ],
+    "name": "blaziken",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10050.png",
+    "stats": [
+      80,
+      160,
+      80,
+      130,
+      80,
+      100
+    ],
+    "types": [
+      {
+        "id": "10"
+      },
+      {
+        "id": "2"
+      }
+    ],
+    "forme": "mega"
+  },
+  {
+    "id": 282,
+    "abilities": [
+      {
+        "id": "182",
+        "isHidden": false
+      }
+    ],
+    "name": "gardevoir",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10051.png",
+    "stats": [
+      68,
+      85,
+      65,
+      165,
+      135,
+      100
+    ],
+    "types": [
+      {
+        "id": "14"
+      },
+      {
+        "id": "18"
+      }
+    ],
+    "forme": "mega"
+  },
+  {
+    "id": 303,
+    "abilities": [
+      {
+        "id": "37",
+        "isHidden": false
+      }
+    ],
+    "name": "mawile",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10052.png",
+    "stats": [
+      50,
+      105,
+      125,
+      55,
+      95,
+      50
+    ],
+    "types": [
+      {
+        "id": "9"
+      },
+      {
+        "id": "18"
+      }
+    ],
+    "forme": "mega"
+  },
+  {
+    "id": 306,
+    "abilities": [
+      {
+        "id": "111",
+        "isHidden": false
+      }
+    ],
+    "name": "aggron",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10053.png",
+    "stats": [
+      70,
+      140,
+      230,
+      60,
+      80,
+      50
+    ],
+    "types": [
+      {
+        "id": "9"
+      }
+    ],
+    "forme": "mega"
+  },
+  {
+    "id": 308,
+    "abilities": [
+      {
+        "id": "74",
+        "isHidden": false
+      }
+    ],
+    "name": "medicham",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10054.png",
+    "stats": [
+      60,
+      100,
+      85,
+      80,
+      85,
+      100
+    ],
+    "types": [
+      {
+        "id": "2"
+      },
+      {
+        "id": "14"
+      }
+    ],
+    "forme": "mega"
+  },
+  {
+    "id": 310,
+    "abilities": [
+      {
+        "id": "22",
+        "isHidden": false
+      }
+    ],
+    "name": "manectric",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10055.png",
+    "stats": [
+      70,
+      75,
+      80,
+      135,
+      80,
+      135
+    ],
+    "types": [
+      {
+        "id": "13"
+      }
+    ],
+    "forme": "mega"
+  },
+  {
+    "id": 354,
+    "abilities": [
+      {
+        "id": "158",
+        "isHidden": false
+      }
+    ],
+    "name": "banette",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10056.png",
+    "stats": [
+      64,
+      165,
+      75,
+      93,
+      83,
+      75
+    ],
+    "types": [
+      {
+        "id": "8"
+      }
+    ],
+    "forme": "mega"
+  },
+  {
+    "id": 359,
+    "abilities": [
+      {
+        "id": "156",
+        "isHidden": false
+      }
+    ],
+    "name": "absol",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10057.png",
+    "stats": [
+      65,
+      150,
+      60,
+      115,
+      60,
+      115
+    ],
+    "types": [
+      {
+        "id": "17"
+      }
+    ],
+    "forme": "mega"
+  },
+  {
+    "id": 445,
+    "abilities": [
+      {
+        "id": "159",
+        "isHidden": false
+      }
+    ],
+    "name": "garchomp",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10058.png",
+    "stats": [
+      108,
+      170,
+      115,
+      120,
+      95,
+      92
+    ],
+    "types": [
+      {
+        "id": "16"
+      },
+      {
+        "id": "5"
+      }
+    ],
+    "forme": "mega"
+  },
+  {
+    "id": 448,
+    "abilities": [
+      {
+        "id": "91",
+        "isHidden": false
+      }
+    ],
+    "name": "lucario",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10059.png",
+    "stats": [
+      70,
+      145,
+      88,
+      140,
+      70,
+      112
+    ],
+    "types": [
+      {
+        "id": "2"
+      },
+      {
+        "id": "9"
+      }
+    ],
+    "forme": "mega"
+  },
+  {
+    "id": 460,
+    "abilities": [
+      {
+        "id": "117",
+        "isHidden": false
+      }
+    ],
+    "name": "abomasnow",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10060.png",
+    "stats": [
+      90,
+      132,
+      105,
+      132,
+      105,
+      30
+    ],
+    "types": [
+      {
+        "id": "12"
+      },
+      {
+        "id": "15"
+      }
+    ],
+    "forme": "mega"
+  },
+  {
+    "id": 670,
+    "abilities": [
+      {
+        "id": "166",
+        "isHidden": false
+      },
+      {
+        "id": "180",
+        "isHidden": true
+      }
+    ],
+    "name": "floette",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10061.png",
+    "stats": [
+      74,
+      65,
+      67,
+      125,
+      128,
+      92
+    ],
+    "types": [
+      {
+        "id": "18"
+      }
+    ],
+    "forme": "eternal"
+  },
+  {
+    "id": 380,
+    "abilities": [
+      {
+        "id": "26",
+        "isHidden": false
+      }
+    ],
+    "name": "latias",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10062.png",
+    "stats": [
+      80,
+      100,
+      120,
+      140,
+      150,
+      110
+    ],
+    "types": [
+      {
+        "id": "16"
+      },
+      {
+        "id": "14"
+      }
+    ],
+    "forme": "mega"
+  },
+  {
+    "id": 381,
+    "abilities": [
+      {
+        "id": "26",
+        "isHidden": false
+      }
+    ],
+    "name": "latios",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10063.png",
+    "stats": [
+      80,
+      130,
+      100,
+      160,
+      120,
+      110
+    ],
+    "types": [
+      {
+        "id": "16"
+      },
+      {
+        "id": "14"
+      }
+    ],
+    "forme": "mega"
+  },
+  {
+    "id": 260,
+    "abilities": [
+      {
+        "id": "33",
+        "isHidden": false
+      }
+    ],
+    "name": "swampert",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10064.png",
+    "stats": [
+      100,
+      150,
+      110,
+      95,
+      110,
+      70
+    ],
+    "types": [
+      {
+        "id": "11"
+      },
+      {
+        "id": "5"
+      }
+    ],
+    "forme": "mega"
+  },
+  {
+    "id": 254,
+    "abilities": [
+      {
+        "id": "31",
+        "isHidden": false
+      }
+    ],
+    "name": "sceptile",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10065.png",
+    "stats": [
+      70,
+      110,
+      75,
+      145,
+      85,
+      145
+    ],
+    "types": [
+      {
+        "id": "12"
+      },
+      {
+        "id": "16"
+      }
+    ],
+    "forme": "mega"
+  },
+  {
+    "id": 302,
+    "abilities": [
+      {
+        "id": "156",
+        "isHidden": false
+      }
+    ],
+    "name": "sableye",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10066.png",
+    "stats": [
+      50,
+      85,
+      125,
+      85,
+      115,
+      20
+    ],
+    "types": [
+      {
+        "id": "17"
+      },
+      {
+        "id": "8"
+      }
+    ],
+    "forme": "mega"
+  },
+  {
+    "id": 334,
+    "abilities": [
+      {
+        "id": "182",
+        "isHidden": false
+      }
+    ],
+    "name": "altaria",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10067.png",
+    "stats": [
+      75,
+      110,
+      110,
+      110,
+      105,
+      80
+    ],
+    "types": [
+      {
+        "id": "16"
+      },
+      {
+        "id": "18"
+      }
+    ],
+    "forme": "mega"
+  },
+  {
+    "id": 475,
+    "abilities": [
+      {
+        "id": "39",
+        "isHidden": false
+      }
+    ],
+    "name": "gallade",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10068.png",
+    "stats": [
+      68,
+      165,
+      95,
+      65,
+      115,
+      110
+    ],
+    "types": [
+      {
+        "id": "14"
+      },
+      {
+        "id": "2"
+      }
+    ],
+    "forme": "mega"
+  },
+  {
+    "id": 531,
+    "abilities": [
+      {
+        "id": "131",
+        "isHidden": false
+      }
+    ],
+    "name": "audino",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10069.png",
+    "stats": [
+      103,
+      60,
+      126,
+      80,
+      126,
+      50
+    ],
+    "types": [
+      {
+        "id": "1"
+      },
+      {
+        "id": "18"
+      }
+    ],
+    "forme": "mega"
+  },
+  {
+    "id": 319,
+    "abilities": [
+      {
+        "id": "173",
+        "isHidden": false
+      }
+    ],
+    "name": "sharpedo",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10070.png",
+    "stats": [
+      70,
+      140,
+      70,
+      110,
+      65,
+      105
+    ],
+    "types": [
+      {
+        "id": "11"
+      },
+      {
+        "id": "17"
+      }
+    ],
+    "forme": "mega"
+  },
+  {
+    "id": 80,
+    "abilities": [
+      {
+        "id": "75",
+        "isHidden": false
+      }
+    ],
+    "name": "slowbro",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10071.png",
+    "stats": [
+      95,
+      75,
+      180,
+      130,
+      80,
+      30
+    ],
+    "types": [
+      {
+        "id": "11"
+      },
+      {
+        "id": "14"
+      }
+    ],
+    "forme": "mega"
+  },
+  {
+    "id": 208,
+    "abilities": [
+      {
+        "id": "159",
+        "isHidden": false
+      }
+    ],
+    "name": "steelix",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10072.png",
+    "stats": [
+      75,
+      125,
+      230,
+      55,
+      95,
+      30
+    ],
+    "types": [
+      {
+        "id": "9"
+      },
+      {
+        "id": "5"
+      }
+    ],
+    "forme": "mega"
+  },
+  {
+    "id": 18,
+    "abilities": [
+      {
+        "id": "99",
+        "isHidden": false
+      }
+    ],
+    "name": "pidgeot",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10073.png",
+    "stats": [
+      83,
+      80,
+      80,
+      135,
+      80,
+      121
+    ],
+    "types": [
+      {
+        "id": "1"
+      },
+      {
+        "id": "3"
+      }
+    ],
+    "forme": "mega"
+  },
+  {
+    "id": 362,
+    "abilities": [
+      {
+        "id": "174",
+        "isHidden": false
+      }
+    ],
+    "name": "glalie",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10074.png",
+    "stats": [
+      80,
+      120,
+      80,
+      120,
+      80,
+      100
+    ],
+    "types": [
+      {
+        "id": "15"
+      }
+    ],
+    "forme": "mega"
+  },
+  {
+    "id": 719,
+    "abilities": [
+      {
+        "id": "156",
+        "isHidden": false
+      }
+    ],
+    "name": "diancie",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10075.png",
+    "stats": [
+      50,
+      160,
+      110,
+      160,
+      110,
+      110
+    ],
+    "types": [
+      {
+        "id": "6"
+      },
+      {
+        "id": "18"
+      }
+    ],
+    "forme": "mega"
+  },
+  {
+    "id": 376,
+    "abilities": [
+      {
+        "id": "181",
+        "isHidden": false
+      }
+    ],
+    "name": "metagross",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10076.png",
+    "stats": [
+      80,
+      145,
+      150,
+      105,
+      110,
+      110
+    ],
+    "types": [
+      {
+        "id": "9"
+      },
+      {
+        "id": "14"
+      }
+    ],
+    "forme": "mega"
+  },
+  {
+    "id": 382,
+    "abilities": [
+      {
+        "id": "189",
+        "isHidden": false
+      }
+    ],
+    "name": "kyogre",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10077.png",
+    "stats": [
+      100,
+      150,
+      90,
+      180,
+      160,
+      90
+    ],
+    "types": [
+      {
+        "id": "11"
+      }
+    ],
+    "forme": "primal"
+  },
+  {
+    "id": 383,
+    "abilities": [
+      {
+        "id": "190",
+        "isHidden": false
+      }
+    ],
+    "name": "groudon",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10078.png",
+    "stats": [
+      100,
+      180,
+      160,
+      150,
+      90,
+      90
+    ],
+    "types": [
+      {
+        "id": "5"
+      },
+      {
+        "id": "10"
+      }
+    ],
+    "forme": "primal"
+  },
+  {
+    "id": 384,
+    "abilities": [
+      {
+        "id": "191",
+        "isHidden": false
+      }
+    ],
+    "name": "rayquaza",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10079.png",
+    "stats": [
+      105,
+      180,
+      100,
+      180,
+      100,
+      115
+    ],
+    "types": [
+      {
+        "id": "16"
+      },
+      {
+        "id": "3"
+      }
+    ],
+    "forme": "mega"
+  },
+  {
+    "id": 25,
+    "abilities": [
+      {
+        "id": "9",
+        "isHidden": false
+      },
+      {
+        "id": "31",
+        "isHidden": true
+      }
+    ],
+    "name": "pikachu",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10080.png",
+    "stats": [
+      35,
+      55,
+      40,
+      50,
+      50,
+      90
+    ],
+    "types": [
+      {
+        "id": "13"
+      }
+    ],
+    "forme": "rock-star"
+  },
+  {
+    "id": 25,
+    "abilities": [
+      {
+        "id": "9",
+        "isHidden": false
+      },
+      {
+        "id": "31",
+        "isHidden": true
+      }
+    ],
+    "name": "pikachu",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10081.png",
+    "stats": [
+      35,
+      55,
+      40,
+      50,
+      50,
+      90
+    ],
+    "types": [
+      {
+        "id": "13"
+      }
+    ],
+    "forme": "belle"
+  },
+  {
+    "id": 25,
+    "abilities": [
+      {
+        "id": "9",
+        "isHidden": false
+      },
+      {
+        "id": "31",
+        "isHidden": true
+      }
+    ],
+    "name": "pikachu",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10082.png",
+    "stats": [
+      35,
+      55,
+      40,
+      50,
+      50,
+      90
+    ],
+    "types": [
+      {
+        "id": "13"
+      }
+    ],
+    "forme": "pop-star"
+  },
+  {
+    "id": 25,
+    "abilities": [
+      {
+        "id": "9",
+        "isHidden": false
+      },
+      {
+        "id": "31",
+        "isHidden": true
+      }
+    ],
+    "name": "pikachu",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10083.png",
+    "stats": [
+      35,
+      55,
+      40,
+      50,
+      50,
+      90
+    ],
+    "types": [
+      {
+        "id": "13"
+      }
+    ],
+    "forme": "phd"
+  },
+  {
+    "id": 25,
+    "abilities": [
+      {
+        "id": "9",
+        "isHidden": false
+      },
+      {
+        "id": "31",
+        "isHidden": true
+      }
+    ],
+    "name": "pikachu",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10084.png",
+    "stats": [
+      35,
+      55,
+      40,
+      50,
+      50,
+      90
+    ],
+    "types": [
+      {
+        "id": "13"
+      }
+    ],
+    "forme": "libre"
+  },
+  {
+    "id": 25,
+    "abilities": [
+      {
+        "id": "9",
+        "isHidden": false
+      },
+      {
+        "id": "31",
+        "isHidden": true
+      }
+    ],
+    "name": "pikachu",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10085.png",
+    "stats": [
+      35,
+      55,
+      40,
+      50,
+      50,
+      90
+    ],
+    "types": [
+      {
+        "id": "13"
+      }
+    ],
+    "forme": "cosplay"
+  },
+  {
+    "id": 720,
+    "abilities": [
+      {
+        "id": "170",
+        "isHidden": false
+      }
+    ],
+    "name": "hoopa",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10086.png",
+    "stats": [
+      80,
+      160,
+      60,
+      170,
+      130,
+      80
+    ],
+    "types": [
+      {
+        "id": "14"
+      },
+      {
+        "id": "17"
+      }
+    ],
+    "forme": "unbound"
+  },
+  {
+    "id": 323,
+    "abilities": [
+      {
+        "id": "125",
+        "isHidden": false
+      }
+    ],
+    "name": "camerupt",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10087.png",
+    "stats": [
+      70,
+      120,
+      100,
+      145,
+      105,
+      20
+    ],
+    "types": [
+      {
+        "id": "10"
+      },
+      {
+        "id": "5"
+      }
+    ],
+    "forme": "mega"
+  },
+  {
+    "id": 428,
+    "abilities": [
+      {
+        "id": "113",
+        "isHidden": false
+      }
+    ],
+    "name": "lopunny",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10088.png",
+    "stats": [
+      65,
+      136,
+      94,
+      54,
+      96,
+      135
+    ],
+    "types": [
+      {
+        "id": "1"
+      },
+      {
+        "id": "2"
+      }
+    ],
+    "forme": "mega"
+  },
+  {
+    "id": 373,
+    "abilities": [
+      {
+        "id": "184",
+        "isHidden": false
+      }
+    ],
+    "name": "salamence",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10089.png",
+    "stats": [
+      95,
+      145,
+      130,
+      120,
+      90,
+      120
+    ],
+    "types": [
+      {
+        "id": "16"
+      },
+      {
+        "id": "3"
+      }
+    ],
+    "forme": "mega"
+  },
+  {
+    "id": 15,
+    "abilities": [
+      {
+        "id": "91",
+        "isHidden": false
+      }
+    ],
+    "name": "beedrill",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10090.png",
+    "stats": [
+      65,
+      150,
+      40,
+      15,
+      80,
+      145
+    ],
+    "types": [
+      {
+        "id": "7"
+      },
+      {
+        "id": "4"
+      }
+    ],
+    "forme": "mega"
+  },
+  {
+    "id": 19,
+    "abilities": [
+      {
+        "id": "82",
+        "isHidden": false
+      },
+      {
+        "id": "55",
+        "isHidden": false
+      },
+      {
+        "id": "47",
+        "isHidden": true
+      }
+    ],
+    "name": "rattata",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10091.png",
+    "stats": [
+      30,
+      56,
+      35,
+      25,
+      35,
+      72
+    ],
+    "types": [
+      {
+        "id": "17"
+      },
+      {
+        "id": "1"
+      }
+    ],
+    "forme": "alola"
+  },
+  {
+    "id": 20,
+    "abilities": [
+      {
+        "id": "82",
+        "isHidden": false
+      },
+      {
+        "id": "55",
+        "isHidden": false
+      },
+      {
+        "id": "47",
+        "isHidden": true
+      }
+    ],
+    "name": "raticate",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10092.png",
+    "stats": [
+      75,
+      71,
+      70,
+      40,
+      80,
+      77
+    ],
+    "types": [
+      {
+        "id": "17"
+      },
+      {
+        "id": "1"
+      }
+    ],
+    "forme": "alola"
+  },
+  {
+    "id": 20,
+    "abilities": [
+      {
+        "id": "82",
+        "isHidden": false
+      },
+      {
+        "id": "55",
+        "isHidden": false
+      },
+      {
+        "id": "47",
+        "isHidden": true
+      }
+    ],
+    "name": "raticate",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10093.png",
+    "stats": [
+      75,
+      71,
+      70,
+      40,
+      80,
+      77
+    ],
+    "types": [
+      {
+        "id": "17"
+      },
+      {
+        "id": "1"
+      }
+    ],
+    "forme": "totem-alola"
+  },
+  {
+    "id": 25,
+    "abilities": [
+      {
+        "id": "9",
+        "isHidden": false
+      },
+      {
+        "id": "31",
+        "isHidden": true
+      }
+    ],
+    "name": "pikachu",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10094.png",
+    "stats": [
+      35,
+      55,
+      40,
+      50,
+      50,
+      90
+    ],
+    "types": [
+      {
+        "id": "13"
+      }
+    ],
+    "forme": "original-cap"
+  },
+  {
+    "id": 25,
+    "abilities": [
+      {
+        "id": "9",
+        "isHidden": false
+      },
+      {
+        "id": "31",
+        "isHidden": true
+      }
+    ],
+    "name": "pikachu",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10095.png",
+    "stats": [
+      35,
+      55,
+      40,
+      50,
+      50,
+      90
+    ],
+    "types": [
+      {
+        "id": "13"
+      }
+    ],
+    "forme": "hoenn-cap"
+  },
+  {
+    "id": 25,
+    "abilities": [
+      {
+        "id": "9",
+        "isHidden": false
+      },
+      {
+        "id": "31",
+        "isHidden": true
+      }
+    ],
+    "name": "pikachu",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10096.png",
+    "stats": [
+      35,
+      55,
+      40,
+      50,
+      50,
+      90
+    ],
+    "types": [
+      {
+        "id": "13"
+      }
+    ],
+    "forme": "sinnoh-cap"
+  },
+  {
+    "id": 25,
+    "abilities": [
+      {
+        "id": "9",
+        "isHidden": false
+      },
+      {
+        "id": "31",
+        "isHidden": true
+      }
+    ],
+    "name": "pikachu",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10097.png",
+    "stats": [
+      35,
+      55,
+      40,
+      50,
+      50,
+      90
+    ],
+    "types": [
+      {
+        "id": "13"
+      }
+    ],
+    "forme": "unova-cap"
+  },
+  {
+    "id": 25,
+    "abilities": [
+      {
+        "id": "9",
+        "isHidden": false
+      },
+      {
+        "id": "31",
+        "isHidden": true
+      }
+    ],
+    "name": "pikachu",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10098.png",
+    "stats": [
+      35,
+      55,
+      40,
+      50,
+      50,
+      90
+    ],
+    "types": [
+      {
+        "id": "13"
+      }
+    ],
+    "forme": "kalos-cap"
+  },
+  {
+    "id": 25,
+    "abilities": [
+      {
+        "id": "9",
+        "isHidden": false
+      },
+      {
+        "id": "31",
+        "isHidden": true
+      }
+    ],
+    "name": "pikachu",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10099.png",
+    "stats": [
+      35,
+      55,
+      40,
+      50,
+      50,
+      90
+    ],
+    "types": [
+      {
+        "id": "13"
+      }
+    ],
+    "forme": "alola-cap"
+  },
+  {
+    "id": 26,
+    "abilities": [
+      {
+        "id": "207",
+        "isHidden": false
+      }
+    ],
+    "name": "raichu",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10100.png",
+    "stats": [
+      60,
+      85,
+      50,
+      95,
+      85,
+      110
+    ],
+    "types": [
+      {
+        "id": "13"
+      },
+      {
+        "id": "14"
+      }
+    ],
+    "forme": "alola"
+  },
+  {
+    "id": 27,
+    "abilities": [
+      {
+        "id": "81",
+        "isHidden": false
+      },
+      {
+        "id": "202",
+        "isHidden": true
+      }
+    ],
+    "name": "sandshrew",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10101.png",
+    "stats": [
+      50,
+      75,
+      90,
+      10,
+      35,
+      40
+    ],
+    "types": [
+      {
+        "id": "15"
+      },
+      {
+        "id": "9"
+      }
+    ],
+    "forme": "alola"
+  },
+  {
+    "id": 28,
+    "abilities": [
+      {
+        "id": "81",
+        "isHidden": false
+      },
+      {
+        "id": "202",
+        "isHidden": true
+      }
+    ],
+    "name": "sandslash",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10102.png",
+    "stats": [
+      75,
+      100,
+      120,
+      25,
+      65,
+      65
+    ],
+    "types": [
+      {
+        "id": "15"
+      },
+      {
+        "id": "9"
+      }
+    ],
+    "forme": "alola"
+  },
+  {
+    "id": 37,
+    "abilities": [
+      {
+        "id": "81",
+        "isHidden": false
+      },
+      {
+        "id": "117",
+        "isHidden": true
+      }
+    ],
+    "name": "vulpix",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10103.png",
+    "stats": [
+      38,
+      41,
+      40,
+      50,
+      65,
+      65
+    ],
+    "types": [
+      {
+        "id": "15"
+      }
+    ],
+    "forme": "alola"
+  },
+  {
+    "id": 38,
+    "abilities": [
+      {
+        "id": "81",
+        "isHidden": false
+      },
+      {
+        "id": "117",
+        "isHidden": true
+      }
+    ],
+    "name": "ninetales",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10104.png",
+    "stats": [
+      73,
+      67,
+      75,
+      81,
+      100,
+      109
+    ],
+    "types": [
+      {
+        "id": "15"
+      },
+      {
+        "id": "18"
+      }
+    ],
+    "forme": "alola"
+  },
+  {
+    "id": 50,
+    "abilities": [
+      {
+        "id": "8",
+        "isHidden": false
+      },
+      {
+        "id": "221",
+        "isHidden": false
+      },
+      {
+        "id": "159",
+        "isHidden": true
+      }
+    ],
+    "name": "diglett",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10105.png",
+    "stats": [
+      10,
+      55,
+      30,
+      35,
+      45,
+      90
+    ],
+    "types": [
+      {
+        "id": "5"
+      },
+      {
+        "id": "9"
+      }
+    ],
+    "forme": "alola"
+  },
+  {
+    "id": 51,
+    "abilities": [
+      {
+        "id": "8",
+        "isHidden": false
+      },
+      {
+        "id": "221",
+        "isHidden": false
+      },
+      {
+        "id": "159",
+        "isHidden": true
+      }
+    ],
+    "name": "dugtrio",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10106.png",
+    "stats": [
+      35,
+      100,
+      60,
+      50,
+      70,
+      110
+    ],
+    "types": [
+      {
+        "id": "5"
+      },
+      {
+        "id": "9"
+      }
+    ],
+    "forme": "alola"
+  },
+  {
+    "id": 52,
+    "abilities": [
+      {
+        "id": "53",
+        "isHidden": false
+      },
+      {
+        "id": "101",
+        "isHidden": false
+      },
+      {
+        "id": "155",
+        "isHidden": true
+      }
+    ],
+    "name": "meowth",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10107.png",
+    "stats": [
+      40,
+      35,
+      35,
+      50,
+      40,
+      90
+    ],
+    "types": [
+      {
+        "id": "17"
+      }
+    ],
+    "forme": "alola"
+  },
+  {
+    "id": 53,
+    "abilities": [
+      {
+        "id": "169",
+        "isHidden": false
+      },
+      {
+        "id": "101",
+        "isHidden": false
+      },
+      {
+        "id": "155",
+        "isHidden": true
+      }
+    ],
+    "name": "persian",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10108.png",
+    "stats": [
+      65,
+      60,
+      60,
+      75,
+      65,
+      115
+    ],
+    "types": [
+      {
+        "id": "17"
+      }
+    ],
+    "forme": "alola"
+  },
+  {
+    "id": 74,
+    "abilities": [
+      {
+        "id": "42",
+        "isHidden": false
+      },
+      {
+        "id": "5",
+        "isHidden": false
+      },
+      {
+        "id": "206",
+        "isHidden": true
+      }
+    ],
+    "name": "geodude",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10109.png",
+    "stats": [
+      40,
+      80,
+      100,
+      30,
+      30,
+      20
+    ],
+    "types": [
+      {
+        "id": "6"
+      },
+      {
+        "id": "13"
+      }
+    ],
+    "forme": "alola"
+  },
+  {
+    "id": 75,
+    "abilities": [
+      {
+        "id": "42",
+        "isHidden": false
+      },
+      {
+        "id": "5",
+        "isHidden": false
+      },
+      {
+        "id": "206",
+        "isHidden": true
+      }
+    ],
+    "name": "graveler",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10110.png",
+    "stats": [
+      55,
+      95,
+      115,
+      45,
+      45,
+      35
+    ],
+    "types": [
+      {
+        "id": "6"
+      },
+      {
+        "id": "13"
+      }
+    ],
+    "forme": "alola"
+  },
+  {
+    "id": 76,
+    "abilities": [
+      {
+        "id": "42",
+        "isHidden": false
+      },
+      {
+        "id": "5",
+        "isHidden": false
+      },
+      {
+        "id": "206",
+        "isHidden": true
+      }
+    ],
+    "name": "golem",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10111.png",
+    "stats": [
+      80,
+      120,
+      130,
+      55,
+      65,
+      45
+    ],
+    "types": [
+      {
+        "id": "6"
+      },
+      {
+        "id": "13"
+      }
+    ],
+    "forme": "alola"
+  },
+  {
+    "id": 88,
+    "abilities": [
+      {
+        "id": "143",
+        "isHidden": false
+      },
+      {
+        "id": "82",
+        "isHidden": false
+      },
+      {
+        "id": "223",
+        "isHidden": true
+      }
+    ],
+    "name": "grimer",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10112.png",
+    "stats": [
+      80,
+      80,
+      50,
+      40,
+      50,
+      25
+    ],
+    "types": [
+      {
+        "id": "4"
+      },
+      {
+        "id": "17"
+      }
+    ],
+    "forme": "alola"
+  },
+  {
+    "id": 89,
+    "abilities": [
+      {
+        "id": "143",
+        "isHidden": false
+      },
+      {
+        "id": "82",
+        "isHidden": false
+      },
+      {
+        "id": "223",
+        "isHidden": true
+      }
+    ],
+    "name": "muk",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10113.png",
+    "stats": [
+      105,
+      105,
+      75,
+      65,
+      100,
+      50
+    ],
+    "types": [
+      {
+        "id": "4"
+      },
+      {
+        "id": "17"
+      }
+    ],
+    "forme": "alola"
+  },
+  {
+    "id": 103,
+    "abilities": [
+      {
+        "id": "119",
+        "isHidden": false
+      },
+      {
+        "id": "139",
+        "isHidden": true
+      }
+    ],
+    "name": "exeggutor",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10114.png",
+    "stats": [
+      95,
+      105,
+      85,
+      125,
+      75,
+      45
+    ],
+    "types": [
+      {
+        "id": "12"
+      },
+      {
+        "id": "16"
+      }
+    ],
+    "forme": "alola"
+  },
+  {
+    "id": 105,
+    "abilities": [
+      {
+        "id": "130",
+        "isHidden": false
+      },
+      {
+        "id": "31",
+        "isHidden": false
+      },
+      {
+        "id": "69",
+        "isHidden": true
+      }
+    ],
+    "name": "marowak",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10115.png",
+    "stats": [
+      60,
+      80,
+      110,
+      50,
+      80,
+      45
+    ],
+    "types": [
+      {
+        "id": "10"
+      },
+      {
+        "id": "8"
+      }
+    ],
+    "forme": "alola"
+  },
+  {
+    "id": 658,
+    "abilities": [
+      {
+        "id": "210",
+        "isHidden": false
+      }
+    ],
+    "name": "greninja",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10116.png",
+    "stats": [
+      72,
+      95,
+      67,
+      103,
+      71,
+      122
+    ],
+    "types": [
+      {
+        "id": "11"
+      },
+      {
+        "id": "17"
+      }
+    ],
+    "forme": "battle-bond"
+  },
+  {
+    "id": 658,
+    "abilities": [
+      {
+        "id": "210",
+        "isHidden": false
+      }
+    ],
+    "name": "greninja",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10117.png",
+    "stats": [
+      72,
+      145,
+      67,
+      153,
+      71,
+      132
+    ],
+    "types": [
+      {
+        "id": "11"
+      },
+      {
+        "id": "17"
+      }
+    ],
+    "forme": "ash"
+  },
+  {
+    "id": 718,
+    "abilities": [
+      {
+        "id": "211",
+        "isHidden": false
+      }
+    ],
+    "name": "zygarde",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10118.png",
+    "stats": [
+      54,
+      100,
+      71,
+      61,
+      85,
+      115
+    ],
+    "types": [
+      {
+        "id": "16"
+      },
+      {
+        "id": "5"
+      }
+    ],
+    "forme": "10-power-construct"
+  },
+  {
+    "id": 718,
+    "abilities": [
+      {
+        "id": "211",
+        "isHidden": false
+      }
+    ],
+    "name": "zygarde",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10119.png",
+    "stats": [
+      108,
+      100,
+      121,
+      81,
+      95,
+      95
+    ],
+    "types": [
+      {
+        "id": "16"
+      },
+      {
+        "id": "5"
+      }
+    ],
+    "forme": "50-power-construct"
+  },
+  {
+    "id": 718,
+    "abilities": [
+      {
+        "id": "211",
+        "isHidden": false
+      }
+    ],
+    "name": "zygarde",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10120.png",
+    "stats": [
+      216,
+      100,
+      121,
+      91,
+      95,
+      85
+    ],
+    "types": [
+      {
+        "id": "16"
+      },
+      {
+        "id": "5"
+      }
+    ],
+    "forme": "complete"
+  },
+  {
+    "id": 735,
+    "abilities": [
+      {
+        "id": "198",
+        "isHidden": false
+      },
+      {
+        "id": "173",
+        "isHidden": false
+      },
+      {
+        "id": "91",
+        "isHidden": true
+      }
+    ],
+    "name": "gumshoos",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10121.png",
+    "stats": [
+      88,
+      110,
+      60,
+      55,
+      60,
+      45
+    ],
+    "types": [
+      {
+        "id": "1"
+      }
+    ],
+    "forme": "totem"
+  },
+  {
+    "id": 738,
+    "abilities": [
+      {
+        "id": "26",
+        "isHidden": false
+      }
+    ],
+    "name": "vikavolt",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10122.png",
+    "stats": [
+      77,
+      70,
+      90,
+      145,
+      75,
+      43
+    ],
+    "types": [
+      {
+        "id": "7"
+      },
+      {
+        "id": "13"
+      }
+    ],
+    "forme": "totem"
+  },
+  {
+    "id": 741,
+    "abilities": [
+      {
+        "id": "216",
+        "isHidden": false
+      }
+    ],
+    "name": "oricorio",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10123.png",
+    "stats": [
+      75,
+      70,
+      70,
+      98,
+      70,
+      93
+    ],
+    "types": [
+      {
+        "id": "13"
+      },
+      {
+        "id": "3"
+      }
+    ],
+    "forme": "pom-pom"
+  },
+  {
+    "id": 741,
+    "abilities": [
+      {
+        "id": "216",
+        "isHidden": false
+      }
+    ],
+    "name": "oricorio",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10124.png",
+    "stats": [
+      75,
+      70,
+      70,
+      98,
+      70,
+      93
+    ],
+    "types": [
+      {
+        "id": "14"
+      },
+      {
+        "id": "3"
+      }
+    ],
+    "forme": "pau"
+  },
+  {
+    "id": 741,
+    "abilities": [
+      {
+        "id": "216",
+        "isHidden": false
+      }
+    ],
+    "name": "oricorio",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10125.png",
+    "stats": [
+      75,
+      70,
+      70,
+      98,
+      70,
+      93
+    ],
+    "types": [
+      {
+        "id": "8"
+      },
+      {
+        "id": "3"
+      }
+    ],
+    "forme": "sensu"
+  },
+  {
+    "id": 745,
+    "abilities": [
+      {
+        "id": "51",
+        "isHidden": false
+      },
+      {
+        "id": "72",
+        "isHidden": false
+      },
+      {
+        "id": "99",
+        "isHidden": true
+      }
+    ],
+    "name": "lycanroc",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10126.png",
+    "stats": [
+      85,
+      115,
+      75,
+      55,
+      75,
+      82
+    ],
+    "types": [
+      {
+        "id": "6"
+      }
+    ],
+    "forme": "midnight"
+  },
+  {
+    "id": 746,
+    "abilities": [
+      {
+        "id": "208",
+        "isHidden": false
+      }
+    ],
+    "name": "wishiwashi",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10127.png",
+    "stats": [
+      45,
+      140,
+      130,
+      140,
+      135,
+      30
+    ],
+    "types": [
+      {
+        "id": "11"
+      }
+    ],
+    "forme": "school"
+  },
+  {
+    "id": 754,
+    "abilities": [
+      {
+        "id": "102",
+        "isHidden": false
+      },
+      {
+        "id": "126",
+        "isHidden": true
+      }
+    ],
+    "name": "lurantis",
+    "sprite": null,
+    "stats": [
+      70,
+      105,
+      90,
+      80,
+      90,
+      45
+    ],
+    "types": [
+      {
+        "id": "12"
+      }
+    ],
+    "forme": "totem"
+  },
+  {
+    "id": 758,
+    "abilities": [
+      {
+        "id": "212",
+        "isHidden": false
+      },
+      {
+        "id": "12",
+        "isHidden": true
+      }
+    ],
+    "name": "salazzle",
+    "sprite": null,
+    "stats": [
+      68,
+      64,
+      60,
+      111,
+      60,
+      117
+    ],
+    "types": [
+      {
+        "id": "4"
+      },
+      {
+        "id": "10"
+      }
+    ],
+    "forme": "totem"
+  },
+  {
+    "id": 774,
+    "abilities": [
+      {
+        "id": "197",
+        "isHidden": false
+      }
+    ],
+    "name": "minior",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10130.png",
+    "stats": [
+      60,
+      60,
+      100,
+      60,
+      100,
+      60
+    ],
+    "types": [
+      {
+        "id": "6"
+      },
+      {
+        "id": "3"
+      }
+    ],
+    "forme": "orange-meteor"
+  },
+  {
+    "id": 774,
+    "abilities": [
+      {
+        "id": "197",
+        "isHidden": false
+      }
+    ],
+    "name": "minior",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10131.png",
+    "stats": [
+      60,
+      60,
+      100,
+      60,
+      100,
+      60
+    ],
+    "types": [
+      {
+        "id": "6"
+      },
+      {
+        "id": "3"
+      }
+    ],
+    "forme": "yellow-meteor"
+  },
+  {
+    "id": 774,
+    "abilities": [
+      {
+        "id": "197",
+        "isHidden": false
+      }
+    ],
+    "name": "minior",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10132.png",
+    "stats": [
+      60,
+      60,
+      100,
+      60,
+      100,
+      60
+    ],
+    "types": [
+      {
+        "id": "6"
+      },
+      {
+        "id": "3"
+      }
+    ],
+    "forme": "green-meteor"
+  },
+  {
+    "id": 774,
+    "abilities": [
+      {
+        "id": "197",
+        "isHidden": false
+      }
+    ],
+    "name": "minior",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10133.png",
+    "stats": [
+      60,
+      60,
+      100,
+      60,
+      100,
+      60
+    ],
+    "types": [
+      {
+        "id": "6"
+      },
+      {
+        "id": "3"
+      }
+    ],
+    "forme": "blue-meteor"
+  },
+  {
+    "id": 774,
+    "abilities": [
+      {
+        "id": "197",
+        "isHidden": false
+      }
+    ],
+    "name": "minior",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10134.png",
+    "stats": [
+      60,
+      60,
+      100,
+      60,
+      100,
+      60
+    ],
+    "types": [
+      {
+        "id": "6"
+      },
+      {
+        "id": "3"
+      }
+    ],
+    "forme": "indigo-meteor"
+  },
+  {
+    "id": 774,
+    "abilities": [
+      {
+        "id": "197",
+        "isHidden": false
+      }
+    ],
+    "name": "minior",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10135.png",
+    "stats": [
+      60,
+      60,
+      100,
+      60,
+      100,
+      60
+    ],
+    "types": [
+      {
+        "id": "6"
+      },
+      {
+        "id": "3"
+      }
+    ],
+    "forme": "violet-meteor"
+  },
+  {
+    "id": 774,
+    "abilities": [
+      {
+        "id": "197",
+        "isHidden": false
+      }
+    ],
+    "name": "minior",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10136.png",
+    "stats": [
+      60,
+      100,
+      60,
+      100,
+      60,
+      120
+    ],
+    "types": [
+      {
+        "id": "6"
+      },
+      {
+        "id": "3"
+      }
+    ],
+    "forme": "red"
+  },
+  {
+    "id": 774,
+    "abilities": [
+      {
+        "id": "197",
+        "isHidden": false
+      }
+    ],
+    "name": "minior",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10137.png",
+    "stats": [
+      60,
+      100,
+      60,
+      100,
+      60,
+      120
+    ],
+    "types": [
+      {
+        "id": "6"
+      },
+      {
+        "id": "3"
+      }
+    ],
+    "forme": "orange"
+  },
+  {
+    "id": 774,
+    "abilities": [
+      {
+        "id": "197",
+        "isHidden": false
+      }
+    ],
+    "name": "minior",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10138.png",
+    "stats": [
+      60,
+      100,
+      60,
+      100,
+      60,
+      120
+    ],
+    "types": [
+      {
+        "id": "6"
+      },
+      {
+        "id": "3"
+      }
+    ],
+    "forme": "yellow"
+  },
+  {
+    "id": 774,
+    "abilities": [
+      {
+        "id": "197",
+        "isHidden": false
+      }
+    ],
+    "name": "minior",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10139.png",
+    "stats": [
+      60,
+      100,
+      60,
+      100,
+      60,
+      120
+    ],
+    "types": [
+      {
+        "id": "6"
+      },
+      {
+        "id": "3"
+      }
+    ],
+    "forme": "green"
+  },
+  {
+    "id": 774,
+    "abilities": [
+      {
+        "id": "197",
+        "isHidden": false
+      }
+    ],
+    "name": "minior",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10140.png",
+    "stats": [
+      60,
+      100,
+      60,
+      100,
+      60,
+      120
+    ],
+    "types": [
+      {
+        "id": "6"
+      },
+      {
+        "id": "3"
+      }
+    ],
+    "forme": "blue"
+  },
+  {
+    "id": 774,
+    "abilities": [
+      {
+        "id": "197",
+        "isHidden": false
+      }
+    ],
+    "name": "minior",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10141.png",
+    "stats": [
+      60,
+      100,
+      60,
+      100,
+      60,
+      120
+    ],
+    "types": [
+      {
+        "id": "6"
+      },
+      {
+        "id": "3"
+      }
+    ],
+    "forme": "indigo"
+  },
+  {
+    "id": 774,
+    "abilities": [
+      {
+        "id": "197",
+        "isHidden": false
+      }
+    ],
+    "name": "minior",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10142.png",
+    "stats": [
+      60,
+      100,
+      60,
+      100,
+      60,
+      120
+    ],
+    "types": [
+      {
+        "id": "6"
+      },
+      {
+        "id": "3"
+      }
+    ],
+    "forme": "violet"
+  },
+  {
+    "id": 778,
+    "abilities": [
+      {
+        "id": "209",
+        "isHidden": false
+      }
+    ],
+    "name": "mimikyu",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10143.png",
+    "stats": [
+      55,
+      90,
+      80,
+      50,
+      105,
+      96
+    ],
+    "types": [
+      {
+        "id": "8"
+      },
+      {
+        "id": "18"
+      }
+    ],
+    "forme": "busted"
+  },
+  {
+    "id": 778,
+    "abilities": [
+      {
+        "id": "209",
+        "isHidden": false
+      }
+    ],
+    "name": "mimikyu",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10144.png",
+    "stats": [
+      55,
+      90,
+      80,
+      50,
+      105,
+      96
+    ],
+    "types": [
+      {
+        "id": "8"
+      },
+      {
+        "id": "18"
+      }
+    ],
+    "forme": "totem-disguised"
+  },
+  {
+    "id": 778,
+    "abilities": [
+      {
+        "id": "209",
+        "isHidden": false
+      }
+    ],
+    "name": "mimikyu",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10145.png",
+    "stats": [
+      55,
+      90,
+      80,
+      50,
+      105,
+      96
+    ],
+    "types": [
+      {
+        "id": "8"
+      },
+      {
+        "id": "18"
+      }
+    ],
+    "forme": "totem-busted"
+  },
+  {
+    "id": 784,
+    "abilities": [
+      {
+        "id": "171",
+        "isHidden": false
+      },
+      {
+        "id": "43",
+        "isHidden": false
+      },
+      {
+        "id": "142",
+        "isHidden": true
+      }
+    ],
+    "name": "kommo-o",
+    "sprite": null,
+    "stats": [
+      75,
+      110,
+      125,
+      100,
+      105,
+      85
+    ],
+    "types": [
+      {
+        "id": "16"
+      },
+      {
+        "id": "2"
+      }
+    ],
+    "forme": "totem"
+  },
+  {
+    "id": 801,
+    "abilities": [
+      {
+        "id": "220",
+        "isHidden": false
+      }
+    ],
+    "name": "magearna",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10147.png",
+    "stats": [
+      80,
+      95,
+      115,
+      130,
+      115,
+      65
+    ],
+    "types": [
+      {
+        "id": "9"
+      },
+      {
+        "id": "18"
+      }
+    ],
+    "forme": "original"
+  },
+  {
+    "id": 25,
+    "abilities": [
+      {
+        "id": "9",
+        "isHidden": false
+      },
+      {
+        "id": "31",
+        "isHidden": true
+      }
+    ],
+    "name": "pikachu",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10148.png",
+    "stats": [
+      35,
+      55,
+      40,
+      50,
+      50,
+      90
+    ],
+    "types": [
+      {
+        "id": "13"
+      }
+    ],
+    "forme": "partner-cap"
+  },
+  {
+    "id": 105,
+    "abilities": [
+      {
+        "id": "130",
+        "isHidden": false
+      },
+      {
+        "id": "31",
+        "isHidden": false
+      },
+      {
+        "id": "69",
+        "isHidden": true
+      }
+    ],
+    "name": "marowak",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10149.png",
+    "stats": [
+      60,
+      80,
+      110,
+      50,
+      80,
+      45
+    ],
+    "types": [
+      {
+        "id": "10"
+      },
+      {
+        "id": "8"
+      }
+    ],
+    "forme": "totem"
+  },
+  {
+    "id": 743,
+    "abilities": [
+      {
+        "id": "118",
+        "isHidden": false
+      },
+      {
+        "id": "19",
+        "isHidden": false
+      },
+      {
+        "id": "175",
+        "isHidden": true
+      }
+    ],
+    "name": "ribombee",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10150.png",
+    "stats": [
+      60,
+      55,
+      60,
+      95,
+      70,
+      124
+    ],
+    "types": [
+      {
+        "id": "7"
+      },
+      {
+        "id": "18"
+      }
+    ],
+    "forme": "totem"
+  },
+  {
+    "id": 744,
+    "abilities": [
+      {
+        "id": "20",
+        "isHidden": false
+      }
+    ],
+    "name": "rockruff",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10151.png",
+    "stats": [
+      45,
+      65,
+      40,
+      30,
+      40,
+      60
+    ],
+    "types": [
+      {
+        "id": "6"
+      }
+    ],
+    "forme": "own-tempo"
+  },
+  {
+    "id": 745,
+    "abilities": [
+      {
+        "id": "181",
+        "isHidden": false
+      }
+    ],
+    "name": "lycanroc",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10152.png",
+    "stats": [
+      75,
+      117,
+      65,
+      55,
+      65,
+      110
+    ],
+    "types": [
+      {
+        "id": "6"
+      }
+    ],
+    "forme": "dusk"
+  },
+  {
+    "id": 752,
+    "abilities": [
+      {
+        "id": "199",
+        "isHidden": false
+      },
+      {
+        "id": "11",
+        "isHidden": true
+      }
+    ],
+    "name": "araquanid",
+    "sprite": null,
+    "stats": [
+      68,
+      70,
+      92,
+      50,
+      132,
+      42
+    ],
+    "types": [
+      {
+        "id": "11"
+      },
+      {
+        "id": "7"
+      }
+    ],
+    "forme": "totem"
+  },
+  {
+    "id": 777,
+    "abilities": [
+      {
+        "id": "160",
+        "isHidden": false
+      },
+      {
+        "id": "31",
+        "isHidden": false
+      },
+      {
+        "id": "5",
+        "isHidden": true
+      }
+    ],
+    "name": "togedemaru",
+    "sprite": null,
+    "stats": [
+      65,
+      98,
+      63,
+      40,
+      73,
+      96
+    ],
+    "types": [
+      {
+        "id": "13"
+      },
+      {
+        "id": "9"
+      }
+    ],
+    "forme": "totem"
+  },
+  {
+    "id": 800,
+    "abilities": [
+      {
+        "id": "232",
+        "isHidden": false
+      }
+    ],
+    "name": "necrozma",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10155.png",
+    "stats": [
+      97,
+      157,
+      127,
+      113,
+      109,
+      77
+    ],
+    "types": [
+      {
+        "id": "14"
+      },
+      {
+        "id": "9"
+      }
+    ],
+    "forme": "dusk-mane"
+  },
+  {
+    "id": 800,
+    "abilities": [
+      {
+        "id": "232",
+        "isHidden": false
+      }
+    ],
+    "name": "necrozma",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10156.png",
+    "stats": [
+      97,
+      113,
+      109,
+      157,
+      127,
+      77
+    ],
+    "types": [
+      {
+        "id": "14"
+      },
+      {
+        "id": "8"
+      }
+    ],
+    "forme": "dawn-wings"
+  },
+  {
+    "id": 800,
+    "abilities": [
+      {
+        "id": "233",
+        "isHidden": false
+      }
+    ],
+    "name": "necrozma",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10157.png",
+    "stats": [
+      97,
+      167,
+      97,
+      167,
+      97,
+      129
+    ],
+    "types": [
+      {
+        "id": "14"
+      },
+      {
+        "id": "16"
+      }
+    ],
+    "forme": "ultra"
+  },
+  {
+    "id": 25,
+    "abilities": [
+      {
+        "id": "9",
+        "isHidden": false
+      },
+      {
+        "id": "31",
+        "isHidden": true
+      }
+    ],
+    "name": "pikachu",
+    "sprite": null,
+    "stats": [
+      45,
+      80,
+      50,
+      75,
+      60,
+      120
+    ],
+    "types": [
+      {
+        "id": "13"
+      }
+    ],
+    "forme": "starter"
+  },
+  {
+    "id": 133,
+    "abilities": [
+      {
+        "id": "50",
+        "isHidden": false
+      },
+      {
+        "id": "91",
+        "isHidden": false
+      },
+      {
+        "id": "107",
+        "isHidden": true
+      }
+    ],
+    "name": "eevee",
+    "sprite": null,
+    "stats": [
+      65,
+      75,
+      70,
+      65,
+      85,
+      75
+    ],
+    "types": [
+      {
+        "id": "1"
+      }
+    ],
+    "forme": "starter"
+  },
+  {
+    "id": 25,
+    "abilities": [
+      {
+        "id": "9",
+        "isHidden": false
+      },
+      {
+        "id": "31",
+        "isHidden": true
+      }
+    ],
+    "name": "pikachu",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10160.png",
+    "stats": [
+      35,
+      55,
+      40,
+      50,
+      50,
+      90
+    ],
+    "types": [
+      {
+        "id": "13"
+      }
+    ],
+    "forme": "world-cap"
+  },
+  {
+    "id": 52,
+    "abilities": [
+      {
+        "id": "53",
+        "isHidden": false
+      },
+      {
+        "id": "181",
+        "isHidden": false
+      },
+      {
+        "id": "127",
+        "isHidden": true
+      }
+    ],
+    "name": "meowth",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10161.png",
+    "stats": [
+      50,
+      65,
+      55,
+      40,
+      40,
+      40
+    ],
+    "types": [
+      {
+        "id": "9"
+      }
+    ],
+    "forme": "galar"
+  },
+  {
+    "id": 77,
+    "abilities": [
+      {
+        "id": "50",
+        "isHidden": false
+      },
+      {
+        "id": "257",
+        "isHidden": false
+      },
+      {
+        "id": "107",
+        "isHidden": true
+      }
+    ],
+    "name": "ponyta",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10162.png",
+    "stats": [
+      50,
+      85,
+      55,
+      65,
+      65,
+      90
+    ],
+    "types": [
+      {
+        "id": "14"
+      }
+    ],
+    "forme": "galar"
+  },
+  {
+    "id": 78,
+    "abilities": [
+      {
+        "id": "50",
+        "isHidden": false
+      },
+      {
+        "id": "257",
+        "isHidden": false
+      },
+      {
+        "id": "107",
+        "isHidden": true
+      }
+    ],
+    "name": "rapidash",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10163.png",
+    "stats": [
+      65,
+      100,
+      70,
+      80,
+      80,
+      105
+    ],
+    "types": [
+      {
+        "id": "14"
+      },
+      {
+        "id": "18"
+      }
+    ],
+    "forme": "galar"
+  },
+  {
+    "id": 79,
+    "abilities": [
+      {
+        "id": "82",
+        "isHidden": false
+      },
+      {
+        "id": "20",
+        "isHidden": false
+      },
+      {
+        "id": "144",
+        "isHidden": true
+      }
+    ],
+    "name": "slowpoke",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10164.png",
+    "stats": [
+      90,
+      65,
+      65,
+      40,
+      40,
+      15
+    ],
+    "types": [
+      {
+        "id": "14"
+      }
+    ],
+    "forme": "galar"
+  },
+  {
+    "id": 80,
+    "abilities": [
+      {
+        "id": "259",
+        "isHidden": false
+      },
+      {
+        "id": "20",
+        "isHidden": false
+      },
+      {
+        "id": "144",
+        "isHidden": true
+      }
+    ],
+    "name": "slowbro",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10165.png",
+    "stats": [
+      95,
+      100,
+      95,
+      100,
+      70,
+      30
+    ],
+    "types": [
+      {
+        "id": "4"
+      },
+      {
+        "id": "14"
+      }
+    ],
+    "forme": "galar"
+  },
+  {
+    "id": 83,
+    "abilities": [
+      {
+        "id": "80",
+        "isHidden": false
+      },
+      {
+        "id": "113",
+        "isHidden": true
+      }
+    ],
+    "name": "farfetchd",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10166.png",
+    "stats": [
+      52,
+      95,
+      55,
+      58,
+      62,
+      55
+    ],
+    "types": [
+      {
+        "id": "2"
+      }
+    ],
+    "forme": "galar"
+  },
+  {
+    "id": 110,
+    "abilities": [
+      {
+        "id": "26",
+        "isHidden": false
+      },
+      {
+        "id": "256",
+        "isHidden": false
+      },
+      {
+        "id": "228",
+        "isHidden": true
+      }
+    ],
+    "name": "weezing",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10167.png",
+    "stats": [
+      65,
+      90,
+      120,
+      85,
+      70,
+      60
+    ],
+    "types": [
+      {
+        "id": "4"
+      },
+      {
+        "id": "18"
+      }
+    ],
+    "forme": "galar"
+  },
+  {
+    "id": 122,
+    "abilities": [
+      {
+        "id": "72",
+        "isHidden": false
+      },
+      {
+        "id": "251",
+        "isHidden": false
+      },
+      {
+        "id": "115",
+        "isHidden": true
+      }
+    ],
+    "name": "mr.mime",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10168.png",
+    "stats": [
+      50,
+      65,
+      65,
+      90,
+      90,
+      100
+    ],
+    "types": [
+      {
+        "id": "15"
+      },
+      {
+        "id": "14"
+      }
+    ],
+    "forme": "galar"
+  },
+  {
+    "id": 144,
+    "abilities": [
+      {
+        "id": "172",
+        "isHidden": false
+      }
+    ],
+    "name": "articuno",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10169.png",
+    "stats": [
+      90,
+      85,
+      85,
+      125,
+      100,
+      95
+    ],
+    "types": [
+      {
+        "id": "14"
+      },
+      {
+        "id": "3"
+      }
+    ],
+    "forme": "galar"
+  },
+  {
+    "id": 145,
+    "abilities": [
+      {
+        "id": "128",
+        "isHidden": false
+      }
+    ],
+    "name": "zapdos",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10170.png",
+    "stats": [
+      90,
+      125,
+      90,
+      85,
+      90,
+      100
+    ],
+    "types": [
+      {
+        "id": "2"
+      },
+      {
+        "id": "3"
+      }
+    ],
+    "forme": "galar"
+  },
+  {
+    "id": 146,
+    "abilities": [
+      {
+        "id": "201",
+        "isHidden": false
+      }
+    ],
+    "name": "moltres",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10171.png",
+    "stats": [
+      90,
+      85,
+      90,
+      100,
+      125,
+      90
+    ],
+    "types": [
+      {
+        "id": "17"
+      },
+      {
+        "id": "3"
+      }
+    ],
+    "forme": "galar"
+  },
+  {
+    "id": 199,
+    "abilities": [
+      {
+        "id": "261",
+        "isHidden": false
+      },
+      {
+        "id": "20",
+        "isHidden": false
+      },
+      {
+        "id": "144",
+        "isHidden": true
+      }
+    ],
+    "name": "slowking",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10172.png",
+    "stats": [
+      95,
+      65,
+      80,
+      110,
+      110,
+      30
+    ],
+    "types": [
+      {
+        "id": "4"
+      },
+      {
+        "id": "14"
+      }
+    ],
+    "forme": "galar"
+  },
+  {
+    "id": 222,
+    "abilities": [
+      {
+        "id": "133",
+        "isHidden": false
+      },
+      {
+        "id": "130",
+        "isHidden": true
+      }
+    ],
+    "name": "corsola",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10173.png",
+    "stats": [
+      60,
+      55,
+      100,
+      65,
+      100,
+      30
+    ],
+    "types": [
+      {
+        "id": "8"
+      }
+    ],
+    "forme": "galar"
+  },
+  {
+    "id": 263,
+    "abilities": [
+      {
+        "id": "53",
+        "isHidden": false
+      },
+      {
+        "id": "82",
+        "isHidden": false
+      },
+      {
+        "id": "95",
+        "isHidden": true
+      }
+    ],
+    "name": "zigzagoon",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10174.png",
+    "stats": [
+      38,
+      30,
+      41,
+      30,
+      41,
+      60
+    ],
+    "types": [
+      {
+        "id": "17"
+      },
+      {
+        "id": "1"
+      }
+    ],
+    "forme": "galar"
+  },
+  {
+    "id": 264,
+    "abilities": [
+      {
+        "id": "53",
+        "isHidden": false
+      },
+      {
+        "id": "82",
+        "isHidden": false
+      },
+      {
+        "id": "95",
+        "isHidden": true
+      }
+    ],
+    "name": "linoone",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10175.png",
+    "stats": [
+      78,
+      70,
+      61,
+      50,
+      61,
+      100
+    ],
+    "types": [
+      {
+        "id": "17"
+      },
+      {
+        "id": "1"
+      }
+    ],
+    "forme": "galar"
+  },
+  {
+    "id": 554,
+    "abilities": [
+      {
+        "id": "55",
+        "isHidden": false
+      },
+      {
+        "id": "39",
+        "isHidden": true
+      }
+    ],
+    "name": "darumaka",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10176.png",
+    "stats": [
+      70,
+      90,
+      45,
+      15,
+      45,
+      50
+    ],
+    "types": [
+      {
+        "id": "15"
+      }
+    ],
+    "forme": "galar"
+  },
+  {
+    "id": 555,
+    "abilities": [
+      {
+        "id": "255",
+        "isHidden": false
+      },
+      {
+        "id": "161",
+        "isHidden": true
+      }
+    ],
+    "name": "darmanitan",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10177.png",
+    "stats": [
+      105,
+      140,
+      55,
+      30,
+      55,
+      95
+    ],
+    "types": [
+      {
+        "id": "15"
+      }
+    ],
+    "forme": "galar"
+  },
+  {
+    "id": 555,
+    "abilities": [
+      {
+        "id": "255",
+        "isHidden": false
+      },
+      {
+        "id": "161",
+        "isHidden": true
+      }
+    ],
+    "name": "darmanitan",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10178.png",
+    "stats": [
+      105,
+      160,
+      55,
+      30,
+      55,
+      135
+    ],
+    "types": [
+      {
+        "id": "15"
+      },
+      {
+        "id": "10"
+      }
+    ],
+    "forme": "galar-zen"
+  },
+  {
+    "id": 562,
+    "abilities": [
+      {
+        "id": "254",
+        "isHidden": false
+      }
+    ],
+    "name": "yamask",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10179.png",
+    "stats": [
+      38,
+      55,
+      85,
+      30,
+      65,
+      30
+    ],
+    "types": [
+      {
+        "id": "5"
+      },
+      {
+        "id": "8"
+      }
+    ],
+    "forme": "galar"
+  },
+  {
+    "id": 618,
+    "abilities": [
+      {
+        "id": "250",
+        "isHidden": false
+      }
+    ],
+    "name": "stunfisk",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10180.png",
+    "stats": [
+      109,
+      81,
+      99,
+      66,
+      84,
+      32
+    ],
+    "types": [
+      {
+        "id": "5"
+      },
+      {
+        "id": "9"
+      }
+    ],
+    "forme": "galar"
+  },
+  {
+    "id": 718,
+    "abilities": [
+      {
+        "id": "188",
+        "isHidden": false
+      }
+    ],
+    "name": "zygarde",
+    "sprite": null,
+    "stats": [
+      54,
+      100,
+      71,
+      61,
+      85,
+      115
+    ],
+    "types": [
+      {
+        "id": "16"
+      },
+      {
+        "id": "5"
+      }
+    ],
+    "forme": "10"
+  },
+  {
+    "id": 845,
+    "abilities": [
+      {
+        "id": "241",
+        "isHidden": false
+      }
+    ],
+    "name": "cramorant",
+    "sprite": null,
+    "stats": [
+      70,
+      85,
+      55,
+      85,
+      95,
+      85
+    ],
+    "types": [
+      {
+        "id": "3"
+      },
+      {
+        "id": "11"
+      }
+    ],
+    "forme": "gulping"
+  },
+  {
+    "id": 845,
+    "abilities": [
+      {
+        "id": "241",
+        "isHidden": false
+      }
+    ],
+    "name": "cramorant",
+    "sprite": null,
+    "stats": [
+      70,
+      85,
+      55,
+      85,
+      95,
+      85
+    ],
+    "types": [
+      {
+        "id": "3"
+      },
+      {
+        "id": "11"
+      }
+    ],
+    "forme": "gorging"
+  },
+  {
+    "id": 849,
+    "abilities": [
+      {
+        "id": "244",
+        "isHidden": false
+      },
+      {
+        "id": "58",
+        "isHidden": false
+      },
+      {
+        "id": "101",
+        "isHidden": true
+      }
+    ],
+    "name": "toxtricity",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10184.png",
+    "stats": [
+      75,
+      98,
+      70,
+      114,
+      70,
+      75
+    ],
+    "types": [
+      {
+        "id": "13"
+      },
+      {
+        "id": "4"
+      }
+    ],
+    "forme": "low-key"
+  },
+  {
+    "id": 875,
+    "abilities": [
+      {
+        "id": "248",
+        "isHidden": false
+      }
+    ],
+    "name": "eiscue",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10185.png",
+    "stats": [
+      75,
+      80,
+      70,
+      65,
+      50,
+      130
+    ],
+    "types": [
+      {
+        "id": "15"
+      }
+    ],
+    "forme": "noice"
+  },
+  {
+    "id": 876,
+    "abilities": [
+      {
+        "id": "20",
+        "isHidden": false
+      },
+      {
+        "id": "28",
+        "isHidden": false
+      },
+      {
+        "id": "227",
+        "isHidden": true
+      }
+    ],
+    "name": "indeedee",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10186.png",
+    "stats": [
+      70,
+      55,
+      65,
+      95,
+      105,
+      85
+    ],
+    "types": [
+      {
+        "id": "14"
+      },
+      {
+        "id": "1"
+      }
+    ],
+    "forme": "female"
+  },
+  {
+    "id": 877,
+    "abilities": [
+      {
+        "id": "258",
+        "isHidden": false
+      }
+    ],
+    "name": "morpeko",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10187.png",
+    "stats": [
+      58,
+      95,
+      58,
+      70,
+      58,
+      97
+    ],
+    "types": [
+      {
+        "id": "13"
+      },
+      {
+        "id": "17"
+      }
+    ],
+    "forme": "hangry"
+  },
+  {
+    "id": 888,
+    "abilities": [
+      {
+        "id": "234",
+        "isHidden": false
+      }
+    ],
+    "name": "zacian",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10188.png",
+    "stats": [
+      92,
+      150,
+      115,
+      80,
+      115,
+      148
+    ],
+    "types": [
+      {
+        "id": "18"
+      },
+      {
+        "id": "9"
+      }
+    ],
+    "forme": "crowned"
+  },
+  {
+    "id": 889,
+    "abilities": [
+      {
+        "id": "235",
+        "isHidden": false
+      }
+    ],
+    "name": "zamazenta",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10189.png",
+    "stats": [
+      92,
+      120,
+      140,
+      80,
+      140,
+      128
+    ],
+    "types": [
+      {
+        "id": "2"
+      },
+      {
+        "id": "9"
+      }
+    ],
+    "forme": "crowned"
+  },
+  {
+    "id": 890,
+    "abilities": [
+      {
+        "id": "46",
+        "isHidden": false
+      }
+    ],
+    "name": "eternatus",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10190.png",
+    "stats": [
+      255,
+      115,
+      250,
+      125,
+      250,
+      130
+    ],
+    "types": [
+      {
+        "id": "4"
+      },
+      {
+        "id": "16"
+      }
+    ],
+    "forme": "eternamax"
+  },
+  {
+    "id": 892,
+    "abilities": [
+      {
+        "id": "260",
+        "isHidden": false
+      }
+    ],
+    "name": "urshifu",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10191.png",
+    "stats": [
+      100,
+      130,
+      100,
+      63,
+      60,
+      97
+    ],
+    "types": [
+      {
+        "id": "2"
+      },
+      {
+        "id": "11"
+      }
+    ],
+    "forme": "rapid-strike"
+  },
+  {
+    "id": 893,
+    "abilities": [
+      {
+        "id": "102",
+        "isHidden": false
+      }
+    ],
+    "name": "zarude",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10192.png",
+    "stats": [
+      105,
+      120,
+      105,
+      70,
+      95,
+      105
+    ],
+    "types": [
+      {
+        "id": "17"
+      },
+      {
+        "id": "12"
+      }
+    ],
+    "forme": "dada"
+  },
+  {
+    "id": 898,
+    "abilities": [
+      {
+        "id": "266",
+        "isHidden": false
+      }
+    ],
+    "name": "calyrex",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10193.png",
+    "stats": [
+      100,
+      165,
+      150,
+      85,
+      130,
+      50
+    ],
+    "types": [
+      {
+        "id": "14"
+      },
+      {
+        "id": "15"
+      }
+    ],
+    "forme": "ice"
+  },
+  {
+    "id": 898,
+    "abilities": [
+      {
+        "id": "267",
+        "isHidden": false
+      }
+    ],
+    "name": "calyrex",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10194.png",
+    "stats": [
+      100,
+      85,
+      80,
+      165,
+      100,
+      150
+    ],
+    "types": [
+      {
+        "id": "14"
+      },
+      {
+        "id": "8"
+      }
+    ],
+    "forme": "shadow"
+  },
+  {
+    "id": 3,
+    "abilities": [
+      {
+        "id": "65",
+        "isHidden": false
+      },
+      {
+        "id": "34",
+        "isHidden": true
+      }
+    ],
+    "name": "venusaur",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10195.png",
+    "stats": [
+      80,
+      82,
+      83,
+      100,
+      100,
+      80
+    ],
+    "types": [
+      {
+        "id": "12"
+      },
+      {
+        "id": "4"
+      }
+    ],
+    "forme": "gmax"
+  },
+  {
+    "id": 6,
+    "abilities": [
+      {
+        "id": "66",
+        "isHidden": false
+      },
+      {
+        "id": "94",
+        "isHidden": true
+      }
+    ],
+    "name": "charizard",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10196.png",
+    "stats": [
+      78,
+      84,
+      78,
+      109,
+      85,
+      100
+    ],
+    "types": [
+      {
+        "id": "10"
+      },
+      {
+        "id": "3"
+      }
+    ],
+    "forme": "gmax"
+  },
+  {
+    "id": 9,
+    "abilities": [
+      {
+        "id": "67",
+        "isHidden": false
+      },
+      {
+        "id": "44",
+        "isHidden": true
+      }
+    ],
+    "name": "blastoise",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10197.png",
+    "stats": [
+      79,
+      83,
+      100,
+      85,
+      105,
+      78
+    ],
+    "types": [
+      {
+        "id": "11"
+      }
+    ],
+    "forme": "gmax"
+  },
+  {
+    "id": 12,
+    "abilities": [
+      {
+        "id": "14",
+        "isHidden": false
+      },
+      {
+        "id": "110",
+        "isHidden": true
+      }
+    ],
+    "name": "butterfree",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10198.png",
+    "stats": [
+      60,
+      45,
+      50,
+      90,
+      80,
+      70
+    ],
+    "types": [
+      {
+        "id": "7"
+      },
+      {
+        "id": "3"
+      }
+    ],
+    "forme": "gmax"
+  },
+  {
+    "id": 25,
+    "abilities": [
+      {
+        "id": "9",
+        "isHidden": false
+      },
+      {
+        "id": "31",
+        "isHidden": true
+      }
+    ],
+    "name": "pikachu",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10199.png",
+    "stats": [
+      35,
+      55,
+      40,
+      50,
+      50,
+      90
+    ],
+    "types": [
+      {
+        "id": "13"
+      }
+    ],
+    "forme": "gmax"
+  },
+  {
+    "id": 52,
+    "abilities": [
+      {
+        "id": "53",
+        "isHidden": false
+      },
+      {
+        "id": "101",
+        "isHidden": false
+      },
+      {
+        "id": "127",
+        "isHidden": true
+      }
+    ],
+    "name": "meowth",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10200.png",
+    "stats": [
+      40,
+      45,
+      35,
+      40,
+      40,
+      90
+    ],
+    "types": [
+      {
+        "id": "1"
+      }
+    ],
+    "forme": "gmax"
+  },
+  {
+    "id": 68,
+    "abilities": [
+      {
+        "id": "62",
+        "isHidden": false
+      },
+      {
+        "id": "99",
+        "isHidden": false
+      },
+      {
+        "id": "80",
+        "isHidden": true
+      }
+    ],
+    "name": "machamp",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10201.png",
+    "stats": [
+      90,
+      130,
+      80,
+      65,
+      85,
+      55
+    ],
+    "types": [
+      {
+        "id": "2"
+      }
+    ],
+    "forme": "gmax"
+  },
+  {
+    "id": 94,
+    "abilities": [
+      {
+        "id": "130",
+        "isHidden": false
+      }
+    ],
+    "name": "gengar",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10202.png",
+    "stats": [
+      60,
+      65,
+      60,
+      130,
+      75,
+      110
+    ],
+    "types": [
+      {
+        "id": "8"
+      },
+      {
+        "id": "4"
+      }
+    ],
+    "forme": "gmax"
+  },
+  {
+    "id": 99,
+    "abilities": [
+      {
+        "id": "52",
+        "isHidden": false
+      },
+      {
+        "id": "75",
+        "isHidden": false
+      },
+      {
+        "id": "125",
+        "isHidden": true
+      }
+    ],
+    "name": "kingler",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10203.png",
+    "stats": [
+      55,
+      130,
+      115,
+      50,
+      50,
+      75
+    ],
+    "types": [
+      {
+        "id": "11"
+      }
+    ],
+    "forme": "gmax"
+  },
+  {
+    "id": 131,
+    "abilities": [
+      {
+        "id": "11",
+        "isHidden": false
+      },
+      {
+        "id": "75",
+        "isHidden": false
+      },
+      {
+        "id": "93",
+        "isHidden": true
+      }
+    ],
+    "name": "lapras",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10204.png",
+    "stats": [
+      130,
+      85,
+      80,
+      85,
+      95,
+      60
+    ],
+    "types": [
+      {
+        "id": "11"
+      },
+      {
+        "id": "15"
+      }
+    ],
+    "forme": "gmax"
+  },
+  {
+    "id": 133,
+    "abilities": [
+      {
+        "id": "50",
+        "isHidden": false
+      },
+      {
+        "id": "91",
+        "isHidden": false
+      },
+      {
+        "id": "107",
+        "isHidden": true
+      }
+    ],
+    "name": "eevee",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10205.png",
+    "stats": [
+      55,
+      55,
+      50,
+      45,
+      65,
+      55
+    ],
+    "types": [
+      {
+        "id": "1"
+      }
+    ],
+    "forme": "gmax"
+  },
+  {
+    "id": 143,
+    "abilities": [
+      {
+        "id": "17",
+        "isHidden": false
+      },
+      {
+        "id": "47",
+        "isHidden": false
+      },
+      {
+        "id": "82",
+        "isHidden": true
+      }
+    ],
+    "name": "snorlax",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10206.png",
+    "stats": [
+      160,
+      110,
+      65,
+      65,
+      110,
+      30
+    ],
+    "types": [
+      {
+        "id": "1"
+      }
+    ],
+    "forme": "gmax"
+  },
+  {
+    "id": 569,
+    "abilities": [
+      {
+        "id": "1",
+        "isHidden": false
+      },
+      {
+        "id": "133",
+        "isHidden": false
+      },
+      {
+        "id": "106",
+        "isHidden": true
+      }
+    ],
+    "name": "garbodor",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10207.png",
+    "stats": [
+      80,
+      95,
+      82,
+      60,
+      82,
+      75
+    ],
+    "types": [
+      {
+        "id": "4"
+      }
+    ],
+    "forme": "gmax"
+  },
+  {
+    "id": 809,
+    "abilities": [
+      {
+        "id": "89",
+        "isHidden": false
+      }
+    ],
+    "name": "melmetal",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10208.png",
+    "stats": [
+      135,
+      143,
+      143,
+      80,
+      65,
+      34
+    ],
+    "types": [
+      {
+        "id": "9"
+      }
+    ],
+    "forme": "gmax"
+  },
+  {
+    "id": 812,
+    "abilities": [
+      {
+        "id": "65",
+        "isHidden": false
+      },
+      {
+        "id": "229",
+        "isHidden": true
+      }
+    ],
+    "name": "rillaboom",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10209.png",
+    "stats": [
+      100,
+      125,
+      90,
+      60,
+      70,
+      85
+    ],
+    "types": [
+      {
+        "id": "12"
+      }
+    ],
+    "forme": "gmax"
+  },
+  {
+    "id": 815,
+    "abilities": [
+      {
+        "id": "66",
+        "isHidden": false
+      },
+      {
+        "id": "236",
+        "isHidden": true
+      }
+    ],
+    "name": "cinderace",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10210.png",
+    "stats": [
+      80,
+      116,
+      75,
+      65,
+      75,
+      119
+    ],
+    "types": [
+      {
+        "id": "10"
+      }
+    ],
+    "forme": "gmax"
+  },
+  {
+    "id": 818,
+    "abilities": [
+      {
+        "id": "67",
+        "isHidden": false
+      },
+      {
+        "id": "97",
+        "isHidden": true
+      }
+    ],
+    "name": "inteleon",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10211.png",
+    "stats": [
+      70,
+      85,
+      65,
+      125,
+      65,
+      120
+    ],
+    "types": [
+      {
+        "id": "11"
+      }
+    ],
+    "forme": "gmax"
+  },
+  {
+    "id": 823,
+    "abilities": [
+      {
+        "id": "46",
+        "isHidden": false
+      },
+      {
+        "id": "127",
+        "isHidden": false
+      },
+      {
+        "id": "240",
+        "isHidden": true
+      }
+    ],
+    "name": "corviknight",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10212.png",
+    "stats": [
+      98,
+      87,
+      105,
+      53,
+      85,
+      67
+    ],
+    "types": [
+      {
+        "id": "3"
+      },
+      {
+        "id": "9"
+      }
+    ],
+    "forme": "gmax"
+  },
+  {
+    "id": 826,
+    "abilities": [
+      {
+        "id": "68",
+        "isHidden": false
+      },
+      {
+        "id": "119",
+        "isHidden": false
+      },
+      {
+        "id": "140",
+        "isHidden": true
+      }
+    ],
+    "name": "orbeetle",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10213.png",
+    "stats": [
+      60,
+      45,
+      110,
+      80,
+      120,
+      90
+    ],
+    "types": [
+      {
+        "id": "7"
+      },
+      {
+        "id": "14"
+      }
+    ],
+    "forme": "gmax"
+  },
+  {
+    "id": 834,
+    "abilities": [
+      {
+        "id": "173",
+        "isHidden": false
+      },
+      {
+        "id": "75",
+        "isHidden": false
+      },
+      {
+        "id": "33",
+        "isHidden": true
+      }
+    ],
+    "name": "drednaw",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10214.png",
+    "stats": [
+      90,
+      115,
+      90,
+      48,
+      68,
+      74
+    ],
+    "types": [
+      {
+        "id": "11"
+      },
+      {
+        "id": "6"
+      }
+    ],
+    "forme": "gmax"
+  },
+  {
+    "id": 839,
+    "abilities": [
+      {
+        "id": "243",
+        "isHidden": false
+      },
+      {
+        "id": "49",
+        "isHidden": false
+      },
+      {
+        "id": "18",
+        "isHidden": true
+      }
+    ],
+    "name": "coalossal",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10215.png",
+    "stats": [
+      110,
+      80,
+      120,
+      80,
+      90,
+      30
+    ],
+    "types": [
+      {
+        "id": "6"
+      },
+      {
+        "id": "10"
+      }
+    ],
+    "forme": "gmax"
+  },
+  {
+    "id": 841,
+    "abilities": [
+      {
+        "id": "247",
+        "isHidden": false
+      },
+      {
+        "id": "82",
+        "isHidden": false
+      },
+      {
+        "id": "55",
+        "isHidden": true
+      }
+    ],
+    "name": "flapple",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10216.png",
+    "stats": [
+      70,
+      110,
+      80,
+      95,
+      60,
+      70
+    ],
+    "types": [
+      {
+        "id": "12"
+      },
+      {
+        "id": "16"
+      }
+    ],
+    "forme": "gmax"
+  },
+  {
+    "id": 842,
+    "abilities": [
+      {
+        "id": "247",
+        "isHidden": false
+      },
+      {
+        "id": "82",
+        "isHidden": false
+      },
+      {
+        "id": "47",
+        "isHidden": true
+      }
+    ],
+    "name": "appletun",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10217.png",
+    "stats": [
+      110,
+      85,
+      80,
+      100,
+      80,
+      30
+    ],
+    "types": [
+      {
+        "id": "12"
+      },
+      {
+        "id": "16"
+      }
+    ],
+    "forme": "gmax"
+  },
+  {
+    "id": 844,
+    "abilities": [
+      {
+        "id": "245",
+        "isHidden": false
+      },
+      {
+        "id": "61",
+        "isHidden": false
+      },
+      {
+        "id": "8",
+        "isHidden": true
+      }
+    ],
+    "name": "sandaconda",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10218.png",
+    "stats": [
+      72,
+      107,
+      125,
+      65,
+      70,
+      71
+    ],
+    "types": [
+      {
+        "id": "5"
+      }
+    ],
+    "forme": "gmax"
+  },
+  {
+    "id": 849,
+    "abilities": [
+      {
+        "id": "244",
+        "isHidden": false
+      },
+      {
+        "id": "57",
+        "isHidden": false
+      },
+      {
+        "id": "101",
+        "isHidden": true
+      }
+    ],
+    "name": "toxtricity",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10219.png",
+    "stats": [
+      75,
+      98,
+      70,
+      114,
+      70,
+      75
+    ],
+    "types": [
+      {
+        "id": "13"
+      },
+      {
+        "id": "4"
+      }
+    ],
+    "forme": "amped-gmax"
+  },
+  {
+    "id": 851,
+    "abilities": [
+      {
+        "id": "18",
+        "isHidden": false
+      },
+      {
+        "id": "73",
+        "isHidden": false
+      },
+      {
+        "id": "49",
+        "isHidden": true
+      }
+    ],
+    "name": "centiskorch",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10220.png",
+    "stats": [
+      100,
+      115,
+      65,
+      90,
+      90,
+      65
+    ],
+    "types": [
+      {
+        "id": "10"
+      },
+      {
+        "id": "7"
+      }
+    ],
+    "forme": "gmax"
+  },
+  {
+    "id": 858,
+    "abilities": [
+      {
+        "id": "131",
+        "isHidden": false
+      },
+      {
+        "id": "107",
+        "isHidden": false
+      },
+      {
+        "id": "156",
+        "isHidden": true
+      }
+    ],
+    "name": "hatterene",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10221.png",
+    "stats": [
+      57,
+      90,
+      95,
+      136,
+      103,
+      29
+    ],
+    "types": [
+      {
+        "id": "14"
+      },
+      {
+        "id": "18"
+      }
+    ],
+    "forme": "gmax"
+  },
+  {
+    "id": 861,
+    "abilities": [
+      {
+        "id": "158",
+        "isHidden": false
+      },
+      {
+        "id": "119",
+        "isHidden": false
+      },
+      {
+        "id": "124",
+        "isHidden": true
+      }
+    ],
+    "name": "grimmsnarl",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10222.png",
+    "stats": [
+      95,
+      120,
+      65,
+      95,
+      75,
+      60
+    ],
+    "types": [
+      {
+        "id": "17"
+      },
+      {
+        "id": "18"
+      }
+    ],
+    "forme": "gmax"
+  },
+  {
+    "id": 869,
+    "abilities": [
+      {
+        "id": "175",
+        "isHidden": false
+      },
+      {
+        "id": "165",
+        "isHidden": true
+      }
+    ],
+    "name": "alcremie",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10223.png",
+    "stats": [
+      65,
+      60,
+      75,
+      110,
+      121,
+      64
+    ],
+    "types": [
+      {
+        "id": "18"
+      }
+    ],
+    "forme": "gmax"
+  },
+  {
+    "id": 879,
+    "abilities": [
+      {
+        "id": "125",
+        "isHidden": false
+      },
+      {
+        "id": "134",
+        "isHidden": true
+      }
+    ],
+    "name": "copperajah",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10224.png",
+    "stats": [
+      122,
+      130,
+      69,
+      80,
+      69,
+      30
+    ],
+    "types": [
+      {
+        "id": "9"
+      }
+    ],
+    "forme": "gmax"
+  },
+  {
+    "id": 884,
+    "abilities": [
+      {
+        "id": "135",
+        "isHidden": false
+      },
+      {
+        "id": "134",
+        "isHidden": false
+      },
+      {
+        "id": "242",
+        "isHidden": true
+      }
+    ],
+    "name": "duraludon",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10225.png",
+    "stats": [
+      70,
+      95,
+      115,
+      120,
+      50,
+      85
+    ],
+    "types": [
+      {
+        "id": "9"
+      },
+      {
+        "id": "16"
+      }
+    ],
+    "forme": "gmax"
+  },
+  {
+    "id": 892,
+    "abilities": [
+      {
+        "id": "260",
+        "isHidden": false
+      }
+    ],
+    "name": "urshifu",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10226.png",
+    "stats": [
+      100,
+      130,
+      100,
+      63,
+      60,
+      97
+    ],
+    "types": [
+      {
+        "id": "2"
+      },
+      {
+        "id": "17"
+      }
+    ],
+    "forme": "single-strike-gmax"
+  },
+  {
+    "id": 892,
+    "abilities": [
+      {
+        "id": "260",
+        "isHidden": false
+      }
+    ],
+    "name": "urshifu",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10227.png",
+    "stats": [
+      100,
+      130,
+      100,
+      63,
+      60,
+      97
+    ],
+    "types": [
+      {
+        "id": "2"
+      },
+      {
+        "id": "11"
+      }
+    ],
+    "forme": "rapid-strike-gmax"
+  },
+  {
+    "id": 849,
+    "abilities": [
+      {
+        "id": "244",
+        "isHidden": false
+      },
+      {
+        "id": "58",
+        "isHidden": false
+      },
+      {
+        "id": "101",
+        "isHidden": true
+      }
+    ],
+    "name": "toxtricity",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10228.png",
+    "stats": [
+      75,
+      98,
+      70,
+      114,
+      70,
+      75
+    ],
+    "types": [
+      {
+        "id": "13"
+      },
+      {
+        "id": "4"
+      }
+    ],
+    "forme": "low-key-gmax"
+  },
+  {
+    "id": 58,
+    "abilities": [
+      {
+        "id": "22",
+        "isHidden": false
+      },
+      {
+        "id": "18",
+        "isHidden": false
+      },
+      {
+        "id": "69",
+        "isHidden": true
+      }
+    ],
+    "name": "growlithe",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10229.png",
+    "stats": [
+      60,
+      75,
+      45,
+      65,
+      50,
+      55
+    ],
+    "types": [
+      {
+        "id": "10"
+      },
+      {
+        "id": "6"
+      }
+    ],
+    "forme": "hisui"
+  },
+  {
+    "id": 59,
+    "abilities": [
+      {
+        "id": "22",
+        "isHidden": false
+      },
+      {
+        "id": "18",
+        "isHidden": false
+      },
+      {
+        "id": "69",
+        "isHidden": true
+      }
+    ],
+    "name": "arcanine",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10230.png",
+    "stats": [
+      95,
+      115,
+      80,
+      95,
+      80,
+      90
+    ],
+    "types": [
+      {
+        "id": "10"
+      },
+      {
+        "id": "6"
+      }
+    ],
+    "forme": "hisui"
+  },
+  {
+    "id": 100,
+    "abilities": [
+      {
+        "id": "43",
+        "isHidden": false
+      },
+      {
+        "id": "9",
+        "isHidden": false
+      },
+      {
+        "id": "106",
+        "isHidden": true
+      }
+    ],
+    "name": "voltorb",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10231.png",
+    "stats": [
+      40,
+      30,
+      50,
+      55,
+      55,
+      100
+    ],
+    "types": [
+      {
+        "id": "13"
+      },
+      {
+        "id": "12"
+      }
+    ],
+    "forme": "hisui"
+  },
+  {
+    "id": 101,
+    "abilities": [
+      {
+        "id": "43",
+        "isHidden": false
+      },
+      {
+        "id": "9",
+        "isHidden": false
+      },
+      {
+        "id": "106",
+        "isHidden": true
+      }
+    ],
+    "name": "electrode",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10232.png",
+    "stats": [
+      60,
+      50,
+      70,
+      80,
+      80,
+      150
+    ],
+    "types": [
+      {
+        "id": "13"
+      },
+      {
+        "id": "12"
+      }
+    ],
+    "forme": "hisui"
+  },
+  {
+    "id": 157,
+    "abilities": [
+      {
+        "id": "66",
+        "isHidden": false
+      },
+      {
+        "id": "119",
+        "isHidden": true
+      }
+    ],
+    "name": "typhlosion",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10233.png",
+    "stats": [
+      73,
+      84,
+      78,
+      119,
+      85,
+      95
+    ],
+    "types": [
+      {
+        "id": "10"
+      },
+      {
+        "id": "8"
+      }
+    ],
+    "forme": "hisui"
+  },
+  {
+    "id": 211,
+    "abilities": [
+      {
+        "id": "38",
+        "isHidden": false
+      },
+      {
+        "id": "33",
+        "isHidden": false
+      },
+      {
+        "id": "22",
+        "isHidden": true
+      }
+    ],
+    "name": "qwilfish",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10234.png",
+    "stats": [
+      65,
+      95,
+      85,
+      55,
+      55,
+      85
+    ],
+    "types": [
+      {
+        "id": "17"
+      },
+      {
+        "id": "4"
+      }
+    ],
+    "forme": "hisui"
+  },
+  {
+    "id": 215,
+    "abilities": [
+      {
+        "id": "39",
+        "isHidden": false
+      },
+      {
+        "id": "51",
+        "isHidden": false
+      },
+      {
+        "id": "124",
+        "isHidden": true
+      }
+    ],
+    "name": "sneasel",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10235.png",
+    "stats": [
+      55,
+      95,
+      55,
+      35,
+      75,
+      115
+    ],
+    "types": [
+      {
+        "id": "2"
+      },
+      {
+        "id": "4"
+      }
+    ],
+    "forme": "hisui"
+  },
+  {
+    "id": 503,
+    "abilities": [
+      {
+        "id": "67",
+        "isHidden": false
+      },
+      {
+        "id": "292",
+        "isHidden": true
+      }
+    ],
+    "name": "samurott",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10236.png",
+    "stats": [
+      90,
+      108,
+      80,
+      100,
+      65,
+      85
+    ],
+    "types": [
+      {
+        "id": "11"
+      },
+      {
+        "id": "17"
+      }
+    ],
+    "forme": "hisui"
+  },
+  {
+    "id": 549,
+    "abilities": [
+      {
+        "id": "34",
+        "isHidden": false
+      },
+      {
+        "id": "55",
+        "isHidden": false
+      },
+      {
+        "id": "102",
+        "isHidden": true
+      }
+    ],
+    "name": "lilligant",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10237.png",
+    "stats": [
+      70,
+      105,
+      75,
+      50,
+      75,
+      105
+    ],
+    "types": [
+      {
+        "id": "12"
+      },
+      {
+        "id": "2"
+      }
+    ],
+    "forme": "hisui"
+  },
+  {
+    "id": 570,
+    "abilities": [
+      {
+        "id": "149",
+        "isHidden": false
+      }
+    ],
+    "name": "zorua",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10238.png",
+    "stats": [
+      35,
+      60,
+      40,
+      85,
+      40,
+      70
+    ],
+    "types": [
+      {
+        "id": "1"
+      },
+      {
+        "id": "8"
+      }
+    ],
+    "forme": "hisui"
+  },
+  {
+    "id": 571,
+    "abilities": [
+      {
+        "id": "149",
+        "isHidden": false
+      }
+    ],
+    "name": "zoroark",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10239.png",
+    "stats": [
+      55,
+      100,
+      60,
+      125,
+      60,
+      110
+    ],
+    "types": [
+      {
+        "id": "1"
+      },
+      {
+        "id": "8"
+      }
+    ],
+    "forme": "hisui"
+  },
+  {
+    "id": 628,
+    "abilities": [
+      {
+        "id": "51",
+        "isHidden": false
+      },
+      {
+        "id": "125",
+        "isHidden": false
+      },
+      {
+        "id": "110",
+        "isHidden": true
+      }
+    ],
+    "name": "braviary",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10240.png",
+    "stats": [
+      110,
+      83,
+      70,
+      112,
+      70,
+      65
+    ],
+    "types": [
+      {
+        "id": "14"
+      },
+      {
+        "id": "3"
+      }
+    ],
+    "forme": "hisui"
+  },
+  {
+    "id": 705,
+    "abilities": [
+      {
+        "id": "157",
+        "isHidden": false
+      },
+      {
+        "id": "75",
+        "isHidden": false
+      },
+      {
+        "id": "183",
+        "isHidden": true
+      }
+    ],
+    "name": "sliggoo",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10241.png",
+    "stats": [
+      58,
+      75,
+      83,
+      83,
+      113,
+      40
+    ],
+    "types": [
+      {
+        "id": "9"
+      },
+      {
+        "id": "16"
+      }
+    ],
+    "forme": "hisui"
+  },
+  {
+    "id": 706,
+    "abilities": [
+      {
+        "id": "157",
+        "isHidden": false
+      },
+      {
+        "id": "75",
+        "isHidden": false
+      },
+      {
+        "id": "183",
+        "isHidden": true
+      }
+    ],
+    "name": "goodra",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10242.png",
+    "stats": [
+      80,
+      100,
+      100,
+      110,
+      150,
+      60
+    ],
+    "types": [
+      {
+        "id": "9"
+      },
+      {
+        "id": "16"
+      }
+    ],
+    "forme": "hisui"
+  },
+  {
+    "id": 713,
+    "abilities": [
+      {
+        "id": "173",
+        "isHidden": false
+      },
+      {
+        "id": "115",
+        "isHidden": false
+      },
+      {
+        "id": "5",
+        "isHidden": true
+      }
+    ],
+    "name": "avalugg",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10243.png",
+    "stats": [
+      95,
+      127,
+      184,
+      34,
+      36,
+      38
+    ],
+    "types": [
+      {
+        "id": "15"
+      },
+      {
+        "id": "6"
+      }
+    ],
+    "forme": "hisui"
+  },
+  {
+    "id": 724,
+    "abilities": [
+      {
+        "id": "65",
+        "isHidden": false
+      },
+      {
+        "id": "113",
+        "isHidden": true
+      }
+    ],
+    "name": "decidueye",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10244.png",
+    "stats": [
+      88,
+      112,
+      80,
+      95,
+      95,
+      60
+    ],
+    "types": [
+      {
+        "id": "12"
+      },
+      {
+        "id": "2"
+      }
+    ],
+    "forme": "hisui"
+  },
+  {
+    "id": 483,
+    "abilities": [
+      {
+        "id": "46",
+        "isHidden": false
+      },
+      {
+        "id": "140",
+        "isHidden": true
+      }
+    ],
+    "name": "dialga",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10245.png",
+    "stats": [
+      100,
+      100,
+      120,
+      150,
+      120,
+      90
+    ],
+    "types": [
+      {
+        "id": "9"
+      },
+      {
+        "id": "16"
+      }
+    ],
+    "forme": "origin"
+  },
+  {
+    "id": 484,
+    "abilities": [
+      {
+        "id": "46",
+        "isHidden": false
+      },
+      {
+        "id": "140",
+        "isHidden": true
+      }
+    ],
+    "name": "palkia",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10246.png",
+    "stats": [
+      90,
+      100,
+      100,
+      150,
+      120,
+      120
+    ],
+    "types": [
+      {
+        "id": "11"
+      },
+      {
+        "id": "16"
+      }
+    ],
+    "forme": "origin"
+  },
+  {
+    "id": 550,
+    "abilities": [
+      {
+        "id": "155",
+        "isHidden": false
+      },
+      {
+        "id": "91",
+        "isHidden": false
+      },
+      {
+        "id": "104",
+        "isHidden": true
+      }
+    ],
+    "name": "basculin",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10247.png",
+    "stats": [
+      70,
+      92,
+      65,
+      80,
+      55,
+      98
+    ],
+    "types": [
+      {
+        "id": "11"
+      }
+    ],
+    "forme": "white-striped"
+  },
+  {
+    "id": 902,
+    "abilities": [
+      {
+        "id": "33",
+        "isHidden": false
+      },
+      {
+        "id": "91",
+        "isHidden": false
+      },
+      {
+        "id": "104",
+        "isHidden": true
+      }
+    ],
+    "name": "basculegion",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10248.png",
+    "stats": [
+      120,
+      92,
+      65,
+      100,
+      75,
+      78
+    ],
+    "types": [
+      {
+        "id": "11"
+      },
+      {
+        "id": "8"
+      }
+    ],
+    "forme": "female"
+  },
+  {
+    "id": 905,
+    "abilities": [
+      {
+        "id": "142",
+        "isHidden": false
+      }
+    ],
+    "name": "enamorus",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10249.png",
+    "stats": [
+      74,
+      115,
+      110,
+      135,
+      100,
+      46
+    ],
+    "types": [
+      {
+        "id": "18"
+      },
+      {
+        "id": "3"
+      }
+    ],
+    "forme": "therian"
+  },
+  {
+    "id": 128,
+    "abilities": [
+      {
+        "id": "22",
+        "isHidden": false
+      },
+      {
+        "id": "83",
+        "isHidden": false
+      },
+      {
+        "id": "291",
+        "isHidden": true
+      }
+    ],
+    "name": "tauros",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10250.png",
+    "stats": [
+      75,
+      110,
+      105,
+      30,
+      70,
+      100
+    ],
+    "types": [
+      {
+        "id": "2"
+      }
+    ],
+    "forme": "paldea-combat"
+  },
+  {
+    "id": 128,
+    "abilities": [
+      {
+        "id": "22",
+        "isHidden": false
+      },
+      {
+        "id": "83",
+        "isHidden": false
+      },
+      {
+        "id": "291",
+        "isHidden": true
+      }
+    ],
+    "name": "tauros",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10251.png",
+    "stats": [
+      75,
+      110,
+      105,
+      30,
+      70,
+      100
+    ],
+    "types": [
+      {
+        "id": "2"
+      },
+      {
+        "id": "10"
+      }
+    ],
+    "forme": "paldea-blaze"
+  },
+  {
+    "id": 128,
+    "abilities": [
+      {
+        "id": "22",
+        "isHidden": false
+      },
+      {
+        "id": "83",
+        "isHidden": false
+      },
+      {
+        "id": "291",
+        "isHidden": true
+      }
+    ],
+    "name": "tauros",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10252.png",
+    "stats": [
+      75,
+      110,
+      105,
+      30,
+      70,
+      100
+    ],
+    "types": [
+      {
+        "id": "2"
+      },
+      {
+        "id": "11"
+      }
+    ],
+    "forme": "paldea-aqua"
+  },
+  {
+    "id": 194,
+    "abilities": [
+      {
+        "id": "38",
+        "isHidden": false
+      },
+      {
+        "id": "11",
+        "isHidden": false
+      },
+      {
+        "id": "109",
+        "isHidden": true
+      }
+    ],
+    "name": "wooper",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10253.png",
+    "stats": [
+      55,
+      45,
+      45,
+      25,
+      25,
+      15
+    ],
+    "types": [
+      {
+        "id": "4"
+      },
+      {
+        "id": "5"
+      }
+    ],
+    "forme": "paldea"
+  },
+  {
+    "id": 916,
+    "abilities": [
+      {
+        "id": "165",
+        "isHidden": false
+      },
+      {
+        "id": "82",
+        "isHidden": false
+      },
+      {
+        "id": "47",
+        "isHidden": true
+      }
+    ],
+    "name": "oinkologne",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10254.png",
+    "stats": [
+      115,
+      90,
+      70,
+      59,
+      90,
+      65
+    ],
+    "types": [
+      {
+        "id": "1"
+      }
+    ],
+    "forme": "female"
+  },
+  {
+    "id": 982,
+    "abilities": [
+      {
+        "id": "32",
+        "isHidden": false
+      },
+      {
+        "id": "50",
+        "isHidden": false
+      },
+      {
+        "id": "155",
+        "isHidden": true
+      }
+    ],
+    "name": "dudunsparce",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10255.png",
+    "stats": [
+      125,
+      100,
+      80,
+      85,
+      75,
+      55
+    ],
+    "types": [
+      {
+        "id": "1"
+      }
+    ],
+    "forme": "three-segment"
+  },
+  {
+    "id": 964,
+    "abilities": [
+      {
+        "id": "278",
+        "isHidden": false
+      },
+      {
+        "id": "278",
+        "isHidden": true
+      }
+    ],
+    "name": "palafin",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10256.png",
+    "stats": [
+      100,
+      160,
+      97,
+      106,
+      87,
+      100
+    ],
+    "types": [
+      {
+        "id": "11"
+      }
+    ],
+    "forme": "hero"
+  },
+  {
+    "id": 925,
+    "abilities": [
+      {
+        "id": "132",
+        "isHidden": false
+      },
+      {
+        "id": "167",
+        "isHidden": false
+      },
+      {
+        "id": "101",
+        "isHidden": true
+      }
+    ],
+    "name": "maushold",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10257.png",
+    "stats": [
+      74,
+      75,
+      70,
+      65,
+      75,
+      111
+    ],
+    "types": [
+      {
+        "id": "1"
+      }
+    ],
+    "forme": "family-of-three"
+  },
+  {
+    "id": 978,
+    "abilities": [
+      {
+        "id": "279",
+        "isHidden": false
+      },
+      {
+        "id": "114",
+        "isHidden": true
+      }
+    ],
+    "name": "tatsugiri",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10258.png",
+    "stats": [
+      68,
+      50,
+      60,
+      120,
+      95,
+      82
+    ],
+    "types": [
+      {
+        "id": "16"
+      },
+      {
+        "id": "11"
+      }
+    ],
+    "forme": "droopy"
+  },
+  {
+    "id": 978,
+    "abilities": [
+      {
+        "id": "279",
+        "isHidden": false
+      },
+      {
+        "id": "114",
+        "isHidden": true
+      }
+    ],
+    "name": "tatsugiri",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10259.png",
+    "stats": [
+      68,
+      50,
+      60,
+      120,
+      95,
+      82
+    ],
+    "types": [
+      {
+        "id": "16"
+      },
+      {
+        "id": "11"
+      }
+    ],
+    "forme": "stretchy"
+  },
+  {
+    "id": 931,
+    "abilities": [
+      {
+        "id": "22",
+        "isHidden": false
+      },
+      {
+        "id": "55",
+        "isHidden": false
+      },
+      {
+        "id": "62",
+        "isHidden": true
+      }
+    ],
+    "name": "squawkabilly",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10260.png",
+    "stats": [
+      82,
+      96,
+      51,
+      45,
+      51,
+      92
+    ],
+    "types": [
+      {
+        "id": "1"
+      },
+      {
+        "id": "3"
+      }
+    ],
+    "forme": "blue-plumage"
+  },
+  {
+    "id": 931,
+    "abilities": [
+      {
+        "id": "22",
+        "isHidden": false
+      },
+      {
+        "id": "55",
+        "isHidden": false
+      },
+      {
+        "id": "125",
+        "isHidden": true
+      }
+    ],
+    "name": "squawkabilly",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10261.png",
+    "stats": [
+      82,
+      96,
+      51,
+      45,
+      51,
+      92
+    ],
+    "types": [
+      {
+        "id": "1"
+      },
+      {
+        "id": "3"
+      }
+    ],
+    "forme": "yellow-plumage"
+  },
+  {
+    "id": 931,
+    "abilities": [
+      {
+        "id": "22",
+        "isHidden": false
+      },
+      {
+        "id": "55",
+        "isHidden": false
+      },
+      {
+        "id": "125",
+        "isHidden": true
+      }
+    ],
+    "name": "squawkabilly",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10262.png",
+    "stats": [
+      82,
+      96,
+      51,
+      45,
+      51,
+      92
+    ],
+    "types": [
+      {
+        "id": "1"
+      },
+      {
+        "id": "3"
+      }
+    ],
+    "forme": "white-plumage"
+  },
+  {
+    "id": 999,
+    "abilities": [
+      {
+        "id": "50",
+        "isHidden": false
+      },
+      {
+        "id": "50",
+        "isHidden": true
+      }
+    ],
+    "name": "gimmighoul",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10263.png",
+    "stats": [
+      45,
+      30,
+      25,
+      75,
+      45,
+      80
+    ],
+    "types": [
+      {
+        "id": "8"
+      }
+    ],
+    "forme": "roaming"
+  },
+  {
+    "id": 1007,
+    "abilities": [
+      {
+        "id": "288",
+        "isHidden": false
+      },
+      {
+        "id": "288",
+        "isHidden": true
+      }
+    ],
+    "name": "koraidon",
+    "sprite": null,
+    "stats": [
+      100,
+      135,
+      115,
+      85,
+      100,
+      135
+    ],
+    "types": [
+      {
+        "id": "2"
+      },
+      {
+        "id": "16"
+      }
+    ],
+    "forme": "limited-build"
+  },
+  {
+    "id": 1007,
+    "abilities": [
+      {
+        "id": "288",
+        "isHidden": false
+      },
+      {
+        "id": "288",
+        "isHidden": true
+      }
+    ],
+    "name": "koraidon",
+    "sprite": null,
+    "stats": [
+      100,
+      135,
+      115,
+      85,
+      100,
+      135
+    ],
+    "types": [
+      {
+        "id": "2"
+      },
+      {
+        "id": "16"
+      }
+    ],
+    "forme": "sprinting-build"
+  },
+  {
+    "id": 1007,
+    "abilities": [
+      {
+        "id": "288",
+        "isHidden": false
+      },
+      {
+        "id": "288",
+        "isHidden": true
+      }
+    ],
+    "name": "koraidon",
+    "sprite": null,
+    "stats": [
+      100,
+      135,
+      115,
+      85,
+      100,
+      135
+    ],
+    "types": [
+      {
+        "id": "2"
+      },
+      {
+        "id": "16"
+      }
+    ],
+    "forme": "swimming-build"
+  },
+  {
+    "id": 1007,
+    "abilities": [
+      {
+        "id": "288",
+        "isHidden": false
+      },
+      {
+        "id": "288",
+        "isHidden": true
+      }
+    ],
+    "name": "koraidon",
+    "sprite": null,
+    "stats": [
+      100,
+      135,
+      115,
+      85,
+      100,
+      135
+    ],
+    "types": [
+      {
+        "id": "2"
+      },
+      {
+        "id": "16"
+      }
+    ],
+    "forme": "gliding-build"
+  },
+  {
+    "id": 1008,
+    "abilities": [
+      {
+        "id": "289",
+        "isHidden": false
+      },
+      {
+        "id": "289",
+        "isHidden": true
+      }
+    ],
+    "name": "miraidon",
+    "sprite": null,
+    "stats": [
+      100,
+      85,
+      100,
+      135,
+      115,
+      135
+    ],
+    "types": [
+      {
+        "id": "13"
+      },
+      {
+        "id": "16"
+      }
+    ],
+    "forme": "low-power-mode"
+  },
+  {
+    "id": 1008,
+    "abilities": [
+      {
+        "id": "289",
+        "isHidden": false
+      },
+      {
+        "id": "289",
+        "isHidden": true
+      }
+    ],
+    "name": "miraidon",
+    "sprite": null,
+    "stats": [
+      100,
+      85,
+      100,
+      135,
+      115,
+      135
+    ],
+    "types": [
+      {
+        "id": "13"
+      },
+      {
+        "id": "16"
+      }
+    ],
+    "forme": "drive-mode"
+  },
+  {
+    "id": 1008,
+    "abilities": [
+      {
+        "id": "289",
+        "isHidden": false
+      },
+      {
+        "id": "289",
+        "isHidden": true
+      }
+    ],
+    "name": "miraidon",
+    "sprite": null,
+    "stats": [
+      100,
+      85,
+      100,
+      135,
+      115,
+      135
+    ],
+    "types": [
+      {
+        "id": "13"
+      },
+      {
+        "id": "16"
+      }
+    ],
+    "forme": "aquatic-mode"
+  },
+  {
+    "id": 1008,
+    "abilities": [
+      {
+        "id": "289",
+        "isHidden": false
+      },
+      {
+        "id": "289",
+        "isHidden": true
+      }
+    ],
+    "name": "miraidon",
+    "sprite": null,
+    "stats": [
+      100,
+      85,
+      100,
+      135,
+      115,
+      135
+    ],
+    "types": [
+      {
+        "id": "13"
+      },
+      {
+        "id": "16"
+      }
+    ],
+    "forme": "glide-mode"
+  },
+  {
+    "id": 901,
+    "abilities": [
+      {
+        "id": "299",
+        "isHidden": false
+      }
+    ],
+    "name": "ursaluna",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10272.png",
+    "stats": [
+      113,
+      70,
+      120,
+      135,
+      65,
+      52
+    ],
+    "types": [
+      {
+        "id": "5"
+      },
+      {
+        "id": "1"
+      }
+    ],
+    "forme": "bloodmoon"
+  },
+  {
+    "id": 1017,
+    "abilities": [
+      {
+        "id": "11",
+        "isHidden": false
+      }
+    ],
+    "name": "ogerpon",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10273.png",
+    "stats": [
+      80,
+      120,
+      84,
+      60,
+      96,
+      110
+    ],
+    "types": [
+      {
+        "id": "12"
+      },
+      {
+        "id": "11"
+      }
+    ],
+    "forme": "wellspring-mask"
+  },
+  {
+    "id": 1017,
+    "abilities": [
+      {
+        "id": "104",
+        "isHidden": false
+      }
+    ],
+    "name": "ogerpon",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10274.png",
+    "stats": [
+      80,
+      120,
+      84,
+      60,
+      96,
+      110
+    ],
+    "types": [
+      {
+        "id": "12"
+      },
+      {
+        "id": "10"
+      }
+    ],
+    "forme": "hearthflame-mask"
+  },
+  {
+    "id": 1017,
+    "abilities": [
+      {
+        "id": "5",
+        "isHidden": false
+      }
+    ],
+    "name": "ogerpon",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10275.png",
+    "stats": [
+      80,
+      120,
+      84,
+      60,
+      96,
+      110
+    ],
+    "types": [
+      {
+        "id": "12"
+      },
+      {
+        "id": "6"
+      }
+    ],
+    "forme": "cornerstone-mask"
+  },
+  {
+    "id": 1024,
+    "abilities": [
+      {
+        "id": "305",
+        "isHidden": false
+      }
+    ],
+    "name": "terapagos",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10276.png",
+    "stats": [
+      95,
+      95,
+      110,
+      105,
+      110,
+      85
+    ],
+    "types": [
+      {
+        "id": "1"
+      }
+    ],
+    "forme": "terastal"
+  },
+  {
+    "id": 1024,
+    "abilities": [
+      {
+        "id": "306",
+        "isHidden": false
+      }
+    ],
+    "name": "terapagos",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10277.png",
+    "stats": [
+      160,
+      105,
+      110,
+      130,
+      110,
+      85
+    ],
+    "types": [
+      {
+        "id": "1"
+      }
+    ],
+    "forme": "stellar"
+  }
+]

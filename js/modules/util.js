@@ -55,3 +55,14 @@ export function getId(url) {
 export function wait(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
+
+export function waitForImage(img) {
+  return new Promise((resolve, reject) => {
+    if (img.complete) {
+      resolve();
+    } else {
+      img.onload = resolve;
+      img.onerror = reject;
+    }
+  });
+}

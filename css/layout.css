@@ -370,9 +370,16 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    gap: 0.4vw;
 }
 
 .pokemon-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 18vh;
+    width: 6vw;
     border-radius: 20px;
 }
 
@@ -383,4 +390,8 @@
 .card-name {
     margin-bottom: 1vh;
     font-size: 0.8em;
+}
+
+.card-image {
+    max-width: 5vw;
 }

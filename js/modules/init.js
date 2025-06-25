@@ -1,4 +1,4 @@
-import { appendNewElement, fetchData, toTitleCase, wait } from "./util.js";
+import { appendNewElement, fetchData, toTitleCase, wait, waitForImage } from "./util.js";
 import { calcStats, updateColors, fetchPokemon, loadPokemon, openPokemenu, closePokemenu, filter } from "./mainLogic.js";
 import { initToggle } from "./sidebar.js";
 
@@ -110,7 +110,6 @@ async function loadTypes() {
             element.add(option);
 
             if (elementIdx === 3) {
-                await wait(1);
                 handleProgress('types', index + 1, types.length);
             }
         }
@@ -157,7 +156,6 @@ async function loadAbilities() {
             const option = new Option(toTitleCase(ability.name), ability.id);
             element.add(option);
             if (elementIdx === 3) {
-                await wait(1);
                 handleProgress('abilities', index + 1, abilities.length);
             }
         }
@@ -210,11 +208,12 @@ async function loadPokemenu() {
 
         card.dataset.id = pokemon.id;
         card.dataset.generation = pokemon.generation;
-        card.dataset.types = pokemon.types.map(ability => ability.id).join(' ')
+        card.dataset.types = pokemon.types.map(ability => ability.id).join(' ');
         card.dataset.abilities = pokemon.abilities.map(ability => ability.id).join(' ');
+        card.dataset.forme = pokemon.forme;
 
         card.addEventListener('click', (event) => { 
-            fetchPokemon(event.currentTarget.dataset.id);
+            fetchPokemon(event.currentTarget.dataset.id, event.currentTarget.dataset.forme);
             
             closePokemenu();
         });
@@ -223,11 +222,15 @@ async function loadPokemenu() {
         image.classList.add('card-image');
         image.src = pokemon.sprite;
 
+        await waitForImage(image);
+
         const name = appendNewElement('div', toTitleCase(pokemon.name), card);
+        if (pokemon.forme) {
+            name.textContent += `-${pokemon.forme}`
+        }
         name.classList.add('card-name');
 
-        await wait(1);
-        handleProgress('pokemon', index + 1, pokemons.length);
+        handleProgress('pokemon', index + 1, pokemons.length);        
     }
 
     // while (true) {

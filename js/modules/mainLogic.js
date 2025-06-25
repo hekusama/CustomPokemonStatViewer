@@ -147,10 +147,21 @@ export function calcStats() {
     values.total.textContent = total;
 }
 
-export async function fetchPokemon(number) {    
+export async function fetchPokemon(number, forme) {
+    
+    forme = (forme === "undefined") ? undefined : forme;
 
     const pokemons = await fetchData('data/pokemon.json');
-    const pokemon = pokemons.find(pokemon => pokemon.id == number);
+    const species = pokemons.filter(species => species.id == number);
+
+    let pokemon;
+
+    if (species.length > 1 && forme) {
+        pokemon = species.find(pokemon => pokemon.forme == forme);
+    }
+    else {
+        pokemon = species[0];
+    }
     
     loadPokemon(pokemon);
 }
