@@ -86,7 +86,7 @@ async function loadTypes() {
     document.getElementById('type-primary-filter'), 
     document.getElementById('type-secondary-filter')];
 
-    const types = await fetchData('../data/types.json');
+    const types = await fetchData('data/types.json');
 
     fields.forEach(element => {
         const emptyOption = new Option('', 0);
@@ -127,7 +127,7 @@ async function loadAbilities() {
             document.getElementById('ability-hidden'),
             document.getElementById('ability-filter')];
 
-    const abilities = await fetchData('../data/abilities.json');
+    const abilities = await fetchData('data/abilities.json');
 
     fields.forEach(element => {
         abilities.forEach(ability => {
