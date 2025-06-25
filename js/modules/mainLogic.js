@@ -12,7 +12,7 @@ export function updateColors() {
             document.getElementById('ability-title-hidden')];
 
     types.forEach(type => {
-        type.style.borderColor = 'inherit';
+        type.style.borderColor = '';
 
         switch (type.options[type.selectedIndex].textContent.toLowerCase()) {
             case 'bug':
@@ -83,9 +83,9 @@ export function updateColors() {
     })
 
     abilities.forEach((ability, index) => {
-        ability.style.background = 'inherit';
-        ability.style.borderColor = 'inherit';
-        abilityTitles[index].style.color = 'inherit';
+        ability.style.background = '';
+        ability.style.borderColor = '';
+        abilityTitles[index].style.color = '';
 
         if (ability.value == 0) {
             ability.style.backgroundColor = '#00000055';

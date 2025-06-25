@@ -93,7 +93,7 @@
     -moz-appearance: none;
     appearance: none;
 
-    border: 3px solid white;
+    border: 3px solid var(--text);
     border-radius: 20px;
     width: 8vw;
     padding: 7px;
