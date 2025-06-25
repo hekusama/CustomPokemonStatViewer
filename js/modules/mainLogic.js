@@ -248,7 +248,7 @@ export async function loadPokemenu() {
     })
 
     let boxNumber = 0;
-    let id = 1;
+    let id = 10001;
     
     pokemons.forEach(pokemon => {
 
@@ -280,13 +280,13 @@ export async function loadPokemenu() {
     // while (true) {
     //     try {
     //         const pokemonApi = await fetchData(`https://pokeapi.co/api/v2/pokemon/${id}`);
-    //         const speciesApi = await fetchData(`https://pokeapi.co/api/v2/pokemon-species/${id}`);
+    //         // const speciesApi = await fetchData(`https://pokeapi.co/api/v2/pokemon-species/${id}`);
 
     //         // JSON building
     //         const json = {
     //             "id": id,
     //             "abilities": [],
-    //             "generation": getId(speciesApi.generation.url),
+    //             // "generation": getId(speciesApi.generation.url),
     //             "moves": [],
     //             "name": pokemonApi.name,
     //             "sprite": pokemonApi.sprites["front_default"],
