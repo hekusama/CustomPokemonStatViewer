@@ -4,14 +4,25 @@ export async function initialize() {
     const loadingScreen = document.querySelector('.loading-screen');
     
     initNumInput();
+
     initCalc();
+
     calcStats();
+
     await loadTypes();
+    console.log('types loaded');
+    
+
     await loadAbilities();
+    console.log('abilities loaded');
 
     initColors();
+
     initPokemenu();
+
     await loadPokemenu();
+    console.log('pokemenu loaded');
+
     initFilters();
 
     fetchPokemon(25);
@@ -210,30 +221,23 @@ function calcStats() {
 }
 
 async function loadTypes() {
-    const types = [document.getElementById('type-primary'), 
+    const fields = [document.getElementById('type-primary'), 
     document.getElementById('type-secondary'),
     document.getElementById('type-primary-filter'), 
     document.getElementById('type-secondary-filter')];
 
-    types.forEach(element => {
+    const types = await fetchData('../../data/types.json');
+
+    fields.forEach(element => {
         const emptyOption = new Option('', 0);
         element.add(emptyOption);
-    })
-
-    let id = 1;
-    while (true) {
-        
-        const type = await fetchData(`https://pokeapi.co/api/v2/type/${id}`);
-        if (!type)
-            break;
-        types.forEach(element => {
-            const option = new Option(toTitleCase(type.name), id);
+        types.forEach(type => {
+            const option = new Option(toTitleCase(type.name), type.id);
             element.add(option);
         })
-        id++;
-    }
+    })
 
-    types.forEach(element => {
+    fields.forEach(element => {
         const optionsArray = Array.from(element.options);
 
         optionsArray.sort((a, b) => a.text.localeCompare(b.text));
@@ -245,35 +249,34 @@ async function loadTypes() {
         });
     });
 
-    const monoOption = new Option('Mono', -1);
-    types[3].add(monoOption, types[3].options[1]);
+    // remove null type
+    fields[0].remove(0);
+    fields[2].remove(0);
+
+    // add 'any' option
+    for (let i = 2; i < 4; i++) {
+        const anyOption = new Option('Any', -1);
+        fields[i].add(anyOption, fields[i].options[0]);
+        fields[i].value = -1;
+    }
 }
 
 async function loadAbilities() {
-    const abilities = [document.getElementById('ability-primary'), 
+    const fields = [document.getElementById('ability-primary'), 
             document.getElementById('ability-secondary'), 
             document.getElementById('ability-hidden'),
             document.getElementById('ability-filter')];
 
-    abilities.forEach(element => {
-        const emptyOption = new Option('', 0);
-        element.add(emptyOption);
-    })
+    const abilities = await fetchData('../../data/abilities.json');
 
-    let id = 1;
-    while (true) {
-        
-        const ability = await fetchData(`https://pokeapi.co/api/v2/ability/${id}`);
-        if (!ability)
-            break;
-        abilities.forEach(element => {
-            const option = new Option(toTitleCase(ability.name), id);
+    fields.forEach(element => {
+        abilities.forEach(ability => {
+            const option = new Option(toTitleCase(ability.name), ability.id);
             element.add(option);
         })
-        id++;
-    }
+    })
 
-    abilities.forEach(element => {
+    fields.forEach(element => {
         const optionsArray = Array.from(element.options);
 
         optionsArray.sort((a, b) => a.text.localeCompare(b.text));
@@ -284,16 +287,23 @@ async function loadAbilities() {
             element.add(option);
         });
     });
+
+    fields[3].options[0].text = 'Any';
 }
 
-async function fetchPokemon(number) {
-    const pokemon = await fetchData(`https://pokeapi.co/api/v2/pokemon/${number}`)
+async function fetchPokemon(number) {    
+
+    const pokemons = await fetchData('../../data/pokemon.json');
+    const pokemon = pokemons.find(pokemon => pokemon.id == number);
+
+
+
     console.log(pokemon);
     
     loadPokemon(pokemon);
 }
 
-function loadPokemon(pokemon) {
+async function loadPokemon(pokemon) {
     const fields = {
         "dex": document.getElementById('dex-number'),
         "types": [document.getElementById('type-primary'), 
@@ -311,6 +321,9 @@ function loadPokemon(pokemon) {
             document.getElementById('spe-field')]
     }
 
+    const abilities = await fetchData('../../data/abilities.json')
+    const types = await fetchData('../../data/types.json')
+
     // Reset types and abilities
     fields.types.forEach((type) => {
         type.value = 0;
@@ -322,32 +335,21 @@ function loadPokemon(pokemon) {
     // Set values
     fields.dex.value = toDexNumber(pokemon.id);
     pokemon.types.forEach((type, index) => {
-        try {
-            const typeUrl = type.type.url;
-            fields.types[index].value = getId(typeUrl);
-        }
-        catch {
-            type.value = 0;
-        }   
+        fields.types[index].value = type.id;  
     })
     console.log(pokemon.name);
+    
     fields.name.value = toTitleCase(pokemon.name);
-    fields.image.src = pokemon.sprites["front_default"];
+    fields.image.src = pokemon.sprite;
     pokemon.abilities.forEach((ability, index) => {
-        try {
-            const abilityUrl = ability.ability.url;
-            if (ability["is_hidden"]) {
-                fields.abilities[2].value = getId(abilityUrl);
-            }
-            else
-                fields.abilities[index].value = getId(abilityUrl);
+        if (ability.isHidden) {
+            fields.abilities[2].value = ability.id;
         }
-        catch {
-            ability.value = 0;
-        }   
+        else
+            fields.abilities[index].value = ability.id;  
     })
     pokemon.stats.forEach((stat, index) => {
-        fields.stats[index].value = stat["base_stat"];
+        fields.stats[index].value = stat;
     })
 
     calcStats();
@@ -355,7 +357,6 @@ function loadPokemon(pokemon) {
 }
 
 function initPokemenu() {
-    const pokemenu = document.querySelector('.pokemenu');
     const handle = document.querySelector('.handle');
 
     handle.addEventListener('click', openPokemenu);
@@ -391,8 +392,11 @@ function closePokemenu() {
 }
 
 async function loadPokemenu() {
-    const menu = document.querySelector('.pokemenu-main');
     const boxes = document.querySelectorAll('.pokemon-box');
+
+    const pokemons = await fetchData('../../data/pokemon.json')
+
+    // const pokemonJson = [];
 
     boxes.forEach(box => {
         box.innerHTML = '';
@@ -400,69 +404,173 @@ async function loadPokemenu() {
 
     let boxNumber = 0;
     let id = 1;
+    
+    pokemons.forEach(pokemon => {
 
-    while (true) {
-        try {
-            const pokemon = await fetchData(`https://pokeapi.co/api/v2/pokemon/${id}`)
-            const species = await fetchData(`https://pokeapi.co/api/v2/pokemon-species/${id}`)
+        if (pokemon.generation > boxNumber + 1)
+            boxNumber++;
 
-            if (getId(species.generation.url) > boxNumber + 1)
-                boxNumber++;
+        const card = appendNewElement('div', '', boxes[boxNumber]);
+        card.classList.add('pokemon-card');
 
-            const card = appendNewElement('div', '', boxes[boxNumber]);
-            card.classList.add('pokemon-card');
-            card.dataset.id = id;
-            card.addEventListener('click', (event) => { 
-                fetchPokemon(event.currentTarget.dataset.id);
-                
-                closePokemenu();
-            });
+        card.dataset.id = pokemon.id;
+        card.dataset.generation = pokemon.generation;
+        card.dataset.types = pokemon.types.map(ability => ability.id).join(' ')
+        card.dataset.abilities = pokemon.abilities.map(ability => ability.id).join(' ');
 
-            const image = appendNewElement('img', '', card);
-            image.classList.add('card-image');
-            image.src = pokemon.sprites["front_default"];
-
-            const name = appendNewElement('div', toTitleCase(pokemon.name), card);
-            name.classList.add('card-name');
+        card.addEventListener('click', (event) => { 
+            fetchPokemon(event.currentTarget.dataset.id);
             
-            id++;
-        }
-        catch {
-            break;
-        }
-    }
+            closePokemenu();
+        });
+
+        const image = appendNewElement('img', '', card);
+        image.classList.add('card-image');
+        image.src = pokemon.sprite;
+
+        const name = appendNewElement('div', toTitleCase(pokemon.name), card);
+        name.classList.add('card-name');
+    })
+
+    // while (true) {
+    //     try {
+    //         const pokemonApi = await fetchData(`https://pokeapi.co/api/v2/pokemon/${id}`);
+    //         const speciesApi = await fetchData(`https://pokeapi.co/api/v2/pokemon-species/${id}`);
+
+    //         // JSON building
+    //         const json = {
+    //             "id": id,
+    //             "abilities": [],
+    //             "generation": getId(speciesApi.generation.url),
+    //             "moves": [],
+    //             "name": pokemonApi.name,
+    //             "sprite": pokemonApi.sprites["front_default"],
+    //             "stats": [],
+    //             "types": []
+    //         }
+
+    //         pokemonApi.types.forEach(type => {
+    //             try {
+    //                 const typeUrl = type.type.url;
+    //                 json.types.push({"id": getId(typeUrl)});
+    //             }
+    //             catch {
+    //                 json.types.push({"id": 0});
+    //             }   
+    //         })
+
+    //         pokemonApi.abilities.forEach(ability => {
+    //             try {
+    //                 const abilityUrl = ability.ability.url;
+    //                 console.log(ability["is_hidden"]);
+                    
+    //                 json.abilities.push({"id":getId(abilityUrl),"isHidden":ability["is_hidden"]});
+    //             }
+    //             catch {
+    //                 console.log("End reached");
+    //             }   
+    //         })
+
+    //         pokemonApi.moves.forEach(move => {
+    //             const moveUrl = move.move.url;
+    //             json.moves.push({"id": getId(moveUrl)});
+    //         })
+
+    //         pokemonApi.stats.forEach(stat => {
+    //             json.stats.push(stat["base_stat"]);
+    //         })
+
+    //         pokemonJson.push(json);
+            
+    //         id++;
+    //     }
+    //     catch {
+    //         break;
+    //     }
+    // }
+
+    // console.log(JSON.stringify(pokemonJson));
+    
 }
 
 function initFilters() {
-    const search = document.getElementById('search-filter');
+    const filters = [document.getElementById('search-filter'),
+        document.getElementById('generation-filter'),
+        document.getElementById('type-primary-filter'),
+        document.getElementById('type-secondary-filter'),
+        document.getElementById('ability-filter')
+    ];
 
-    search.addEventListener('input', () => {
-        const cards = document.querySelectorAll('.pokemon-card');
-        const boxes = document.querySelectorAll('.pokemon-box');
-        const titles = document.querySelectorAll('.generation-title');
-
-        cards.forEach(card => {
-            const name = card.querySelector('.card-name');
-            if (name.textContent.toLowerCase().includes(search.value.toLowerCase())) {
-                card.style.display = 'block';
-                card.classList.remove('hidden');
-            }
-            else {
-                card.style.display = 'none';
-                card.classList.add('hidden');
-            }
-        })
-
-        boxes.forEach((box, index) => {
-            const visibleCards = box.querySelectorAll('.pokemon-card:not(.hidden)');
-            
-            if (visibleCards.length == 0) {
-                titles[index].style.display = 'none';
-            }
-            else {
-                titles[index].style.display = 'block';
-            }
-        })
+    filters.forEach(element => {
+        element.addEventListener('input', filter);
     })
-    
+}
+
+function filter() {
+    const filters = {
+        "search": document.getElementById('search-filter'),
+        "generation": document.getElementById('generation-filter'),
+        "typePrimary": document.getElementById('type-primary-filter'),
+        "typeSecondary": document.getElementById('type-secondary-filter'),
+        "ability": document.getElementById('ability-filter')
+    };  
+
+    const cards = document.querySelectorAll('.pokemon-card');
+    const boxes = document.querySelectorAll('.pokemon-box');
+    const titles = document.querySelectorAll('.generation-title');
+
+    // filter
+    cards.forEach(card => {
+        const name = card.querySelector('.card-name');
+        const generation = card.dataset.generation;
+        const types = card.dataset.types.split(' ');
+        const abilities = card.dataset.abilities;
+
+        let filter = true;
+
+        // search
+        filter = filter && name.textContent.toLowerCase().includes(filters.search.value.toLowerCase());
+
+        // generation
+        if (filters.generation.value != 0) {
+            filter = filter && generation == filters.generation.value;
+        }
+
+        // types
+        if (filters.typePrimary.value != -1) {
+            filter = filter && types.includes(filters.typePrimary.value);
+        }
+        if (filters.typeSecondary.value == 0) {
+            filter = filter && types.length === 1;
+        }
+        else if (filters.typeSecondary.value != -1) {
+            filter = filter && types.includes(filters.typeSecondary.value);
+        }
+
+        // abilities
+        if (filters.ability.value != 0) {
+            filter = filter && abilities.includes(filters.ability.value);
+        }
+
+        if (filter) {
+            card.style.display = 'block';
+            card.classList.remove('hidden');
+        }
+        else {
+            card.style.display = 'none';
+            card.classList.add('hidden');
+        }
+    })
+
+    // empty box
+    boxes.forEach((box, index) => {
+        const visibleCards = box.querySelectorAll('.pokemon-card:not(.hidden)');
+        
+        if (visibleCards.length == 0) {
+            titles[index].style.display = 'none';
+        }
+        else {
+            titles[index].style.display = 'block';
+        }
+    })
 }
