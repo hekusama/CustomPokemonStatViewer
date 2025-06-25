@@ -149,7 +149,7 @@ export function calcStats() {
 
 export async function fetchPokemon(number) {    
 
-    const pokemons = await fetchData('../../data/pokemon.json');
+    const pokemons = await fetchData('../data/pokemon.json');
     const pokemon = pokemons.find(pokemon => pokemon.id == number);
     
     loadPokemon(pokemon);
@@ -173,8 +173,8 @@ export async function loadPokemon(pokemon) {
             document.getElementById('spe-field')]
     }
 
-    const abilities = await fetchData('../../data/abilities.json')
-    const types = await fetchData('../../data/types.json')
+    const abilities = await fetchData('../data/abilities.json')
+    const types = await fetchData('../data/types.json')
 
     // Reset types and abilities
     fields.types.forEach((type) => {
@@ -239,7 +239,7 @@ export function closePokemenu() {
 export async function loadPokemenu() {
     const boxes = document.querySelectorAll('.pokemon-box');
 
-    const pokemons = await fetchData('../../data/pokemon.json')
+    const pokemons = await fetchData('../data/pokemon.json')
 
     // const pokemonJson = [];
 
