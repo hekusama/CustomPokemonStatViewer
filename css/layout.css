@@ -54,10 +54,40 @@
 }
 
 .theme-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
     width: 3vw;
     height: 3vw;
     font-size: 3vw;
     color: var(--text);
+}
+
+.theme-toggle:focus {
+    outline: none;
+}
+
+.theme-toggle > svg {
+    transition: transform 0.3s;
+}
+
+.theme-toggle:hover > svg {
+    transform: scale(1.2);
+}
+
+.theme-toggle::before {
+    position: absolute;
+    content: 'Light';
+    font-size: 1vw;
+    top: 3vw;
+    transform: none;
+}
+
+.theme-toggle--toggled::before {
+    content: 'Dark';
 }
 
 

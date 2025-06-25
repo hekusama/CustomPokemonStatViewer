@@ -1,11 +1,15 @@
 export function initToggle() {
     const toggle = document.querySelector('.theme-toggle');
 
-    toggle.addEventListener('click', toggleTheme);
+    toggle.addEventListener('click', (event) => {
+        toggleTheme();
+        event.currentTarget.blur();
+    });
 }
 
 function toggleTheme() {
     const toggle = document.querySelector('.theme-toggle');
+
     let theme;
     const styles = ['page-light',
         'page-medium',
@@ -16,12 +20,10 @@ function toggleTheme() {
 
     if (toggle.classList.contains('theme-toggle--toggled')) {
         toggle.classList.remove('theme-toggle--toggled');
-
         theme = 'light';
     }
     else {
         toggle.classList.add('theme-toggle--toggled');
-
         theme = 'dark';
     }
 
