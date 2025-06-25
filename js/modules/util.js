@@ -51,3 +51,7 @@ export function toDexNumber(number) {
 export function getId(url) {
     return url.split('/').slice(-2, -1)[0];
 }
+
+export function wait(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}

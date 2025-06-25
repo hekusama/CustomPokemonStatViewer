@@ -17,6 +17,42 @@
     transition: 0.3s;
 }
 
+#progress-bar {
+    position: absolute;
+    height: 0.5vh;
+    width: 0vw;
+    top: 90vh;
+    left: 5vw;
+    border: 2px solid #DDDDEE;
+    border-radius: 0.5vh;
+
+    background-color: white;
+}
+
+#progress-box {
+    position: absolute;
+    height: 0.5vh;
+    width: 90vw;
+    top: 90vh;
+    left: 5vw;
+    border: 2px solid var(--page-dark);
+    border-radius: 0.5vh;
+
+    background-color: var(--page-dark);
+}
+
+#progress-text {
+    position: absolute;
+    top: 92vh;
+    left: 5vw;
+}
+
+#progress-percent {
+    position: absolute;
+    top: 89vh;
+    right: 1vw;
+}
+
 
 
 /* COVER */

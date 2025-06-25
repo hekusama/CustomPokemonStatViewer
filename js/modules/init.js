@@ -1,5 +1,5 @@
-import { fetchData, toTitleCase } from "./util.js";
-import { calcStats, updateColors, fetchPokemon, loadPokemon, loadPokemenu, openPokemenu, closePokemenu, filter } from "./mainLogic.js";
+import { appendNewElement, fetchData, toTitleCase, wait } from "./util.js";
+import { calcStats, updateColors, fetchPokemon, loadPokemon, openPokemenu, closePokemenu, filter } from "./mainLogic.js";
 import { initToggle } from "./sidebar.js";
 
 export async function initialize() {
@@ -15,27 +15,35 @@ export async function initialize() {
 
     initCalc();
 
-    calcStats();
-
     await loadTypes();
-    console.log('types loaded');
 
     await loadAbilities();
-    console.log('abilities loaded');
 
     initColors();
 
     initPokemenu();
 
     await loadPokemenu();
-    console.log('pokemenu loaded');
 
     initFilters();
 
     fetchPokemon(25);
 
+    await wait(1000);
+
     loadingScreen.style.opacity = 0;
     loadingScreen.style.pointerEvents = 'none';
+}
+
+function handleProgress(asset, progress, total) {
+    const bar = document.getElementById('progress-bar');
+    const text = document.getElementById('progress-text');
+    const percent = document.getElementById('progress-percent');
+
+    bar.style.width = `${progress / total * 90}vw`;
+
+    text.textContent = `Loading ${asset} ${progress}/${total}`;
+    percent.textContent = `${parseInt(progress / total * 100)}%`;    
 }
 
 function initNumInput() {
@@ -88,14 +96,25 @@ async function loadTypes() {
 
     const types = await fetchData('data/types.json');
 
-    fields.forEach(element => {
+    handleProgress('types', 0, types.length);
+
+    for (const [index, element] of fields.entries()) {
+
         const emptyOption = new Option('', 0);
         element.add(emptyOption);
-        types.forEach(type => {
+
+        let elementIdx = index;
+
+        for (const [index, type] of types.entries()) {
             const option = new Option(toTitleCase(type.name), type.id);
             element.add(option);
-        })
-    })
+
+            if (elementIdx === 3) {
+                await wait(1);
+                handleProgress('types', index + 1, types.length);
+            }
+        }
+    }
 
     fields.forEach(element => {
         const optionsArray = Array.from(element.options);
@@ -129,12 +148,20 @@ async function loadAbilities() {
 
     const abilities = await fetchData('data/abilities.json');
 
-    fields.forEach(element => {
-        abilities.forEach(ability => {
+    handleProgress('abilities', 0, abilities.length);
+
+    for (const [index, element] of fields.entries()) {
+        let elementIdx = index;
+
+        for (const [index, ability] of abilities.entries()) {
             const option = new Option(toTitleCase(ability.name), ability.id);
             element.add(option);
-        })
-    })
+            if (elementIdx === 3) {
+                await wait(1);
+                handleProgress('abilities', index + 1, abilities.length);
+            }
+        }
+    }
 
     fields.forEach(element => {
         const optionsArray = Array.from(element.options);
@@ -155,6 +182,113 @@ function initPokemenu() {
     const handle = document.querySelector('.handle');
 
     handle.addEventListener('click', openPokemenu);
+}
+
+async function loadPokemenu() {
+    const boxes = document.querySelectorAll('.pokemon-box');
+
+    const pokemons = await fetchData('data/pokemon.json')
+
+    handleProgress('pokemon', 0, pokemons.length);
+
+    // const pokemonJson = [];
+
+    boxes.forEach(box => {
+        box.innerHTML = '';
+    })
+
+    let boxNumber = 0;
+    let id = 10001;
+    
+    for (const [index, pokemon] of pokemons.entries()) {
+
+        if (pokemon.generation > boxNumber + 1)
+            boxNumber++;
+
+        const card = appendNewElement('div', '', boxes[boxNumber]);
+        card.classList.add('pokemon-card');
+
+        card.dataset.id = pokemon.id;
+        card.dataset.generation = pokemon.generation;
+        card.dataset.types = pokemon.types.map(ability => ability.id).join(' ')
+        card.dataset.abilities = pokemon.abilities.map(ability => ability.id).join(' ');
+
+        card.addEventListener('click', (event) => { 
+            fetchPokemon(event.currentTarget.dataset.id);
+            
+            closePokemenu();
+        });
+
+        const image = appendNewElement('img', '', card);
+        image.classList.add('card-image');
+        image.src = pokemon.sprite;
+
+        const name = appendNewElement('div', toTitleCase(pokemon.name), card);
+        name.classList.add('card-name');
+
+        await wait(1);
+        handleProgress('pokemon', index + 1, pokemons.length);
+    }
+
+    // while (true) {
+    //     try {
+    //         const pokemonApi = await fetchData(`https://pokeapi.co/api/v2/pokemon/${id}`);
+    //         // const speciesApi = await fetchData(`https://pokeapi.co/api/v2/pokemon-species/${id}`);
+
+    //         // JSON building
+    //         const json = {
+    //             "id": id,
+    //             "abilities": [],
+    //             // "generation": getId(speciesApi.generation.url),
+    //             "moves": [],
+    //             "name": pokemonApi.name,
+    //             "sprite": pokemonApi.sprites["front_default"],
+    //             "stats": [],
+    //             "types": []
+    //         }
+
+    //         pokemonApi.types.forEach(type => {
+    //             try {
+    //                 const typeUrl = type.type.url;
+    //                 json.types.push({"id": getId(typeUrl)});
+    //             }
+    //             catch {
+    //                 json.types.push({"id": 0});
+    //             }   
+    //         })
+
+    //         pokemonApi.abilities.forEach(ability => {
+    //             try {
+    //                 const abilityUrl = ability.ability.url;
+    //                 console.log(ability["is_hidden"]);
+                    
+    //                 json.abilities.push({"id":getId(abilityUrl),"isHidden":ability["is_hidden"]});
+    //             }
+    //             catch {
+    //                 console.log("End reached");
+    //             }   
+    //         })
+
+    //         pokemonApi.moves.forEach(move => {
+    //             const moveUrl = move.move.url;
+    //             json.moves.push({"id": getId(moveUrl)});
+    //         })
+
+    //         pokemonApi.stats.forEach(stat => {
+    //             json.stats.push(stat["base_stat"]);
+    //         })
+
+    //         pokemonJson.push(json);
+            
+    //         id++;
+    //     }
+    //     catch {
+    //         break;
+    //     }
+    // }
+
+    // console.log(JSON.stringify(pokemonJson));
+    
 }
 
 function initFilters() {
