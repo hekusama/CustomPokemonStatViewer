@@ -12,15 +12,13 @@ export async function initialize() {
 
     const popup = document.getElementById('preload-pop-up');
     if (preloadCookie == null) {
+        popup.style.display = 'flex';
         
         const buttons = [
             document.getElementById('preload-yes'),
             document.getElementById('preload-no')
         ]
         await popUpClick(buttons[0], buttons[1], popup);
-    }
-    else {
-        popup.style.display = 'none';
     }
 
     // Sidebar

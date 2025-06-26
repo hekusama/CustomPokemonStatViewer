@@ -74,6 +74,7 @@
 }
 
 #preload-pop-up {
+    display: none;
     width: 30vw;
     height: 45vh;
 }
