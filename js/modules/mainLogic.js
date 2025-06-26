@@ -301,6 +301,7 @@ export function filter() {
         const formeConditions = [
             forme.includes('mega'),
             forme.includes('gmax'),
+            !forme.includes('cap') && (forme.includes('alola') || forme.includes('galar') || forme.includes('hisui') || forme.includes('paldea')),
             forme != "undefined"
         ];
 
