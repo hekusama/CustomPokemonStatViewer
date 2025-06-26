@@ -23,4 +23,9 @@
     --page-darker: #222233;
     --text: white;
     --placeholder: #FFFFFF55;
+    
+    --confirm: #66FA66;
+    --deny: #FA6666;
+    --confirm-hover: #88FF88;
+    --deny-hover: #FF8888;
 }

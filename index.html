@@ -12,6 +12,24 @@
     <title>PokeViewer</title>
 </head>
 <body>
+
+    <!-- OVERLAYS -->
+
+    <div class="pop-ups">
+        <div id="preload-pop-up" class="pop-up">
+            <div class="pop-up-title">
+                Pre-load sprites?
+            </div>
+            <div class="pop-up-body">
+                Would you like to preload the default Pokemon sprites? This will take ~1 minute depending on your internet speed. If "No" is selected, the sprites will be loaded in the background.
+            </div>
+            <div class="pop-up-options">
+                <button id="preload-yes" class="pop-up-button button-confirm">Yes</button>
+                <button id="preload-no" class="pop-up-button button-deny">No</button>
+            </div>
+        </div>
+    </div>
+
     <div class="loading-screen">
         <div id="progress-box"></div>
         <div id="progress-bar"></div>
@@ -20,6 +38,8 @@
     </div>
 
     <div id="cover"></div>
+
+    <!-- SIDEBAR -->
 
     <div class="sidebar">
         <button
@@ -54,6 +74,8 @@
         </svg>
         </button>
     </div>
+
+    <!-- MAIN PANEL -->
 
     <div class="main">
 
@@ -166,6 +188,8 @@
             </div>
         </div>
     </div>
+
+    <!-- POKEMENU -->
 
     <div class="pokemenu">
         <div class="handle">

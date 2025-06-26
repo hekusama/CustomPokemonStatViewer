@@ -1,9 +1,27 @@
-import { appendNewElement, fetchData, toTitleCase, wait, waitForImage } from "./util.js";
+import { appendNewElement, fetchData, toTitleCase, wait, waitForImage, setCookie, getCookie } from "./util.js";
 import { calcStats, updateColors, fetchPokemon, loadPokemon, openPokemenu, closePokemenu, filter } from "./mainLogic.js";
 import { initToggle } from "./sidebar.js";
 
 export async function initialize() {
     const loadingScreen = document.querySelector('.loading-screen');
+
+    // Pop up
+
+    const preloadCookie = getCookie("preload");
+    const preloadPreference = preloadCookie === "true";
+
+    const popup = document.getElementById('preload-pop-up');
+    if (preloadCookie == null) {
+        
+        const buttons = [
+            document.getElementById('preload-yes'),
+            document.getElementById('preload-no')
+        ]
+        await popUpClick(buttons[0], buttons[1], popup);
+    }
+    else {
+        popup.style.display = 'none';
+    }
 
     // Sidebar
 
@@ -23,7 +41,7 @@ export async function initialize() {
 
     initPokemenu();
 
-    await loadPokemenu();
+    await loadPokemenu(preloadPreference);
 
     initFilters();
 
@@ -33,6 +51,21 @@ export async function initialize() {
 
     loadingScreen.style.opacity = 0;
     loadingScreen.style.pointerEvents = 'none';
+}
+
+function popUpClick(confirm, deny, popup) {
+    return new Promise((resolve) => {
+        confirm.onclick = () => {
+            popup.style.display = 'none';
+            setCookie("preload", true, 1);
+            resolve();
+        };
+        deny.onclick = () => {
+            popup.style.display = 'none';
+            setCookie("preload", false, 1);
+            resolve();
+        };
+    });
 }
 
 function handleProgress(asset, progress, total) {
@@ -110,6 +143,7 @@ async function loadTypes() {
             element.add(option);
 
             if (elementIdx === 3) {
+                await wait(1);
                 handleProgress('types', index + 1, types.length);
             }
         }
@@ -156,6 +190,7 @@ async function loadAbilities() {
             const option = new Option(toTitleCase(ability.name), ability.id);
             element.add(option);
             if (elementIdx === 3) {
+                await wait(1);
                 handleProgress('abilities', index + 1, abilities.length);
             }
         }
@@ -182,7 +217,7 @@ function initPokemenu() {
     handle.addEventListener('click', openPokemenu);
 }
 
-async function loadPokemenu() {
+async function loadPokemenu(preload) {
     const boxes = document.querySelectorAll('.pokemon-box');
 
     const pokemons = await fetchData('data/pokemon.json')
@@ -222,7 +257,9 @@ async function loadPokemenu() {
         image.classList.add('card-image');
         image.src = pokemon.sprite;
 
-        await waitForImage(image);
+        if (!preload) {
+            await waitForImage(image);
+        }
 
         const name = appendNewElement('div', toTitleCase(pokemon.name), card);
         if (pokemon.forme) {

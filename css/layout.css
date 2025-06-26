@@ -3,7 +3,90 @@
 
 
 
+/* POP-UPS */
+
+.pop-up {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+
+    z-index: 3000;
+    background-color: var(--page-medium);
+    border: 5px solid var(--page-darker);
+
+    border-radius: 5vh;
+    overflow: hidden;
+}
+
+.pop-up-title {
+
+    font-size: 2em;
+    padding: 3vh;
+
+    background-color: var(--page-dark);
+}
+
+.pop-up-body {
+    padding: 25px;
+
+    background-color: var(--page-medium);
+}
+
+.pop-up-options {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 5px;
+
+    background-color: var(--page-dark);
+}
+
+.pop-up-button {
+    color: white;
+    font-size: 2em;
+
+    padding: 0.33em;
+
+    border-radius: 5vh;
+    border: 5px solid var(--page-darker);
+}
+
+.button-confirm {
+    background-color: var(--confirm);
+}
+
+.button-confirm:hover {
+    background-color: var(--confirm-hover);
+}
+
+.button-deny {
+    background-color: var(--deny);
+}
+
+.button-deny:hover {
+    background-color: var(--deny-hover);
+}
+
+#preload-pop-up {
+    width: 30vw;
+    height: 45vh;
+}
+
+#preload-yes,
+#preload-no {
+    width: 8vw;
+}
+
+
+
 /* LOADING SCREEN */
+
 .loading-screen {
     position: fixed;
     top: 0;
@@ -289,6 +372,7 @@
     height: 15vh;
     background-color: var(--page-dark);
     user-select: none;
+    cursor: pointer;
 
     border: 5px solid var(--page-darker);
     border-right: none;
@@ -371,6 +455,8 @@
     border-radius: 20px;
     border: none;
     padding: 1vh;
+
+    transition: background-color 0.2s;
 }
 
 .buttons-wrapper > button:focus {
@@ -378,11 +464,11 @@
 }
 
 .on {
-    background-color: #88FF88;
+    background-color: var(--confirm);
 }
 
 .negate {
-    background-color: #FF8888;
+    background-color: var(--deny);
 }
 
 .pokemon-box {
