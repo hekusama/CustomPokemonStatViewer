@@ -302,7 +302,40 @@ function initFilters() {
         document.getElementById('ability-filter')
     ];
 
+    const buttons = document.querySelectorAll('.buttons-wrapper > button');
+
     filters.forEach(element => {
         element.addEventListener('input', filter);
+    })
+
+    buttons.forEach(element => {
+
+        element.addEventListener('click', () => {
+            
+            const states = ['off', 'on', 'negate'];
+            let state;
+
+            element.classList.forEach(entry => {
+                if (states.includes(entry)) {
+                    state = entry;
+                }
+            })
+
+            element.classList.remove(state);
+            switch (state) {
+                case 'on':
+                    state = 'negate';
+                    break;
+                case 'negate':
+                    state = 'off';
+                    break;
+                default:
+                    state = 'on';
+                    break;
+            }
+            element.classList.add(state);
+
+            filter();
+        });
     })
 }

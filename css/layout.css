@@ -334,33 +334,55 @@
 
 .filter {
     margin: 10px 0;
+    user-select: none;
+}
+
+.filter-ui {
+    background-color: var(--page-darker);
+    color: white;
+    cursor: pointer;
+    user-select: none;
 }
 
 #search-filter {
     border-radius: 20px;
-    background-color: var(--page-darker);
-    padding: 5px 10px;
+    padding: 0.5vh 1vh;
 }
 
 #generation-filter,
 #ability-filter {
     border-radius: 20px;
-    background-color: var(--page-darker);
-    padding: 5px;
+    padding: 0.5vh;
 }
 
 #type-primary-filter {
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    background-color: var(--page-darker);
-    padding: 5px;
+    padding: 0.5vh;
 }
 
 #type-secondary-filter {
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-    background-color: var(--page-darker);
-    padding: 5px;
+    padding: 0.5vh;
+}
+
+.buttons-wrapper > button {
+    border-radius: 20px;
+    border: none;
+    padding: 1vh;
+}
+
+.buttons-wrapper > button:focus {
+    outline: 1px solid var(--text);
+}
+
+.on {
+    background-color: #88FF88;
+}
+
+.negate {
+    background-color: #FF8888;
 }
 
 .pokemon-box {

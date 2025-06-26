@@ -13,6 +13,7 @@ export function updateColors() {
 
     types.forEach(type => {
         type.style.borderColor = '';
+        type.style.background = '';
 
         switch (type.options[type.selectedIndex].textContent.toLowerCase()) {
             case 'bug':
@@ -67,7 +68,7 @@ export function updateColors() {
                 type.style.backgroundColor = '#ADADC6';
                 break;
             case 'stellar':
-                type.style.background = 'linear-gradient(red, orange, yellow, green, blue, purple)';
+                type.style.background = 'conic-gradient( #E7CA98 10deg, #E4E8C6 30deg, #D4E27B 50deg, #65DB4F 70deg, #499EB9 90deg, #3E64C1 110deg, #2A81DC 130deg, #50B8E3 150deg, #5AB9E2 170deg, #879EAB 190deg, #717CA7 210deg, #7E5CBF 230deg, #8D49CB 250deg,  #C266C1 270deg, #E34A69 290deg, #F25326 310deg, #FAA41F 330deg, #FDE145 350deg)';
                 break;
             case 'water':
                 type.style.backgroundColor = '#399CFF';
@@ -253,8 +254,10 @@ export function filter() {
         "generation": document.getElementById('generation-filter'),
         "typePrimary": document.getElementById('type-primary-filter'),
         "typeSecondary": document.getElementById('type-secondary-filter'),
-        "ability": document.getElementById('ability-filter')
-    };  
+        "ability": document.getElementById('ability-filter'),
+    };
+
+    const buttons = document.querySelectorAll('.buttons-wrapper > button');
 
     const cards = document.querySelectorAll('.pokemon-card');
     const boxes = document.querySelectorAll('.pokemon-box');
@@ -266,6 +269,7 @@ export function filter() {
         const generation = card.dataset.generation;
         const types = card.dataset.types.split(' ');
         const abilities = card.dataset.abilities;
+        const forme = card.dataset.forme;
 
         let filter = true;
 
@@ -293,6 +297,25 @@ export function filter() {
             filter = filter && abilities.includes(filters.ability.value);
         }
 
+        // formes
+        const formeConditions = [
+            forme.includes('mega'),
+            forme.includes('gmax'),
+            forme != "undefined"
+        ];
+
+        buttons.forEach((button, index) => {
+            if (button.classList.contains('on')) {
+                filter = filter && formeConditions[index];
+            }
+            if (button.classList.contains('negate')) {
+                filter = filter && !formeConditions[index];
+            }
+        })
+
+
+
+        // filter
         if (filter) {
             card.style.display = 'block';
             card.classList.remove('hidden');

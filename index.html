@@ -175,11 +175,11 @@
             <div class="filter-bar">
                 <div class="search-wrapper filter">
                     Search
-                    <input type="text" name="search-filter" id="search-filter" autocomplete="off">
+                    <input type="text" name="search-filter" id="search-filter" autocomplete="off" class="filter-ui">
                 </div>
                 <div class="gen-wrapper filter">
                     Gen
-                    <select name="generation-filter" id="generation-filter">
+                    <select name="generation-filter" id="generation-filter" class="filter-ui">
                         <option value="0">Any</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -194,18 +194,17 @@
                 </div>
                 <div class="type-wrapper filter">
                     Type
-                    <select name="type-primary-filter" id="type-primary-filter">
-
-                    </select>
-                    <select name="type-secondary-filter" id="type-secondary-filter">
-
-                    </select>
+                    <select name="type-primary-filter" id="type-primary-filter" class="filter-ui"></select>
+                    <select name="type-secondary-filter" id="type-secondary-filter" class="filter-ui"></select>
                 </div>
                 <div class="ability-wrapper filter">
                     Ability
-                    <select name="ability-filter" id="ability-filter">
-
-                    </select>
+                    <select name="ability-filter" id="ability-filter" class="filter-ui"></select>
+                </div>
+                <div class="buttons-wrapper filter">
+                    <button name="mega-filter" id="mega-filter" class="filter-ui off">Mega</button>
+                    <button name="gmax-filter" id="gmax-filter" class="filter-ui off">GMax</button>
+                    <button name="forme-filter" id="forme-filter" class="filter-ui off">Forme</button>
                 </div>
             </div>
             <h1>Pokemon</h1>
