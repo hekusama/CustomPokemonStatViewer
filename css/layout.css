@@ -227,6 +227,10 @@
     transform: scale(1.2);
 }
 
+.theme-toggle:active > svg {
+    transform: scale(0.9);
+}
+
 .theme-toggle::before {
     position: absolute;
     content: 'Light';
@@ -250,6 +254,10 @@
 
 #credits-button:hover > i {
     transform: scale(0.9);
+}
+
+#credits-button:active > i {
+    transform: scale(0.7);
 }
 
 #credits-button::before {
