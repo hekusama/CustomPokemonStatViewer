@@ -275,12 +275,17 @@
     font-size: 2em;
 }
 
+.basic-info > div {
+    width: 22vw;
+}
+
 .basic-info input {
     font-size: 1em;
 }
 
-.dex-number input {
-    width: 6vw;
+.dex-number {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 #types {
