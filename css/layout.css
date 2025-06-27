@@ -156,9 +156,8 @@
 
 #progress-percent {
     position: absolute;
-    top: 90%;
-    right: 1%;
-    transform: translateY(-50%);
+    top: 92%;
+    right: 5%;
 }
 
 
@@ -273,8 +272,11 @@
 /* MAIN */
 
 .main {
-    margin-left: 5vw;
+    margin-left: 5%;
+    height: 100%;
+    width: calc(100% - 5%);
     text-align: center;
+    overflow: hidden;
 }
 
 .basic-info {
@@ -417,6 +419,7 @@
     position: fixed;
     top: 0;
     right: 0;
+    height: 100%;
 
     color: white;
 
@@ -430,7 +433,7 @@
     justify-content: center;
 
     position: absolute;
-    top: 10vh;
+    top: 10%;
     right: 0;
     width: 8vw;
     height: 15vh;
@@ -459,7 +462,7 @@
     position: absolute;
     top: 0;
     right: -40vw;
-    height: 100vh;
+    height: 100%;
     width: calc(40vw - 6vw);
     padding: 0 3vw;
     overflow-y: scroll;
