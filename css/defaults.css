@@ -4,6 +4,15 @@
     font-size: 0.75em;
 }
 
+a {
+    color: #55CCFF;
+    text-decoration-line: none;
+}
+
+a:hover {
+    color: #BBFFFF;
+}
+
 body {
     margin: 0;
     background-color: var(--page-light);
