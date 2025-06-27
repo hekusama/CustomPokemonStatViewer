@@ -24,6 +24,8 @@
 }
 
 .pop-up-title {
+    display: flex;
+    justify-content: space-between;
 
     font-size: 2em;
     padding: 3vh;
@@ -32,7 +34,7 @@
 }
 
 .pop-up-body {
-    padding: 25px;
+    padding: 0 2vw 2vh 2vw;
 
     background-color: var(--page-medium);
 }
@@ -47,11 +49,16 @@
     background-color: var(--page-dark);
 }
 
+.pop-up-footer {
+    font-size: 0.6em;
+    padding: 0 2vw 2vh 2vw;
+
+    color: #E3E3E3;
+    background-color: var(--page-dark);
+}
+
 .pop-up-button {
     color: white;
-    font-size: 2em;
-
-    padding: 0.33em;
 
     border-radius: 5vh;
     border: 5px solid var(--page-darker);
@@ -69,7 +76,14 @@
     background-color: var(--deny);
 }
 
-.button-deny:hover {
+.button-close {
+    width: 6vh;
+    height: 6vh;
+    background-color: var(--deny);
+}
+
+.button-deny:hover,
+.button-close:hover {
     background-color: var(--deny-hover);
 }
 
@@ -81,8 +95,17 @@
 
 #preload-yes,
 #preload-no {
+    font-size: 2em;
+    padding: 0.33em;
     width: 8vw;
 }
+
+#credits-pop-up {
+    display: none;
+    width: 30vw;
+}
+
+
 
 
 
@@ -173,17 +196,22 @@
     transition: background-color 0.3s;
 }
 
-.theme-toggle {
+.side-button {
     display: flex;
     align-items: center;
     justify-content: center;
-
-    position: relative;
-
+    
     width: 3vw;
     height: 3vw;
     font-size: 3vw;
     color: var(--text);
+    background: none;
+
+    border: none;
+}
+
+.theme-toggle {
+    position: relative;
 }
 
 .theme-toggle:focus {
@@ -208,6 +236,27 @@
 
 .theme-toggle--toggled::before {
     content: 'Dark';
+}
+
+#credits-button {
+    position: relative;
+}
+
+#credits-button > i {
+    transform: scale(0.8);
+    transition: transform 0.3s;
+}
+
+#credits-button:hover > i {
+    transform: scale(0.9);
+}
+
+#credits-button::before {
+    position: absolute;
+    content: 'Credits';
+    font-size: 1vw;
+    top: 3vw;
+    transform: none;
 }
 
 

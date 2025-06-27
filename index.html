@@ -28,6 +28,24 @@
                 <button id="preload-no" class="pop-up-button button-deny">No</button>
             </div>
         </div>
+
+        <div id="credits-pop-up" class="pop-up">
+            <div class="pop-up-title">
+                <div><i class="bi bi-star-fill"></i> Credits</div>
+                <button type="button" id="credits-close" class="pop-up-button button-close">✕</button>
+            </div>
+            <div class="pop-up-body">
+                <h3>Founder:</h3>
+                <p>Hexa ー @hekusama</p>
+                <h3><i class="bi bi-people-fill"></i> Contributors:</h3>
+                <p>(none yet!)</p>
+                <p>Contributions are appreciated ❤</p>
+            </div>
+            <div class="pop-up-footer">
+                <p>Copyright (c) 2025 Hexa @hekusama</p>
+                <p>This project is licensed under the MIT License. See the LICENSE file for details.</p>
+            </div>
+        </div>
     </div>
 
     <div class="loading-screen">
@@ -42,8 +60,11 @@
     <!-- SIDEBAR -->
 
     <div class="sidebar">
+        <button id="credits-button" class="side-button">
+            <i class="bi bi-star-fill"></i>
+        </button>
         <button
-        class="theme-toggle theme-toggle--toggled"
+        class="side-button theme-toggle theme-toggle--toggled"
         type="button"
         title="Toggle theme"
         aria-label="Toggle theme"

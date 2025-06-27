@@ -1,6 +1,6 @@
 import { appendNewElement, fetchData, toTitleCase, wait, waitForImage, setCookie, getCookie } from "./util.js";
 import { calcStats, updateColors, fetchPokemon, loadPokemon, openPokemenu, closePokemenu, filter } from "./mainLogic.js";
-import { initToggle } from "./sidebar.js";
+import { initButtons } from "./sidebar.js";
 
 export async function initialize() {
     const loadingScreen = document.querySelector('.loading-screen');
@@ -9,6 +9,9 @@ export async function initialize() {
 
     const preloadCookie = getCookie("preload");
     const preloadPreference = preloadCookie === "true";
+
+    console.log(preloadCookie);
+    console.log(preloadPreference);
 
     const popup = document.getElementById('preload-pop-up');
     if (preloadCookie == null) {
@@ -23,7 +26,7 @@ export async function initialize() {
 
     // Sidebar
 
-    initToggle();
+    initButtons();
 
     // App
     
@@ -55,12 +58,12 @@ function popUpClick(confirm, deny, popup) {
     return new Promise((resolve) => {
         confirm.onclick = () => {
             popup.style.display = 'none';
-            setCookie("preload", true, 1);
+            setCookie("preload", "true", 1);
             resolve();
         };
         deny.onclick = () => {
             popup.style.display = 'none';
-            setCookie("preload", false, 1);
+            setCookie("preload", "false", 1);
             resolve();
         };
     });
@@ -255,12 +258,14 @@ async function loadPokemenu(preload) {
         image.classList.add('card-image');
         image.src = pokemon.sprite;
 
-        if (!preload) {
+        if (preload) {
+            console.log('preload');
+
             await waitForImage(image);
         }
 
         const name = appendNewElement('div', toTitleCase(pokemon.name), card);
-        if (pokemon.forme) {
+        if (pokemon.forme) {            
             name.textContent += `-${pokemon.forme}`
         }
         name.classList.add('card-name');
