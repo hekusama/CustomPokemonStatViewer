@@ -1,41 +1,17 @@
+import { initPopup } from "./popups.js";
+
 export function initButtons() {
     const credits = document.getElementById('credits-button');
     const creditsClose = document.getElementById('credits-close');
 
-    const toggle = document.querySelector('.theme-toggle');
-
-    const cover = document.getElementById('cover');
+    const toggle = document.querySelector('.theme-toggle');    
     
-    credits.addEventListener('click', (event) => {
-        document.getElementById('credits-pop-up').style.display = 'flex';
-
-        cover.style.display = 'block';
-        cover.style.opacity = 1;
-
-        cover.style.zIndex = '2500';
-
-        cover.addEventListener('click', () => {
-            closePopup(document.getElementById('credits-pop-up'), cover);
-        });
-
-        event.currentTarget.blur();
-    });
-
-    creditsClose.addEventListener('click', () => {
-        closePopup(document.getElementById('credits-pop-up'), cover);
-    });
+    initPopup(credits, creditsClose);
 
     toggle.addEventListener('click', (event) => {
         toggleTheme();
         event.currentTarget.blur();
     });
-}
-
-function closePopup(popup, cover) {
-    popup.style.display = 'none';
-    cover.style.display = 'none';
-    cover.style.zIndex = '';
-    cover.addEventListener('click');
 }
 
 function toggleTheme() {
