@@ -1,6 +1,7 @@
 import { appendNewElement, fetchData, toTitleCase, wait, waitForImage, setCookie, getCookie } from "./util.js";
 import { calcStats, updateColors, fetchPokemon, loadPokemon, openPokemenu, closePokemenu, filter } from "./mainLogic.js";
 import { initButtons } from "./sidebar.js";
+import { initPopup } from "./popups.js";
 
 export async function initialize() {
     const loadingScreen = document.querySelector('.loading-screen');
@@ -37,6 +38,8 @@ export async function initialize() {
     await loadTypes();
 
     await loadAbilities();
+
+    initImage();
 
     initColors();
 
@@ -144,7 +147,6 @@ async function loadTypes() {
             element.add(option);
 
             if (elementIdx === 3) {
-                await wait(1);
                 handleProgress('types', index + 1, types.length);
             }
         }
@@ -191,7 +193,6 @@ async function loadAbilities() {
             const option = new Option(toTitleCase(ability.name), ability.id);
             element.add(option);
             if (elementIdx === 3) {
-                await wait(1);
                 handleProgress('abilities', index + 1, abilities.length);
             }
         }
@@ -210,6 +211,61 @@ async function loadAbilities() {
     });
 
     fields[3].options[0].text = 'Any';
+}
+
+function initImage() {
+    // popup
+    const image = document.getElementById('image');
+    const imagePopup = document.getElementById('image-pop-up');
+    const imageClose = document.getElementById('image-close');
+
+    initPopup(image, imagePopup, imageClose);
+
+    // preview
+    const imageInput = document.getElementById('image-input');
+    const imagePreview = document.getElementById('image-preview');
+    const imageStatus = document.getElementById('image-status');
+    const root = getComputedStyle(document.documentElement);
+
+    imageInput.addEventListener('input', () => {
+        if (imageInput.value != '') {
+            imagePreview.src = imageInput.value;
+
+            imagePreview.onload = () => {
+                imageStatus.textContent = '';
+                imageStatus.dataset.status = 'success';
+
+                imagePreview.style.display = 'block';
+            }
+
+            imagePreview.onerror = () => {
+                imageStatus.textContent = 'Image is unavailable...';
+                imageStatus.style.color = root.getPropertyValue('--deny');
+                imageStatus.dataset.status = 'error';
+
+                imagePreview.style.display = 'none';
+            }
+        }
+        else {
+            imageStatus.textContent = '';
+        }
+    })
+
+    // apply
+    const imageApply = document.getElementById('image-apply');
+
+    imageApply.addEventListener('click', () => {
+        if (imageStatus.dataset.status === 'success') {
+            image.src = imagePreview.src;
+
+            imageStatus.textContent = 'Image set';
+            imageStatus.style.color = root.getPropertyValue('--confirm');
+        }
+        else {
+            imageStatus.textContent = 'Cannot set unavailable image.';
+            imageStatus.style.color = root.getPropertyValue('--deny');
+        }
+    })
 }
 
 function initPokemenu() {

@@ -50,6 +50,24 @@
                 <p>This project is licensed under the MIT License. See the LICENSE file for details.</p>
             </div>
         </div>
+
+        <div id="image-pop-up" class="pop-up">
+            <div class="pop-up-title">
+                <div><i class="bi bi-image-fill"></i> Image</div>
+                <button type="button" id="image-close" class="pop-up-button button-close">✕</button>
+            </div>
+            <div class="pop-up-body">
+                <p>For custom image files, upload them on a service like <a href="https://imgur.com/">Imgur</a> and use the link.</p>
+                <h3>Image link</h3>
+                <div class="image-input">
+                    <i class="bi bi-link image-link-icon"></i>
+                    <input type="text" name="image" id="image-input">
+                </div>
+                <div id="image-status"></div>
+                <img alt="image preview" id="image-preview" style="display: none;">
+                <button type="button" id="image-apply" class="pop-up-button button-confirm">Apply</button>
+            </div>
+        </div>
     </div>
 
     <div class="loading-screen">

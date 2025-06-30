@@ -1,31 +1,32 @@
-export function initPopup(popup, close) {
+export function initPopup(button, popup, close) {
     const cover = document.getElementById('cover');
 
-    popup.addEventListener('click', (event) => {
-        document.getElementById('credits-pop-up').style.display = 'flex';
+    const closeFunction = () => {
+        closePopup(popup, closeFunction);
+    }
+
+    button.addEventListener('click', (event) => {
+        popup.style.display = 'flex';
 
         cover.style.display = 'block';
         cover.style.opacity = 1;
 
         cover.style.zIndex = '2500';
 
-        cover.addEventListener('click', () => {
-            closePopup(document.getElementById('credits-pop-up'));
-        });
+        cover.addEventListener('click', closeFunction);
 
         event.currentTarget.blur();
     });
 
-    close.addEventListener('click', () => {
-        closePopup(document.getElementById('credits-pop-up'));
-    });
+    close.addEventListener('click', closeFunction);
 }
 
-function closePopup(popup) {
+function closePopup(popup, closeFunction) {
     const cover = document.getElementById('cover');
 
     popup.style.display = 'none';
     cover.style.display = 'none';
     cover.style.zIndex = '';
-    cover.addEventListener('click');
+
+    cover.removeEventListener('click', closeFunction);
 }

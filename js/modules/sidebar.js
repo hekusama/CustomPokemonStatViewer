@@ -1,12 +1,13 @@
 import { initPopup } from "./popups.js";
 
 export function initButtons() {
-    const credits = document.getElementById('credits-button');
+    const creditsButton = document.getElementById('credits-button');
+    const credits = document.getElementById('credits-pop-up');
     const creditsClose = document.getElementById('credits-close');
 
     const toggle = document.querySelector('.theme-toggle');    
     
-    initPopup(credits, creditsClose);
+    initPopup(creditsButton, credits, creditsClose);
 
     toggle.addEventListener('click', (event) => {
         toggleTheme();
