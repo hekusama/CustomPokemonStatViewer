@@ -1,4 +1,4 @@
-import { hpStatFormula, statFormula, fetchData, appendNewElement, toTitleCase, toDexNumber, getId } from "./util.js";
+import { hpStatFormula, statFormula, fetchData, appendNewElement, toTitleCase, toDexNumber, getId, wait } from "./util.js";
 
 export function updateColors() {
     const types = [document.getElementById('type-primary'), 
@@ -221,10 +221,12 @@ export async function loadPokemon(pokemon) {
 
 export function openPokemenu() {
     const pokemenu = document.querySelector('.pokemenu');
+    const pokemenuMain = document.querySelector('.pokemenu-main');
     const cover = document.getElementById('cover');
     const handle = document.querySelector('.handle');
 
     pokemenu.style.right = '40vw';
+    pokemenuMain.style.display = '';
 
     cover.style.display = 'block';
     cover.style.opacity = 1;
@@ -236,15 +238,27 @@ export function openPokemenu() {
 
 export function closePokemenu() {
     const pokemenu = document.querySelector('.pokemenu');
+    const pokemenuMain = document.querySelector('.pokemenu-main');
     const cover = document.getElementById('cover');
     const handle = document.querySelector('.handle');
 
     pokemenu.style.right = 0;
 
+    pokemenu.addEventListener('transitionend', () => {
+
+        // for sync
+        requestAnimationFrame(() => {
+            requestAnimationFrame(() => {
+                pokemenuMain.style.display = 'none';
+            });
+        });
+    }, { once: true })
+
     cover.style.opacity = 0;
     cover.style.display = 'none';
 
     cover.removeEventListener('click', closePokemenu);
+    handle.removeEventListener('click', closePokemenu);
     handle.addEventListener('click', openPokemenu);
 }
 
