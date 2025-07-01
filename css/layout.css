@@ -117,6 +117,10 @@
     flex-direction: column;
 }
 
+#image-preview {
+    max-height: 55vh;
+}
+
 #image-input {
     background-color: var(--page-darker);
     border-radius: 3vh;
