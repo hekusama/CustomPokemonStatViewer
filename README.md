@@ -37,4 +37,4 @@ This is a web app made to design, spec out and share fakemons. It runs mostly of
 
 ### Final notes
 - Reminder that this is my first ever web development project and there's a lot to be fixed and reorganized.
-- This is currently a static website running on Github Pages
+- This is currently a static website running on Github Pages. There is no backend server stuff at the moment.
