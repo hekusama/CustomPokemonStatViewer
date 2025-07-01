@@ -29,3 +29,7 @@
     --confirm-hover: #88FF88;
     --deny-hover: #FF8888;
 }
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
