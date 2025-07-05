@@ -28,6 +28,8 @@ button {
 }
 
 input {
+    font-size: 1rem;
+
     background: none;
     border: none;
     color: var(--text);
