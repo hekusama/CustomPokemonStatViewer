@@ -516,9 +516,9 @@
 .pokemenu-main {
     position: absolute;
     top: 0;
-    right: -40vw;
+    right: -45vw;
     height: 100%;
-    width: calc(40vw - 6vw);
+    width: calc(45vw - 6vw);
     padding: 0 3vw;
     overflow-y: scroll;
 
@@ -551,6 +551,7 @@
 }
 
 #search-filter {
+    width: 60%;
     border-radius: 2.5vh;
     padding: 0.5vh 1vh;
 }

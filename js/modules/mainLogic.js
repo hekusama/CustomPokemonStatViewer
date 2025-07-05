@@ -225,7 +225,7 @@ export function openPokemenu() {
     const cover = document.getElementById('cover');
     const handle = document.querySelector('.handle');
 
-    pokemenu.style.right = '40vw';
+    pokemenu.style.right = '45vw';
     pokemenuMain.style.display = '';
 
     cover.style.display = 'block';
