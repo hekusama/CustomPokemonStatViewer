@@ -349,13 +349,11 @@
     appearance: none;
 
     border: 3px solid var(--text);
-    border-radius: 2.5vh;
+    border-radius: 10vh;
     width: 8vw;
     padding: 0.33em;
     margin: 1.25vh;
     color: white;
-
-    font-size: inherit;
 
     text-align: center;
     user-select: none;
@@ -418,8 +416,6 @@
     margin: 2.5vh;
     background-color: var(--page-medium);
     color: white;
-
-    font-size: inherit;
 
     text-align: center;
 }

@@ -42,6 +42,7 @@ input:focus {
 }
 
 select {
+    font-size: 1rem;
     color: var(--text);
     font-family: var(--font-a);
     cursor: pointer;
