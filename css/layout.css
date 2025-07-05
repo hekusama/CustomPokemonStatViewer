@@ -46,7 +46,7 @@
     justify-content: space-around;
     align-items: center;
 
-    padding: 5px;
+    padding: 0.6vh;
 
     background-color: var(--page-dark);
 }
@@ -349,10 +349,10 @@
     appearance: none;
 
     border: 3px solid var(--text);
-    border-radius: 20px;
+    border-radius: 2.5vh;
     width: 8vw;
-    padding: 7px;
-    margin: 10px;
+    padding: 0.33em;
+    margin: 1.25vh;
     color: white;
 
     text-align: center;
@@ -372,7 +372,7 @@
 .image {
     display: flex;
     justify-content: center;
-    height: 300px;
+    height: 38.5vh;
     width: 60%;
     justify-self: end;
 
@@ -387,8 +387,8 @@
 }
 
 .image img {
-    height: 300px;
-    width: 300px;
+    height: 38.5vh;
+    width: 18.75vw;
     object-fit: cover;
 }
 
@@ -406,10 +406,10 @@
 
     display: block;
     border: 2px solid var(--text);
-    border-radius: 20px;
+    border-radius: 10vh;
     width: 15vw;
-    padding: 7px;
-    margin: 20px;
+    padding: 0.33em;
+    margin: 2.5vh;
     background-color: var(--page-medium);
     color: white;
 
@@ -421,7 +421,7 @@
 }
 
 .margin-top {
-    margin-top: 25px;
+    margin-top: 3.2vh;
 }
 
 .stat-section {
@@ -436,7 +436,7 @@
 
 .cell {
     display: flex;
-    height: 50px;
+    height: 6.4vh;
     justify-content: center;
     flex-direction: column;
 }
@@ -452,11 +452,11 @@
 }
 
 .bar {
-    border-radius: 10px;
-    height: 20px;
+    border-radius: 5vh;
+    height: 2.5vh;
     border: 2px solid hsl(0, 33%, 50%);
     background-color: hsl(0, 100%, 66%);
-    width: 0px;
+    width: 0;
     transition: 0.3s ease-in-out;
 }
 
@@ -494,8 +494,8 @@
 
     border: 5px solid var(--page-darker);
     border-right: none;
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
+    border-top-left-radius: 3.5vh;
+    border-bottom-left-radius: 3.5vh;
 }
 
 .handle img {
@@ -520,7 +520,7 @@
 
     background-color: var(--page-dark);
 
-    border-left: 5px solid var(--page-darker);
+    border-left: 0.6vh solid var(--page-darker);
 }
 
 .filter-bar {
@@ -531,11 +531,11 @@
 }
 
 .filter-bar > div {
-    margin-left: 10px;
+    margin-left: 0.625vw;
 }
 
 .filter {
-    margin: 10px 0;
+    margin: 1.2vh 0;
     user-select: none;
 }
 
@@ -547,30 +547,30 @@
 }
 
 #search-filter {
-    border-radius: 20px;
+    border-radius: 2.5vh;
     padding: 0.5vh 1vh;
 }
 
 #generation-filter,
 #ability-filter {
-    border-radius: 20px;
+    border-radius: 2.5vh;
     padding: 0.5vh;
 }
 
 #type-primary-filter {
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-top-left-radius: 2.5vh;
+    border-bottom-left-radius: 2.5vh;
     padding: 0.5vh;
 }
 
 #type-secondary-filter {
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-top-right-radius: 2.5vh;
+    border-bottom-right-radius: 2.5vh;
     padding: 0.5vh;
 }
 
 .buttons-wrapper > button {
-    border-radius: 20px;
+    border-radius: 2.5vh;
     border: none;
     padding: 1vh;
 
@@ -606,7 +606,7 @@
     flex-direction: column;
     height: 18vh;
     width: 6vw;
-    border-radius: 20px;
+    border-radius: 2.5vh;
     cursor: pointer;
 }
 
