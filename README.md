@@ -28,6 +28,7 @@ This is a web app made to design, spec out and share fakemons. It runs mostly of
 
 ### ❓ Potential future updates
 - Movepool support
+- Better mobile compatibility
 - Forums (highly unlikely unless this site blows up or something lol)
 
 ### 📕 Credits
