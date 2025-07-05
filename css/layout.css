@@ -323,7 +323,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2em;
 }
 
 .basic-info > div {
@@ -337,6 +336,7 @@
 .dex-number {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    font-size: 2em;
 }
 
 #types {
@@ -355,12 +355,18 @@
     margin: 1.25vh;
     color: white;
 
+    font-size: inherit;
+
     text-align: center;
     user-select: none;
 }
 
 .type:focus {
     outline: none;
+}
+
+.name-field {
+    font-size: 2em;
 }
 
 .info {
@@ -412,6 +418,8 @@
     margin: 2.5vh;
     background-color: var(--page-medium);
     color: white;
+
+    font-size: inherit;
 
     text-align: center;
 }
